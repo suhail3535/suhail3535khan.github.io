@@ -1,0 +1,62 @@
+#stat{
+ border: 0px solid green;   
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ width: 90%;
+ margin: auto;
+ gap: 30px;
+ margin-top: 40px;
+ align-items: center;
+ padding: 30px 30px ;
+
+
+
+}
+.one{
+    width: 90%;
+border: 0px solid blue;
+margin-left: 40px;
+border-radius: 5px;
+
+}
+.two{
+    width: 90%;
+border: 0px solid blue;
+margin-left: 40px;
+border-radius: 5px;
+}
+.three{
+    width: 70%;
+border: 0px solid blue;
+background-color: #fffefe;
+margin-left: 40px;
+border-radius: 5px;
+}
+@media screen and (max-width:1180px) and (min-width:760px) {
+
+
+    .stat {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 10px;
+    }
+
+    
+}
+@media screen and (max-width:700px) and (min-width:400px) {
+    
+    .stat {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 35px;
+    }
+
+  
+}
+@media screen and (max-width:399px) and (min-width:100px) {
+    
+    .stat {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px 35px;
+    }
+
+  
+}

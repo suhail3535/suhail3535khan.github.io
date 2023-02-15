@@ -1,0 +1,161 @@
+#home {
+  width: 90%;
+  margin: auto;
+  margin-top: 130px;
+  
+  /* color: #243D25; */
+  color: #4C3575;
+  border: 0px solid gold;
+  /* height: 500px; */
+}
+
+#myImg {
+  border-radius: 30px;
+  width: 400px;
+  margin-right: 50px;
+
+  /* height: 450px; */
+}
+
+#myDetailsDiv {
+  width: 100%;
+  margin-left: 60px;
+  text-align: justify;
+}
+
+#myName {
+  margin-bottom: 7px;
+  font-size: 50px;
+  animation: type 3s steps(25);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#title {
+  margin-bottom: 30px;
+  font-size: 42px;
+  animation: type 3s steps(22);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 22ch;
+  }
+}
+
+
+#detail {
+  line-height: 26px;
+  font-size: 18px;
+}
+
+
+
+@media screen and (max-width:860px) and (min-width:681px) {
+  #home {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  #myDetailsDiv {
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+  }
+
+  #myName {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  #myImg {
+    border-radius: 30px;
+    width: 320px;
+    height: 380px;
+    margin: auto;
+  }
+
+  #title {
+    font-size: 20px;
+  }
+
+  #detail {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:680px) and (min-width:481px) {
+  #home {
+    width: 90%;
+    margin-top: 150px;
+  }
+
+  #myDetailsDiv {
+    width: 70%;
+    margin: auto;
+  }
+
+  #myName {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  #myImg {
+    border-radius: 30px;
+    width: 49%;
+    height: 380px;
+    margin: auto;
+  }
+
+  #title {
+    font-size: 20px;
+  }
+
+  #detail {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+  #home {
+    width: 95%;
+    margin-top: 130px;
+  }
+
+  #myDetailsDiv {
+    width: 100%;
+    margin-left: 0px;
+    text-align: start;
+  }
+
+  #myName {
+    margin-bottom: 12px;
+    margin-top: 50px;
+    animation: none;
+    font-size: 32px;
+  }
+
+  #myImg {
+    margin: auto;
+    width: 90%;
+    height: 380px;
+  }
+
+  #title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    animation: none;
+  }
+
+  #detail {
+    line-height: 24px;
+    font-size: 18px;
+  }
+
+}

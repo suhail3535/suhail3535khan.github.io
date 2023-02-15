@@ -1,0 +1,155 @@
+#contact_mainDiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 30px 20px;
+    border: 0px solid yellow;
+    border-radius: 5px;
+}
+
+#contact_leftDiv {
+    width: 40%;
+}
+
+#contact_rightDiv {
+    width: 30%;
+    margin-left: 50px;
+}
+
+#contact_head {
+    font-size: 18px;
+    color: #4C3575;
+    margin-bottom: 5px;
+}
+
+#contact_head1 {
+    font-size: 18px;
+    color: #4C3575;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 80%;
+    border-radius: 0px;
+    background-color: #FEF5ED;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.input1 {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    border-radius: 0px;
+    background-color: #FEF5ED;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.line {
+    height: 2px;
+    width: 60%;
+    border: 2px solid #FEF5ED;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn {
+    padding: 10px 40px 10px 40px;
+    background-color: #FEF5ED;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #283225;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(216, 212, 208);
+}
+
+@media screen and (max-width:1180px) and (min-width:760px) {
+    .input {
+        width: 90%;
+    }
+
+    .input1 {
+        width: 90%;
+        padding-bottom: 130px;
+    }
+
+    #contact_leftDiv {
+        width: 50%;
+    }
+
+    #contact_rightDiv {
+        width: 40%;
+    }
+
+    .line {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:759px) and (min-width:320px) {
+    #contact_mainDiv {
+        width: 90%;
+        display: block;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #contact_leftDiv {
+        width: 100%;
+    }
+
+    #contact_rightDiv {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #contact_head {
+        font-size: 18px;
+        color: #DAE2B6;
+        margin-bottom: 5px;
+    }
+
+    #contact_head:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    #contact_head1 {
+        font-size: 18px;
+        color: #4C3575;
+        margin-bottom: 5px;
+    }
+
+    .input {
+        width: 80%;
+        border-radius: 0px;
+        background-color: #FEF5ED;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .input1 {
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 150px;
+        border-radius: 0px;
+        background-color: #FEF5ED;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+
+    .line {
+        height: 2px;
+        width: 85%;
+        border: 2px solid #FEF5ED;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
