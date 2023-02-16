@@ -35,13 +35,13 @@ export default function Navbar({ colorMode }) {
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link smooth to="#Skills" className= "nav-link skills">
+              <Link smooth to="#Skills" className="nav-link skills">
                 Skills
               </Link>
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link  smooth to="#Projects" className="nav-link projects">
+              <Link smooth to="#Projects" className="nav-link projects">
                 Projects
               </Link>
             </h3>
@@ -52,7 +52,7 @@ export default function Navbar({ colorMode }) {
               </Link>
             </h3>
 
-            <h3 className="nav-link resume">
+            <h3 className="nav-link resume" id="resume-link-1">
               <a
                 style={{
                   display: "flex",
@@ -61,6 +61,7 @@ export default function Navbar({ colorMode }) {
                   cursor: "pointer",
                   wordSpacing: "-.4ch",
                 }}
+               
                 id="resume-button-1"
                 className={styles.anchor}
                 href="./Suhail.pdf"

@@ -37,13 +37,17 @@ export default function About({ colorMode }) {
               <p className={style.name}>Full Stack Web Developer</p>
 
               <p className={style.name}>I live in Hardoi,Uttar Pradesh,India</p>
-              <p id="user-detail-intro" className={style.namep}>
-                A passionate aspiring Full Stack Developer skilled in MERN
-                stack, NodeJS molded and shaped by Masai School's numerous training.
-                Actively ready to join the great living team of a good start-up
-                to adapt me in any situation and the environment with ease and
-                perform the best.
-              </p>
+
+              <Box className="aboutMe" id="user-detail-intro">
+                <p id="user-detail-intro" className={style.namep}>
+                  A passionate aspiring Full Stack Developer skilled in MERN
+                  stack, NodeJS,Redux,MongoDb molded and shaped by Masai School's numerous
+                  training. Actively ready to join the great living team of a
+                  good start-up to adapt me in any situation and the environment
+                  with ease and perform the best.
+                </p>
+              </Box>
+
               <Box
                 id={style.resumeDiv}
                 backgroundColor={colorMode === "light" ? "#4C3575" : "#BFACE0"}
