@@ -1,5 +1,5 @@
-import data from "../../submissionData.json"; // do not create this file
-// const data = [{ submission_link: "https://rohithanss.github.io/", id: 0 }];
+// import data from "../../submissionData.json"; // do not create this file
+const data = [{ submission_link: "https://suhail3535.github.io/", id: 0 }];
 
 describe("Test", function () {
   let acc_score = 0;
