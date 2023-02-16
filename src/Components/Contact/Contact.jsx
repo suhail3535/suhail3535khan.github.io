@@ -30,7 +30,7 @@ export default function Contact({ colorMode }) {
   };
 
   return (
-    <Box id="Contact">
+    <div  id="contact">
       <div style={{ height: "100px" }}></div>
       <Heading
         size={["2xl", "2xl", "2xl", "3xl"]}
@@ -126,6 +126,6 @@ export default function Contact({ colorMode }) {
           ;
         </Box>
       </Box>
-    </Box>
+    </div>
   );
 }

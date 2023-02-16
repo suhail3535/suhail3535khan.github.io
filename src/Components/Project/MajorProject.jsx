@@ -27,11 +27,12 @@ export default function MajorProject({ colorMode }) {
           </Box>
 
           <Box
-            className={style.major_project_detailsDiv}
+            className="project-skills-card-name"
+            id={style.major_project_detailsDiv}
             color={colorMode === "light" ? "#4C3575" : "#371B58"}
           >
             <Heading
-              className="project-skills-card-name"
+              class="project-title"
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
@@ -93,7 +94,7 @@ export default function MajorProject({ colorMode }) {
           </Box>
         </div>
 
-         <div
+        <div
           className="project-skills-card"
           data-aos=""
           id={style.major_projectDiv}
@@ -172,7 +173,7 @@ export default function MajorProject({ colorMode }) {
             </Box>
           </Box>
         </div>
- <div
+        <div
           className="project-skills-card"
           data-aos=""
           id={style.major_projectDiv}
@@ -251,7 +252,7 @@ export default function MajorProject({ colorMode }) {
             </Box>
           </Box>
         </div>
-      <div
+        <div
           className="project-skills-card"
           data-aos=""
           id={style.major_projectDiv}

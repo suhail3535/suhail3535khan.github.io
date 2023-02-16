@@ -17,7 +17,7 @@ export default function About({ colorMode }) {
           textAlign="center"
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
         >
-          ABOUT
+          About
         </Heading>
         <div data-aos="">
           <Box
@@ -41,10 +41,10 @@ export default function About({ colorMode }) {
               <Box className="aboutMe" id="user-detail-intro">
                 <p id="user-detail-intro" className={style.namep}>
                   A passionate aspiring Full Stack Developer skilled in MERN
-                  stack, NodeJS,Redux,MongoDb molded and shaped by Masai School's numerous
-                  training. Actively ready to join the great living team of a
-                  good start-up to adapt me in any situation and the environment
-                  with ease and perform the best.
+                  stack, NodeJS,Redux,MongoDb molded and shaped by Masai
+                  School's numerous training. Actively ready to join the great
+                  living team of a good start-up to adapt me in any situation
+                  and the environment with ease and perform the best.
                 </p>
               </Box>
 
