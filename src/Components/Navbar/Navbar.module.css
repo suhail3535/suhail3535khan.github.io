@@ -12,7 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0px solid red;
+    border: 2px solid red;
+    font-family: serif;
     background-color: #92bcb5;
 }
 

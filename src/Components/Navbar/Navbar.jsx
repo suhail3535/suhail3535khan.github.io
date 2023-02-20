@@ -23,49 +23,49 @@ export default function Navbar({ colorMode }) {
           </Link>
           <div id={styles.nav1}>
             <h3 className={styles.nav1H}>
-              {/* <Link smooth to="#Home" className="nav-link home">
+              <Link smooth to="#Home" className="nav-link home">
                 Home
-              </Link> */}
-              <a class="nav-link home" href="/#Home">
+              </Link>
+              {/* <a class="nav-link home" href="/#Home">
                 Home
-              </a>
+              </a> */}
             </h3>
 
             <h3 className={styles.nav1H}>
-              {/* <Link className="nav-link about" smooth to="#About">
+              <Link className="nav-link about" smooth to="#About">
                 About
-              </Link> */}
-              <a class="nav-link about" href="/#About">
+              </Link>
+              {/* <a class="nav-link about" href="/#About">
                 About
-              </a>
+              </a> */}
             </h3>
 
             <h3 className={styles.nav1H}>
-              {/* <Link smooth to="#Skills" className="nav-link skills">
+              <Link smooth to="#Skills" className="nav-link skills">
                 Skills
-              </Link> */}
-              <a class="nav-link skills" href="/#Skills">
+              </Link>
+              {/* <a class="nav-link skills" href="/#Skills">
                 Skills
-              </a>
+              </a> */}
             </h3>
 
             <h3 className={styles.nav1H}>
-              {/* <Link smooth to="#Projects" className="nav-link projects">
+              <Link smooth to="#Projects" className="nav-link projects">
                 Projects
               </Link>
-               */}
-              <a class="nav-link projects" href="/#Projects">
+              
+              {/* <a class="nav-link projects" href="/#Projects">
                 Projects
-              </a>
+              </a> */}
             </h3>
 
             <h3 className={styles.nav1H}>
-              {/* <Link className="nav-link contact" smooth to="#Contact">
+              <Link className="nav-link contact" smooth to="#Contact">
                 Contact
-              </Link> */}
-              <a class="nav-link contact" href="/#Contact">
+              </Link>
+              {/* <a class="nav-link contact" href="/#Contact">
                 Contact
-              </a>
+              </a> */}
             </h3>
 
             <h3 className="nav-link resume" id="resume-link-1">

@@ -35,7 +35,7 @@ export default function MajorProject({ colorMode }) {
               id={style.major_project_detailsDiv_Heading}
               size={["sm", "sm", "sm", "lg"]}
             >
-              MakeMyTrip (Cloned)
+              TripHub.com 
             </Heading>
             <Heading
               className="project-description"
@@ -115,7 +115,7 @@ export default function MajorProject({ colorMode }) {
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
-              GearBest.com (Cloned)
+              Shopper Korner.com 
             </Heading>
             <Heading
               className="project-description"
@@ -194,7 +194,7 @@ export default function MajorProject({ colorMode }) {
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
-              Booking.com (Cloned)
+              TopTrip.com 
             </Heading>
             <Heading
               className="project-description"
@@ -272,7 +272,7 @@ export default function MajorProject({ colorMode }) {
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
-              Booking.com (Cloned)
+          TopTrip.com
             </Heading>
             <Heading
               className="project-description"

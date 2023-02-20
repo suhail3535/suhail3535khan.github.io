@@ -34,6 +34,7 @@ export default function Skills({ colorMode }) {
             style={{ color: colorMode === "light" ? "#4C3575" : "#BFACE0" }}
             textAlign="center"
             color="#243D25"
+              
           >
             SKILLS
           </Heading>

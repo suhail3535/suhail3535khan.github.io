@@ -2,7 +2,7 @@
   width: 90%;
   margin: auto;
   margin-top: 130px;
-  
+   font-family: serif;
   /* color: #243D25; */
   color: #4C3575;
   border: 0px solid gold;
@@ -21,6 +21,7 @@
   width: 100%;
   margin-left: 60px;
   text-align: justify;
+   font-family: serif;
 }
 
 #myName {
@@ -28,6 +29,7 @@
   font-size: 50px;
   animation: type 3s steps(25);
   overflow: hidden;
+   font-family: serif;
   white-space: nowrap;
 }
 
@@ -36,6 +38,7 @@
   font-size: 42px;
   animation: type 3s steps(22);
   overflow: hidden;
+   font-family: serif;
   white-space: nowrap;
 }
 
@@ -52,6 +55,7 @@
 
 #detail {
   line-height: 26px;
+   font-family: serif;
   font-size: 18px;
 }
 

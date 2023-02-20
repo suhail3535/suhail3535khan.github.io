@@ -41,7 +41,7 @@ const GitHub = ({ colorMode }) => {
         <div className={style.one}>
           <Image
             id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=suhail3535&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=005685"
+            src="https://github-readme-streak-stats.herokuapp.com?user=suhail3535&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=4974a5"
           alt="suhail-stats"
 
           />
