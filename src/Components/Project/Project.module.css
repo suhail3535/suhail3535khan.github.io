@@ -13,7 +13,7 @@
 }
 
 #major_projectDiv {
-    border: 0px solid red;
+    border: 1px solid red;
     color: #4C3575;
     width: 95%;
     margin: auto;
@@ -52,7 +52,7 @@ border: 0px solid yellow;
     background: linear-gradient(90deg, rgb(239, 237, 244) 0%, rgb(199, 235, 224) 50%, rrgb(190, 180, 207)100%);
     margin: 20px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    border: 0px solid black;
+    border: 1px solid black;
     width: 50%;
     border-radius: 15px;
     padding-left: 2.5%;
@@ -60,7 +60,7 @@ border: 0px solid yellow;
 
 }
 
-#major_project_detailsDiv_Heading {
+.major_project_detailsDiv_Heading {
     margin-bottom: 20px;
   color:  rgb(25, 18, 235);
     font-size: 25px;
@@ -69,7 +69,7 @@ border: 0px solid yellow;
 
 #major_project_detailsDiv_detail {
     margin-bottom: 40px;
-    border: 0px solid green;
+    border: 1px solid green;
     color: black;
 }
 
