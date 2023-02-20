@@ -29,9 +29,12 @@ export default function Navbar({ colorMode }) {
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link className="nav-link about" smooth to="#About">
+              {/* <Link className="nav-link about" smooth to="#About">
                 About
-              </Link>
+              </Link> */}
+              <a class="nav-link about" href="/#About">
+                About
+              </a>
             </h3>
 
             <h3 className={styles.nav1H}>
@@ -61,7 +64,6 @@ export default function Navbar({ colorMode }) {
                   cursor: "pointer",
                   wordSpacing: "-.4ch",
                 }}
-               
                 id="resume-button-1"
                 className={styles.anchor}
                 href="./Suhail.pdf"

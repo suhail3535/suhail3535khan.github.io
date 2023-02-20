@@ -42,8 +42,13 @@
 .nav1H:hover {
     color: #EBC7E8;
    
-}
 
+   
+}
+.nav1H{
+ scroll-behavior: smooth;
+
+}
 .anchor {
     text-decoration: none;
     font-size: 22px;

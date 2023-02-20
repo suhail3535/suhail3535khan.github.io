@@ -12,10 +12,10 @@ export default function MajorProject({ colorMode }) {
     }, [])
 
     return (
-      <div className="project-card" id={style.majorMain}>
+      <div id="projects" className={style.majorMain}>
         <div
-          className="project-skills-card"
-          data-aos=""
+          className="project-card"
+          // data-aos=""
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -94,8 +94,8 @@ export default function MajorProject({ colorMode }) {
         </div>
 
         <div
-          className="project-skills-card"
-          data-aos=""
+          className="project-card"
+          // data-aos=""
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -173,8 +173,8 @@ export default function MajorProject({ colorMode }) {
         </div>
 
         <div
-          className="project-skills-card"
-          data-aos=""
+          className="project-card"
+          // data-aos=""
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -252,7 +252,7 @@ export default function MajorProject({ colorMode }) {
         </div>
 
         <div
-          className="project-skills-card"
+          className="project-card"
           data-aos=""
           id={style.major_projectDiv}
         >

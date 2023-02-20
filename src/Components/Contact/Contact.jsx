@@ -2,6 +2,8 @@ import { Box, Heading, Link } from "@chakra-ui/react";
 import React, { useState } from "react";
 import style from "./Contact.module.css";
 import emailjs from "emailjs-com";
+
+
 export default function Contact({ colorMode }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
