@@ -23,9 +23,12 @@ export default function Navbar({ colorMode }) {
           </Link>
           <div id={styles.nav1}>
             <h3 className={styles.nav1H}>
-              <Link smooth to="#Home" className="nav-link home">
+              {/* <Link smooth to="#Home" className="nav-link home">
                 Home
-              </Link>
+              </Link> */}
+              <a class="nav-link home" href="/#Home">
+                Home
+              </a>
             </h3>
 
             <h3 className={styles.nav1H}>
@@ -38,21 +41,31 @@ export default function Navbar({ colorMode }) {
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link smooth to="#Skills" className="nav-link skills">
+              {/* <Link smooth to="#Skills" className="nav-link skills">
                 Skills
-              </Link>
+              </Link> */}
+              <a class="nav-link skills" href="/#Skills">
+                Skills
+              </a>
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link smooth to="#Projects" className="nav-link projects">
+              {/* <Link smooth to="#Projects" className="nav-link projects">
                 Projects
               </Link>
+               */}
+              <a class="nav-link projects" href="/#Projects">
+                Projects
+              </a>
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link className="nav-link contact" smooth to="#Contact">
+              {/* <Link className="nav-link contact" smooth to="#Contact">
                 Contact
-              </Link>
+              </Link> */}
+              <a class="nav-link contact" href="/#Contact">
+                Contact
+              </a>
             </h3>
 
             <h3 className="nav-link resume" id="resume-link-1">
