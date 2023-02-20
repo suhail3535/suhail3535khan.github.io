@@ -31,7 +31,7 @@ export default function MajorProject({ colorMode }) {
             color={colorMode === "light" ? "#4C3575" : "#371B58"}
           >
             <Heading
-              className="project-skills-card-name"
+              className="project-title"
               id={style.major_project_detailsDiv_Heading}
               size={["sm", "sm", "sm", "lg"]}
             >
@@ -111,7 +111,7 @@ export default function MajorProject({ colorMode }) {
             color={colorMode === "light" ? "#4C3575" : "#371B58"}
           >
             <Heading
-              className="project-skills-card-name"
+              className="project-title"
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
@@ -190,7 +190,7 @@ export default function MajorProject({ colorMode }) {
             color={colorMode === "light" ? "#4C3575" : "#371B58"}
           >
             <Heading
-              className="project-skills-card-name"
+              className="project-title"
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
@@ -269,7 +269,7 @@ export default function MajorProject({ colorMode }) {
             color={colorMode === "light" ? "#4C3575" : "#371B58"}
           >
             <Heading
-              className="project-skills-card-name"
+              className="project-title"
               id={style.major_project_detailsDiv_Heading}
               size={["md", "md", "md", "lg"]}
             >
