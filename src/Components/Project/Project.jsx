@@ -9,7 +9,7 @@ export default function Project({ colorMode }) {
         <div  id="projects">
             <div id='Projects' style={{ height: "100px" }}></div>
             <div className='projects-projects' id={style.projects}>
-                <Heading size={['xl', 'xl', 'xl', 'xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#BFACE0'}>PROJECTS</Heading>
+                <Heading size={['xl', 'xl', 'xl', 'xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#BFACE0'}>Projects</Heading>
                 <MajorProject colorMode={colorMode} />
               
             </div>

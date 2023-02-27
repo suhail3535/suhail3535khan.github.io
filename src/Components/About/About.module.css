@@ -10,7 +10,7 @@
     width: 90%;
       /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     margin: auto;
-    border:0px solid #4C3575;
+    border:2px solid #4C3575;
     display: flex;
        font-family: serif;
     margin-top: 50px;
@@ -36,7 +36,7 @@
     width:25%;
     height: 70%;
     border: 0px solid green;
-   border-radius:  50%;
+   border-radius:  100px 100px  100px 100px;
    padding: 10px;
     
 }

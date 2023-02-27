@@ -36,7 +36,7 @@ export default function Skills({ colorMode }) {
             color="#243D25"
               
           >
-            SKILLS
+            Skills
           </Heading>
           <div className="skills-card" id={style.skillDiv}>
             {skillsArray.map((skill) => (

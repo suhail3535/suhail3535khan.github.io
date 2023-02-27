@@ -2,7 +2,7 @@
     width: 90%;
     margin: auto;
        font-family: serif;
-  
+  border: 1px solid red;
 }
 
 #skillDiv {
@@ -13,7 +13,7 @@
     gap: 30px;
        font-family: serif;
     margin-top: 50px;
-    border: 0px solid green;
+    border: 2px solid green;
       /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
       padding: 30px;
       

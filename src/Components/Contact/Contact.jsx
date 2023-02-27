@@ -39,7 +39,7 @@ export default function Contact({colorMode}) {
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
           mb="30px"
         >
-          CONTACT ME
+          Contact Me
         </Heading>
         <Box
           id={style.contact_mainDiv}

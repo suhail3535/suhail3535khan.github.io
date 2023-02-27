@@ -22,7 +22,7 @@ const GitHub = ({ colorMode }) => {
         color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
         mb="50px"
       >
-        GITHUB CALENDAR
+        Github Calender
       </Heading>
 
       <Box w="100%" style={github}>

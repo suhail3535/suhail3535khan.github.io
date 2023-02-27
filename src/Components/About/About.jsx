@@ -11,7 +11,7 @@ export default function About({ colorMode }) {
     }, [])
     return (
       <Box id="about" className="about section">
-        <div id="About" style={{ height: "100px" }}></div>
+        <div id="About" style={{ height: "0px" }}></div>
         <Heading
           size={["xl", "xl", "xl", "xl"]}
           textAlign="center"
