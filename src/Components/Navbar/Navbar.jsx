@@ -1,106 +1,97 @@
-// import { Button } from "@chakra-ui/react";
-import { FaDownload } from "react-icons/fa";
-import styles from "./Navbar.module.css";
-import { HashLink as Link } from "react-router-hash-link";
+import React from "react";
+import "./navbar.css";
+import { Link } from "react-scroll";
+import { HiDownload } from "react-icons/hi";
+import { RxHamburgerMenu } from "react-icons/rx";
+import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import {
-  Button,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
+  Drawer,
+  DrawerBody,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
 
-export default function Navbar({ colorMode }) {
+function Navbar() {
   const openLink = (url) => {
     window.open(url);
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div id="nav-menu" className="navbar">
-      <div
-        id={styles.nav}
-        style={{
-          backgroundColor: colorMode === "light" ? "#4c3575" : "#BFACE0",
-        }}
-      >
-        <Link smooth to="#Home">
-          <img
-            className={styles.logo}
-            src="https://cdn.dribbble.com/users/72227/screenshots/2595118/media/f082e58bc3e3e99f76f044f9ac4cab43.gif"
-            alt="logo"
-          />
-        </Link>
-        <div id={styles.nav1}>
-          <h3 className={styles.nav1H}>
-            <Link smooth to="#home" className="nav-link home">
+      <div className="wrapper">
+        <div className="wrapperLeft">
+          <Link to="home" smooth={true} offset={-100} duration={500}>
+            <img
+              src={process.env.PUBLIC_URL + "./Images/logo.PNG"}
+              alt="icon"
+            />
+          </Link>
+        </div>
+        <div className="wrapperRight">
+          <div>
+            <Link
+              to="home"
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link home"
+            >
               Home
             </Link>
-            {/* <a class="nav-link home" href="/#Home">
-                Home
-              </a> */}
-          </h3>
-
-          {/* <h3 className={styles.nav1H}>
-            <Link className="nav-link about" smooth to="#About">
+          </div>
+          <div>
+            <Link
+              to="about"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link about"
+            >
               About
-            </Link>  </h3>  */}
-            <a class="nav-link about" href="/#About">
-                About
-              </a>
-         
-
-          <h3 className={styles.nav1H}>
-            <Link smooth to="#Skills" className="nav-link skills">
+            </Link>
+          </div>
+          <div>
+            <Link
+              to="skills"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link skills"
+            >
               Skills
             </Link>
-            {/* <a class="nav-link skills" href="/#Skills">
-                Skills
-              </a> */}
-          </h3>
-
-          <h3 className={styles.nav1H}>
-            <Link smooth to="#Projects" className="nav-link projects">
+          </div>
+          <div>
+            <Link
+              to="projects"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link projects"
+            >
               Projects
             </Link>
-
-            {/* <a class="nav-link projects" href="/#Projects">
-                Projects
-              </a> */}
-          </h3>
-
-          <h3 className={styles.nav1H}>
-            <Link className="nav-link contact" smooth to="#contact">
+          </div>
+          <div>
+            <Link
+              to="contact"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link contact"
+            >
               Contact
             </Link>
-            {/* <a class="nav-link contact" href="/#Contact">
-                Contact
-              </a> */}
-          </h3>
-
-          <div
-            className="nav-link resume"
-            id="resume-link-1"
-            style={{ border: "1px solid red" }}
-          >
+          </div>
+          <div>
             <a
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                cursor: "pointer",
-                wordSpacing: "-.4ch",
-                border: "0px solid red",
-                marginTop: "0px",
-              }}
-              id="resume-button-1"
-              className={styles.anchor}
               href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
-              download="Suahil_Khan_Resume"
+              className="nav-link resume"
+              id="resume-link-1"
             >
               <div
-                style={{ marginRight: "10px" }}
                 onClick={() =>
                   openLink(
                     "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
@@ -109,99 +100,98 @@ export default function Navbar({ colorMode }) {
                 className="navbar-resume"
                 id="resume-button-1"
               >
-                Resume
+                Resume <HiDownload />
               </div>
-              <FaDownload />
             </a>
           </div>
         </div>
-
-        <div id={styles.nav2}>
-          <Menu>
-            <MenuButton
-              style={{
-                backgroundColor: colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-              }}
-              as={Button}
-              rightIcon={<HamburgerIcon />}
-            />
-            <MenuList
-              style={{
-                backgroundColor: colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-              }}
-            >
-              <Link smooth to="#Home">
-                <MenuItem
-                  fontSize={{ base: "20px", md: "25px", lg: "25px" }}
-                  fontWeight="bold"
-                  style={{
-                    backgroundColor:
-                      colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                    color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-                  }}
-                >
-                  Home
-                </MenuItem>
-              </Link>
-
-              <Link smooth to="#About">
-                <MenuItem
-                  fontSize={{ base: "20px", md: "25px", lg: "25px" }}
-                  fontWeight="bold"
-                  style={{
-                    backgroundColor:
-                      colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                    color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-                  }}
-                >
-                  About
-                </MenuItem>
-              </Link>
-              <Link smooth to="#Skills">
-                <MenuItem
-                  fontSize={{ base: "20px", md: "25px", lg: "25px" }}
-                  fontWeight="bold"
-                  style={{
-                    backgroundColor:
-                      colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                    color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-                  }}
-                >
-                  Skills
-                </MenuItem>
-              </Link>
-              <Link smooth to="#Projects">
-                <MenuItem
-                  fontSize={{ base: "20px", md: "25px", lg: "25px" }}
-                  fontWeight="bold"
-                  style={{
-                    backgroundColor:
-                      colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                    color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-                  }}
-                >
-                  Projects
-                </MenuItem>
-              </Link>
-              <Link smooth to="#Contact">
-                <MenuItem
-                  fontSize={{ base: "20px", md: "25px", lg: "25px" }}
-                  fontWeight="bold"
-                  style={{
-                    backgroundColor:
-                      colorMode === "light" ? "##f6e7e6" : "#4C3575",
-                    color: colorMode === "light" ? "#4C3575" : "#EBC7E8",
-                  }}
-                >
-                  Contact
-                </MenuItem>
-              </Link>
-            </MenuList>
-          </Menu>
+        <div className="responce">
+          <MenuRoundedIcon onClick={onOpen} />
+          <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
+            <DrawerOverlay />
+            <DrawerContent>
+              <DrawerCloseButton />
+              <DrawerBody marginTop={"30px"}>
+                <div className="drawerbody">
+                  <div>
+                    <Link
+                      to="home"
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                      onClick={onClose}
+                    >
+                      Home
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
+                      to="about"
+                      smooth={true}
+                      offset={-79}
+                      duration={500}
+                      onClick={onClose}
+                    >
+                      About
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
+                      to="skills"
+                      smooth={true}
+                      offset={-79}
+                      duration={500}
+                      onClick={onClose}
+                    >
+                      Skills
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
+                      to="projects"
+                      smooth={true}
+                      offset={-79}
+                      duration={500}
+                      onClick={onClose}
+                    >
+                      Projects
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
+                      to="contact"
+                      smooth={true}
+                      offset={-79}
+                      duration={500}
+                      onClick={onClose}
+                    >
+                      Contact
+                    </Link>
+                  </div>
+                  <div>
+                    <a href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download">
+                      <div
+                        className="navbar-resume"
+                        onClick={() => {
+                          onClose();
+                          openLink(
+                            "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
+                          );
+                        }}
+                      >
+                        {/* https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link */}
+                        Resume <HiDownload />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </DrawerBody>
+            </DrawerContent>
+          </Drawer>
         </div>
       </div>
     </div>
   );
 }
+
+export default Navbar;
