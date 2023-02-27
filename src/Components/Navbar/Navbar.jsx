@@ -22,9 +22,15 @@ function Navbar() {
     <div id="nav-menu" className="navbar">
       <div className="wrapper">
         <div className="wrapperLeft">
-          <Link to="home" smooth={true} offset={-100} duration={500}>
-            <img
-              src={process.env.PUBLIC_URL + "./Images/logo.PNG"}
+          <Link
+            to="home"
+            smooth={true}
+            offset={-100}
+            duration={500}
+           
+          >
+            <img style={{border:"0px solid red", width:"18%",borderRadius:"5px"}}
+              src="https://cdn.dribbble.com/users/72227/screenshots/2595118/media/f082e58bc3e3e99f76f044f9ac4cab43.gif"
               alt="icon"
             />
           </Link>

@@ -21,6 +21,8 @@ function Static({ colorMode }) {
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+                fontFamily: "Bree Serif, serif",
+                borderRadius: "5px",
               }}
             >
               <h4>30+</h4>
@@ -30,6 +32,8 @@ function Static({ colorMode }) {
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+                fontFamily: "Bree Serif, serif",
+                borderRadius: "5px",
               }}
             >
               <h4>03+</h4>
@@ -39,6 +43,8 @@ function Static({ colorMode }) {
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+                fontFamily: "Bree Serif, serif",
+                borderRadius: "5px",
               }}
             >
               <h4>300+</h4>
@@ -48,6 +54,8 @@ function Static({ colorMode }) {
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+                fontFamily: "Bree Serif, serif",
+                borderRadius: "5px",
               }}
             >
               <h4>200+</h4>

@@ -44,6 +44,7 @@ export default function Contact({colorMode}) {
         <Heading
           size={["2xl", "2xl", "2xl", "3xl"]}
           textAlign="center"
+          fontFamily="Bree Serif, serif"
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
           mb="30px"
         >
@@ -56,7 +57,9 @@ export default function Contact({colorMode}) {
           <Box id={style.contact_leftDiv}>
             <Box>
               <form action="" onSubmit={SendMail}>
-                <Heading id={style.contact_head}>YOUR NAME (required)</Heading>
+                <Heading fontFamily="Bree Serif, serif" id={style.contact_head}>
+                  YOUR NAME (required)
+                </Heading>
                 <input
                   className={style.input}
                   placeholder="Enter your Name"
@@ -65,7 +68,9 @@ export default function Contact({colorMode}) {
                   onChange={(e) => setName(e.target.value)}
                 />
 
-                <Heading id={style.contact_head}>YOUR EMAIL (required)</Heading>
+                <Heading fontFamily="Bree Serif, serif" id={style.contact_head}>
+                  YOUR EMAIL (required)
+                </Heading>
                 <input
                   className={style.input}
                   placeholder="Enter your Email"
@@ -74,7 +79,9 @@ export default function Contact({colorMode}) {
                   onChange={(e) => setEmail(e.target.value)}
                 />
 
-                <Heading id={style.contact_head}>SUBJECT</Heading>
+                <Heading fontFamily="Bree Serif, serif" id={style.contact_head}>
+                  SUBJECT
+                </Heading>
                 <input
                   className={style.input}
                   placeholder="Enter your Subject"
@@ -83,7 +90,9 @@ export default function Contact({colorMode}) {
                   onChange={(e) => setSubject(e.target.value)}
                 />
 
-                <Heading id={style.contact_head}>YOUR MESSAGE</Heading>
+                <Heading fontFamily="Bree Serif, serif" id={style.contact_head}>
+                  YOUR MESSAGE
+                </Heading>
                 <input
                   className={style.input1}
                   placeholder="Enter you Message"
@@ -98,12 +107,14 @@ export default function Contact({colorMode}) {
           </Box>
           <Box id={style.contact_rightDiv}>
             <Box>
-              <Heading id={style.contact_head1}>E-Mail</Heading>
+              <Heading fontFamily="Bree Serif, serif" id={style.contact_head1}>
+                E-Mail
+              </Heading>
               <div
                 id="contact-email"
                 style={{
                   border: "0px solid green",
-                  fontFamily: "serif",
+
                   fontSize: "20px",
                   color: "#DAE2B6",
                   width: "100%",
@@ -113,12 +124,15 @@ export default function Contact({colorMode}) {
                 khansohail015@gmail.com
               </div>
               <div className={style.line}></div>
-              <Heading id={style.contact_head1}>Phone</Heading>
+              <Heading fontFamily="Bree Serif, serif" id={style.contact_head1}>
+                Phone
+              </Heading>
               <p
                 id="contact-phone"
+                fontFamily="Bree Serif, serif"
                 style={{
                   border: "0px solid green",
-                  fontFamily: "serif",
+                 
                   fontWeight: "bold",
                   fontSize: "20px",
                   color: "#DAE2B6",
@@ -128,7 +142,9 @@ export default function Contact({colorMode}) {
                 9598125005
               </p>
               <div className={style.line}></div>
-              <Heading id={style.contact_head1}>On The Web</Heading>
+              <Heading fontFamily="Bree Serif, serif" id={style.contact_head1}>
+                On The Web
+              </Heading>
               <Box
                 style={{
                   border: "0px solid green",

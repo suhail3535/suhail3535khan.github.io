@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+ font-family: 'Bree Serif', serif;
+}
+
 #stat{
  border: 0px solid green;   
  display: grid;
@@ -24,6 +30,7 @@ border-radius: 5px;
 border: 0px solid blue;
 margin-left: 40px;
 border-radius: 5px;
+
 }
 .three{
     width: 70%;

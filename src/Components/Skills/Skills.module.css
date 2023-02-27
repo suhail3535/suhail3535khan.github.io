@@ -1,84 +1,90 @@
 #skill {
-    width: 90%;
-    margin: auto;
-       font-family: serif;
+  width: 90%;
+  margin: auto;
+  font-family: serif;
   border: 0px solid red;
 }
 
 #skillDiv {
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
-    font-family: serif;
-    padding: 20px;
-    border: 0px solid green;
-      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-      margin-top: 10px;
-      
-      
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+  font-family: serif;
+  padding: 20px;
+  border: 0px solid green;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  margin-top: 30px;
 }
 
+.skill_in_div {
+  border: 0px solid #1d1dd6;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 10px; */
+  width: 150px;
+  padding: 10px;
+  /* color: white; */
+margin-bottom: 40px;
+  text-align: center;
+  border-radius: 10px;
+  /* background-color: #1a1a1a; */
+  transition: all 0.2s ease-in-out;
+  box-shadow: #d3c7e8af 10px 10px 0px 0px;
+}
+
+.skill_in_div:hover {
+  /* border: 2px solid rgba(255, 255, 255, 0.125); */
+  /* color: white; */
+  box-shadow: #4c3575 10px 10px 0px 0px;
+  transform: scale(0.98);
+}
 
 .logo {
-    width: 50%;
-    height: 200px;
-    display: block;
-    border: 0px solid blue;
-   
-    /* margin: auto; */
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.551) 0px 3px 8px;
-    
-}
-
-.logo:hover {
-    box-shadow: #5dbcd9 0px 0px 0px 5px;
-  
+  width: 100%;
+  padding: 5px;
+  /* height: 200px; */
+  /* display: block; */
+  border: 0px solid blue;
 }
 
 #skillH3 {
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 10px;
-    margin-right: 110px;
-    border: 0px solid yellow;
-    color: #4C3575;
-     font-family: serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
 
-  
-   
+ font-family:  'Bree Serif', serif;
+  border: 0px solid yellow;
+  color: #4c3575;
+ 
 }
 
 #skillH3:hover {
-    color: #FEF5ED;
-   
+  color: #fef5ed;
 }
 
-@media screen and (max-width:1180px) and (min-width:760px) {
+@media screen and (max-width: 1180px) and (min-width: 760px) {
+  #skillDiv {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 10px;
+  }
 
-
-    #skillDiv {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 50px 10px;
-    }
-
-    .logo {
-        width: 65%;
-    }
+  .logo {
+    width: 65%;
+  }
 }
-@media screen and (max-width:759px) and (min-width:200px) {
-    
-    #skillDiv {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px 35px;
-    }
+@media screen and (max-width: 759px) and (min-width: 200px) {
+  #skillDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 35px;
+  }
 
-    .logo {
-        width: 75%;
-        height: 125px;
-    }
+  .logo {
+    width: 75%;
+    height: 125px;
+  }
 }

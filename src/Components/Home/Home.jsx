@@ -37,8 +37,8 @@ export default function Home({ colorMode }) {
               <Heading id={style.title}>Full Stack Web Developer</Heading>
             </Box>
           </Flex>
-          <Box style={{ marginTop: "20px" }}>
-            <img
+          <Box style={{ marginTop: "20px",fontFamily: 'Bree Serif, serif' }}>
+            <img  
               src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light"
               alt=""
             />

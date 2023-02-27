@@ -19,8 +19,12 @@ export default function Footer({ colorMode }) {
           id={style.footer_mainDiv1}
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
         >
-          <Heading id={style.footer_head}>Get In Touch</Heading>
-          <Heading id={style.footer_head1}>You can reach out to me at</Heading>
+          <Heading fontFamily="Bree Serif, serif" id={style.footer_head}>
+            Get In Touch
+          </Heading>
+          <Heading fontFamily="Bree Serif, serif" id={style.footer_head1}>
+            You can reach out to me at
+          </Heading>
           <Box
             display="flex"
             justifyContent="center"

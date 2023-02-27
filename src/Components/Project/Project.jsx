@@ -20,6 +20,7 @@ export default function Project({ colorMode }) {
           <Heading
             size={["xl", "xl", "xl", "xl"]}
             textAlign="center"
+             fontFamily= "Bree Serif, serif"
             color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
           >
             Projects

@@ -29,6 +29,7 @@ const GitHub = ({ colorMode }) => {
         size={["2xl", "xl", "xl", "xl"]}
         color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
         mb="50px"
+        fontFamily="Bree Serif, serif"
       >
         Github Calender
       </Heading>
@@ -36,6 +37,7 @@ const GitHub = ({ colorMode }) => {
       <Box w="100%" style={github}>
         <GitHubCalendar
           class="react-activity-calendar"
+          fontFamily="Bree Serif, serif"
           style={{ margin: "auto", color: "#4C3575" }}
           username="suhail3535"
           blockSize={20}
@@ -48,6 +50,7 @@ const GitHub = ({ colorMode }) => {
       <div className="github-stats" id={style.stat}>
         <div
           className={style.one}
+          fontFamily="Bree Serif, serif"
           data-aos-mirror="true"
           data-aos="fade-left"
           data-aos-duration="3000"
@@ -63,6 +66,7 @@ const GitHub = ({ colorMode }) => {
           className={style.two}
           data-aos-mirror="true"
           data-aos="fade-up"
+          fontFamily="Bree Serif, serif"
           data-aos-duration="3000"
         >
           <Image
@@ -76,6 +80,7 @@ const GitHub = ({ colorMode }) => {
           className={style.three}
           data-aos-mirror="true"
           data-aos="fade-right"
+          fontFamily="Bree Serif, serif"
           data-aos-duration="3000"
         >
           <Image

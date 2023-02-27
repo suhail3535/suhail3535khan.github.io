@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+ font-family: 'Bree Serif', serif;
+}
+
 .services_experience {
     width: 90%;
     margin: auto;
-    
+     font-family: 'Bree Serif', serif;
     background-color: transparent;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -18,6 +24,8 @@
     height: 100%;
     top: 0;
     bottom: 0;
+     font-family: 'Bree Serif', serif;
+      /* fontFamily="Bree Serif, serif" */
     width: 50%;
     z-index: -1;
 }
@@ -28,18 +36,23 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+     font-family: 'Bree Serif', serif;
 }
 
 .experiences {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: transparent;
+     font-family: 'Bree Serif', serif;
+    
+
 }
 
 .experience {
     flex: 0 0 calc(33.33% - 10px);
     max-width: calc(33.33% - 10px);
     width: 100%;
+     font-family: 'Bree Serif', serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

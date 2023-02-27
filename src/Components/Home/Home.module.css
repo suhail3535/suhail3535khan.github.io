@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+ font-family: 'Bree Serif', serif;
+}
+
 #home {
   width: 90%;
   margin: auto;
@@ -21,7 +27,7 @@
   width: 100%;
   margin-left: 60px;
   text-align: justify;
-   font-family: serif;
+ font-family: 'Bree Serif', serif;
 }
 
 #myName {
@@ -29,7 +35,7 @@
   font-size: 50px;
   animation: type 3s steps(25);
   overflow: hidden;
-   font-family: serif;
+  font-family: 'Bree Serif', serif;
   white-space: nowrap;
 }
 
@@ -38,7 +44,7 @@
   font-size: 42px;
   animation: type 3s steps(22);
   overflow: hidden;
-   font-family: serif;
+ font-family: 'Bree Serif', serif;
   white-space: nowrap;
 }
 
