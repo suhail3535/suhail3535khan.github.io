@@ -2,10 +2,14 @@
 import { FaDownload } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import { HashLink as Link } from 'react-router-hash-link';
-import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import { Button, Menu, MenuButton, MenuItem, MenuList, useDisclosure } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
 export default function Navbar({ colorMode }) {
+  const openLink = (url) => {
+    window.open(url);
+  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
     return (
       <div id="nav-menu" className="navbar">
         <div
@@ -53,7 +57,7 @@ export default function Navbar({ colorMode }) {
               <Link smooth to="#Projects" className="nav-link projects">
                 Projects
               </Link>
-              
+
               {/* <a class="nav-link projects" href="/#Projects">
                 Projects
               </a> */}
@@ -76,14 +80,29 @@ export default function Navbar({ colorMode }) {
                   justifyContent: "center",
                   cursor: "pointer",
                   wordSpacing: "-.4ch",
+                  border:"1px solid red"
                 }}
                 id="resume-button-1"
                 className={styles.anchor}
-                href="./Suhail.pdf"
+                href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
                 download="Suahil_Khan_Resume"
               >
-                Resume &nbsp; <FaDownload />
+               
+                <div
+                  onClick={() =>
+                    openLink(
+                      "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
+                    )
+                  }
+                  className="navbar-resume"
+                  id="resume-button-1"
+                >
+                  Resume <FaDownload />
+                </div>
+             
               </a>
+
+        
             </h3>
           </div>
 

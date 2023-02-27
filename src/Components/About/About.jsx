@@ -1,4 +1,4 @@
-import { Box, Heading, Image } from '@chakra-ui/react'
+import { Box, Heading, Image, useDisclosure } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import style from "./About.module.css"
 import Aos from "aos"
@@ -6,6 +6,10 @@ import "aos/dist/aos.css"
 import { FaDownload } from 'react-icons/fa'
 
 export default function About({ colorMode }) {
+  const openLink = (url) => {
+    window.open(url);
+  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
     useEffect(() => {
         Aos.init() 
     }, [])
@@ -30,7 +34,7 @@ export default function About({ colorMode }) {
               src="profilepic.JPG"
               alt="Suhail Khan"
             />
-            <Box  className={style.aboutDetails}>
+            <Box className={style.aboutDetails}>
               <span id="user-detail-name" className={style.name}>
                 I am Suhail Khan
               </span>
@@ -55,14 +59,20 @@ export default function About({ colorMode }) {
                 <a
                   id="resume-link-2"
                   class={style.resumeButton}
-                  href="./Suhail.pdf"
-                  download="Suhail's Resume"
+                  href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
+                  download="Suahil_Khan_Resume"
                 >
-                  Resume &nbsp;
-                  <FaDownload
+                  <div
+                    onClick={() =>
+                      openLink(
+                        "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
+                      )
+                    }
+                    className="navbar-resume"
                     id="resume-button-2"
-                    className={style.resumeDownloadLogo}
-                  />
+                  >
+                    Resume <FaDownload />
+                  </div>
                 </a>
               </Box>
             </Box>
