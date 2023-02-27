@@ -15,7 +15,10 @@ export default function About({ colorMode }) {
 
     return (
       <Box id="about" className="about section">
-        <div id="About" style={{ height: "50px", border:"1px solid blue",padding:"10px" }}></div>
+        <div
+          id="About"
+          style={{ height: "50px", border: "1px solid blue", padding: "10px" }}
+        ></div>
         <Heading
           size={["xl", "xl", "xl", "xl"]}
           textAlign="center"
@@ -58,6 +61,23 @@ export default function About({ colorMode }) {
                 id={style.resumeDiv}
                 backgroundColor={colorMode === "light" ? "#4C3575" : "#BFACE0"}
               >
+                {/* <a
+                  href="https://drive.google.com/uc?id=173kc0AW6miCrWOsqeYN3ad348otgyA13&export=download"
+                  id="resume-link-2"
+                >
+                  <div
+                    onClick={() =>
+                      openLink(
+                        "https://drive.google.com/file/d/173kc0AW6miCrWOsqeYN3ad348otgyA13/view?usp=share_link"
+                      )
+                    }
+                    className="home-resume"
+                    id="resume-button-2"
+                  >
+                    Resume <HiDownload />
+                  </div>
+                </a> */}
+
                 <a
                   id="resume-link-2"
                   class={style.resumeButton}
@@ -75,7 +95,7 @@ export default function About({ colorMode }) {
                         "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
                       )
                     }
-                    className="navbar-resume"
+                    className="home-resume"
                     id="resume-button-2"
                   >
                     Resume
