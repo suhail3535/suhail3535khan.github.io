@@ -80,9 +80,9 @@ export default function About({ colorMode }) {
 
                 <a
                   id="resume-link-2"
-                  class={style.resumeButton}
+                  className={style.resumeButton}
                   href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
-                  download="Suahil_Khan_Resume"
+                  // download="Suahil_Khan_Resume"
                 >
                   <div
                     style={{
@@ -95,8 +95,8 @@ export default function About({ colorMode }) {
                         "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
                       )
                     }
-                    className="home-resume"
-                    id="resume-button-2"
+                    // className="home-resume"
+                     id="resume-button-2"
                   >
                     Resume
                   </div>
