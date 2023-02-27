@@ -2,9 +2,19 @@ import { Box, Heading } from '@chakra-ui/react'
 import React from 'react'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaGofore } from 'react-icons/fa'
 import style from './Footer.module.css'
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 export default function Footer({ colorMode }) {
     return (
-      <Box className="footer" id={style.footer_mainDiv}>
+      <Box
+        className="footer"
+        id={style.footer_mainDiv}
+        data-aos-mirror="true"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <Box
           id={style.footer_mainDiv1}
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
@@ -31,6 +41,7 @@ export default function Footer({ colorMode }) {
             &nbsp; <p>+919598125005</p>
           </Box>
         </Box>
+
         <Box
           id={style.footer_mainDiv2}
           backgroundColor={colorMode === "light" ? "#4C3575" : "#BFACE0"}

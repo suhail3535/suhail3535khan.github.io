@@ -2,20 +2,29 @@ import { Box, Button, Heading, Image } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import style from './Project.module.css'
 import { FaArrowRight, FaGithub } from 'react-icons/fa'
-import Aos from "aos"
-import "aos/dist/aos.css"
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function MajorProject({ colorMode }) {
 
-    useEffect(() => {
-        Aos.init()
-    }, [])
+ 
 
     return (
-      <div id="projects" className={style.majorMain}>
+      <div
+        id="projects"
+        className={style.majorMain}
+        // data-aos-mirror="true"
+        // data-aos="fade-up"
+        // data-aos-duration="3000"
+      >
         <div
           className="project-card"
           // data-aos=""
+          data-aos-mirror="true"
+          data-aos="fade-right"
+          data-aos-duration="3000"
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -97,6 +106,9 @@ export default function MajorProject({ colorMode }) {
         <div
           className="project-card"
           // data-aos=""
+          data-aos-mirror="true"
+          data-aos="fade-left"
+          data-aos-duration="3000"
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -177,6 +189,9 @@ export default function MajorProject({ colorMode }) {
         <div
           className="project-card"
           // data-aos=""
+          data-aos-mirror="true"
+          data-aos="fade-up"
+          data-aos-duration="3000"
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>
@@ -256,6 +271,9 @@ export default function MajorProject({ colorMode }) {
         <div
           className="project-card"
           // data-aos=""
+          data-aos-mirror="true"
+          data-aos="fade-down"
+          data-aos-duration="3000"
           id={style.major_projectDiv}
         >
           <Box className={style.major_project_imgDiv}>

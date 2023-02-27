@@ -2,7 +2,10 @@ import { Box, Heading, Link } from "@chakra-ui/react";
 import React, { useState } from "react";
 import style from "./Contact.module.css";
 import emailjs from "emailjs-com";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function Contact({colorMode}) {
 
@@ -31,7 +34,12 @@ export default function Contact({colorMode}) {
     }
 
     return (
-      <Box id="contact">
+      <Box
+        id="contact"
+        data-aos-mirror="true"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <div style={{ height: "100px" }}></div>
         <Heading
           size={["2xl", "2xl", "2xl", "3xl"]}

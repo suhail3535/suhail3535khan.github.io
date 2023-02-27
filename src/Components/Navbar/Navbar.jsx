@@ -27,7 +27,7 @@ export default function Navbar({ colorMode }) {
           </Link>
           <div id={styles.nav1}>
             <h3 className={styles.nav1H}>
-              <Link smooth to="#Home" className="nav-link home">
+              <Link smooth to="#home" className="nav-link home">
                 Home
               </Link>
               {/* <a class="nav-link home" href="/#Home">
@@ -64,7 +64,7 @@ export default function Navbar({ colorMode }) {
             </h3>
 
             <h3 className={styles.nav1H}>
-              <Link className="nav-link contact" smooth to="#Contact">
+              <Link className="nav-link contact" smooth to="#contact">
                 Contact
               </Link>
               {/* <a class="nav-link contact" href="/#Contact">
@@ -72,23 +72,23 @@ export default function Navbar({ colorMode }) {
               </a> */}
             </h3>
 
-            <h3 className="nav-link resume" id="resume-link-1">
+            <div className="nav-link resume" id="resume-link-1" style={{border:"1px solid red"}}>
               <a
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  justifyContent: "center",
+                  justifyContent: "space-between",
                   cursor: "pointer",
                   wordSpacing: "-.4ch",
-                  border:"1px solid red"
+                  border: "0px solid red",
+                  marginTop: "0px",
                 }}
                 id="resume-button-1"
                 className={styles.anchor}
                 href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
                 download="Suahil_Khan_Resume"
               >
-               
-                <div
+                <div style={{marginRight:"10px"}}
                   onClick={() =>
                     openLink(
                       "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
@@ -97,13 +97,11 @@ export default function Navbar({ colorMode }) {
                   className="navbar-resume"
                   id="resume-button-1"
                 >
-                  Resume <FaDownload />
+                  Resume
                 </div>
-             
+                <FaDownload />
               </a>
-
-        
-            </h3>
+            </div>
           </div>
 
           <div id={styles.nav2}>

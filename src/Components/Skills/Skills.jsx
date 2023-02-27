@@ -1,14 +1,14 @@
 import { Heading } from '@chakra-ui/react';
 import React, { useEffect } from 'react'
 import style from './Skills.module.css'
-import Aos from "aos"
-import "aos/dist/aos.css"
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 export default function Skills({ colorMode }) {
 
-    useEffect(() => {
-        Aos.init({ duration: 200 })
-    }, [])
+ 
 
     const skillsArray = [
         { id: "1", name: "HTML", logo: "https://us.123rf.com/450wm/innayatsuk/innayatsuk2102/innayatsuk210200051/165304530-orange-3d-html5-icon-isolated-on-white-background-.jpg?ver=6" },
@@ -27,18 +27,23 @@ export default function Skills({ colorMode }) {
 
     return (
       <div id="skills">
-        <div id="Skills" style={{ height: "100px" }}></div>
+        <div id="Skills" style={{ height: "20px" }}></div>
         <div className="skills-card-name" id={style.skill}>
           <Heading
             size={["xl", "xl", "xl", "xl"]}
             style={{ color: colorMode === "light" ? "#4C3575" : "#BFACE0" }}
             textAlign="center"
             color="#243D25"
-              
           >
             Skills
           </Heading>
-          <div className="skills-card" id={style.skillDiv}>
+          <div
+            className="skills-card"
+            id={style.skillDiv}
+            data-aos-mirror="true"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             {skillsArray.map((skill) => (
               <div key={skill.name} className={style.skill_in_div}>
                 <div className="skills-card-img" data-aos="">

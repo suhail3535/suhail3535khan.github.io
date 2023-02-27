@@ -4,7 +4,12 @@ import style from './Static.module.css'
 function Static({ colorMode }) {
 
   return (
-    <section className={style.services_experience}>
+    <section
+      className={style.services_experience}
+      data-aos-mirror="true"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="container" id="coding">
         <div className={style.experiences} id={style.experiences}>
           <div className={style.experience}>
@@ -12,26 +17,46 @@ function Static({ colorMode }) {
             <p>Hrs Coding</p>
           </div>
           <div className={style.portfolios}>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
+            <div
+              className={style.portfolio}
+              style={{
+                backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+              }}
+            >
               <h4>30+</h4>
               <h6>Mini Projects</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
+            <div
+              className={style.portfolio}
+              style={{
+                backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+              }}
+            >
               <h4>03+</h4>
               <h6>Major Projects</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
+            <div
+              className={style.portfolio}
+              style={{
+                backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+              }}
+            >
               <h4>300+</h4>
               <h6>DSA Problem</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
+            <div
+              className={style.portfolio}
+              style={{
+                backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
+              }}
+            >
               <h4>200+</h4>
               <h6>Hrs Soft Skills</h6>
             </div>
           </div>
         </div>
       </div>
-    </section >
+    </section>
   );
 }
 
