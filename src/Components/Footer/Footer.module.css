@@ -36,7 +36,13 @@
     color: #FEF5ED;
 }
 #footer_aDiv>a:hover{
-    background-color: #A084CA;
+       background: rgb(121, 114, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
 }
 #footer_aDiv {
     display: flex;

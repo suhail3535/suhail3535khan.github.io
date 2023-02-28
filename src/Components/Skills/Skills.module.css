@@ -33,7 +33,18 @@
   transition: all 0.2s ease-in-out;
   box-shadow: #d3c7e8af 10px 10px 0px 0px;
 }
-
+.skill_in_div:nth-child(9){
+  border: 0px solid green;
+  height: 81%;
+}
+.skill_in_div:nth-child(10){
+  border: 0px solid green;
+  height: 81%;
+}
+.skill_in_div:nth-child(13){
+  border: 0px solid green;
+  height: 81%;
+}
 .skill_in_div:hover {
   /* border: 2px solid rgba(255, 255, 255, 0.125); */
   /* color: white; */
@@ -47,6 +58,7 @@
   display: block;
   /* height: 200px; */
   /* display: block; */
+  padding: 5px;
   margin: auto;
   /* border-radius: 5px; */
   border: 0px solid rgb(255, 0, 0);

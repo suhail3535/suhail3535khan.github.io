@@ -58,7 +58,7 @@ const GitHub = ({ colorMode }) => {
         >
           <Image
             id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=suhail3535&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=4974a5"
+            src="https://github-readme-streak-stats.herokuapp.com?user=suhail3535&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=#a084ca"
             alt="suhail-stats"
           />
         </div>
@@ -72,7 +72,7 @@ const GitHub = ({ colorMode }) => {
         >
           <Image
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=suhail3535&show_icons=true&title_color=005685&text_color=005685&icon_color=005685&bg_color=ffffff&border_radius=10&border_color=005685"
+            src="https://github-readme-stats.vercel.app/api?username=suhail3535&show_icons=true&title_color=03A9F4&text_color=03A9F4&icon_color=4974a5&bg_color=red&border_radius=10&border_color=005685"
             alt="suhail-status"
           />
         </div>
