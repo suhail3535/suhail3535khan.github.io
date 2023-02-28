@@ -1,23 +1,30 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-*{
- font-family: 'Bree Serif', serif;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  font-family: "Bree Serif", serif;
 }
-
+.quote {
+  width: 80%;
+  margin: auto;
+}
+.quote > img {
+  margin: auto;
+}
 #home {
   width: 90%;
   margin: auto;
   margin-top: 130px;
-   font-family: serif;
+  font-family: serif;
   /* color: #243D25; */
-  color: #4C3575;
+  color: #4c3575;
   border: 0px solid gold;
+  /* display: flex;
+  justify-content: space-between; */
   /* height: 500px; */
 }
 
 #myImg {
   border-radius: 30px;
-  width: 400px;
+  width: 80%;
   margin-right: 50px;
 
   /* height: 450px; */
@@ -27,15 +34,22 @@
   width: 100%;
   margin-left: 60px;
   text-align: justify;
- font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
+  border: 0px solid green;
 }
-
+.img_txt_wrapper {
+  display: flex;
+  border: 0px solid black;
+  align-items: center;
+  justify-content: space-between;
+}
 #myName {
   margin-bottom: 7px;
   font-size: 50px;
   animation: type 3s steps(25);
   overflow: hidden;
-  font-family: 'Bree Serif', serif;
+  border: 0px solid blue;
+  font-family: "Bree Serif", serif;
   white-space: nowrap;
 }
 
@@ -44,8 +58,9 @@
   font-size: 42px;
   animation: type 3s steps(22);
   overflow: hidden;
- font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   white-space: nowrap;
+  border: 0px solid teal;
 }
 
 @keyframes type {
@@ -58,23 +73,21 @@
   }
 }
 
-
 #detail {
   line-height: 26px;
-   font-family: serif;
+  font-family: serif;
   font-size: 18px;
+  border: 0px solid pink;
 }
 
-
-
-@media screen and (max-width:860px) and (min-width:681px) {
+@media screen and (max-width: 1124px) and (min-width: 768px) {
   #home {
-    width: 100%;
+    width: 90%;
     margin-top: 150px;
   }
 
   #myDetailsDiv {
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-left: 20px;
   }
@@ -86,11 +99,17 @@
 
   #myImg {
     border-radius: 30px;
-    width: 320px;
-    height: 380px;
+    width: 50%;
+    /* height: 380px; */
     margin: auto;
   }
-
+  .quote {
+    width: 80%;
+    margin: auto;
+  }
+  .quote > img {
+    margin: auto;
+  }
   #title {
     font-size: 20px;
   }
@@ -100,17 +119,25 @@
   }
 }
 
-@media screen and (max-width:680px) and (min-width:481px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   #home {
     width: 90%;
     margin-top: 150px;
   }
-
+  .img_txt_wrapper {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    flex-direction: column;
+  }
   #myDetailsDiv {
-    width: 70%;
+    width: 77%;
     margin: auto;
   }
-
+  .quote {
+    width: 80%;
+    margin: auto;
+  }
   #myName {
     margin-bottom: 10px;
     font-size: 32px;
@@ -118,9 +145,10 @@
 
   #myImg {
     border-radius: 30px;
-    width: 49%;
-    height: 380px;
+    /* width: 62%; */
+    /* height: 380px; */
     margin: auto;
+    border: 0px solid red;
   }
 
   #title {
@@ -131,7 +159,7 @@
     font-size: 18px;
   }
 }
-
+/* 
 @media screen and (max-width:480px) and (min-width:320px) {
   #home {
     width: 95%;
@@ -168,4 +196,4 @@
     font-size: 18px;
   }
 
-}
+} */

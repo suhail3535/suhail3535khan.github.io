@@ -63,11 +63,7 @@ export default function Skills({ colorMode }) {
       name: "Animation",
       logo: "https://animate.style/img/animatecss-opengraph.jpg",
     },
-    {
-      id: "12",
-      name: "Webpack",
-      logo: "https://ih1.redbubble.net/image.393391389.2519/flat,750x1000,075,f.u1.jpg",
-    },
+  
     {
       id: "13",
       name: "Typescript",

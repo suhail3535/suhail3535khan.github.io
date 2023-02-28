@@ -15,7 +15,7 @@ export default function About({ colorMode }) {
 
 
     return (
-      <Box id="about" className="about section">
+      <div id="about" className="about section">
         <div
           id="About"
           style={{ height: "50px", border: "0px solid blue", padding: "10px" }}
@@ -29,31 +29,31 @@ export default function About({ colorMode }) {
           About Me
         </Heading>
         <div data-aos-mirror="true" data-aos="fade-up" data-aos-duration="3000">
-          <Box
+          <div
             id={style.aboutDiv}
             color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
           >
-            <Box id={style.first}>
+            <div id={style.first}>
               <Image
                 className="home-img"
                 src="mycropimg.png"
                 alt="Suhail Khan"
               />
-            </Box>
+            </div>
 
-            <Box className={style.aboutDetails}>
-              <span
+            <div className={style.aboutDetails}>
+              <p
                 id="user-detail-name"
                 fontFamily="Bree Serif, serif"
                 className={style.name}
               >
                 I am Suhail Khan
-              </span>
+              </p>
               <p className={style.name}>Full Stack Web Developer</p>
 
               <p className={style.name}>I live in Hardoi,Uttar Pradesh,India</p>
 
-              <Box className="aboutMe" id="user-detail-intro">
+              <div className="aboutMe" id="user-detail-intro">
                 <p className={style.namep}>
                   A passionate aspiring Full Stack Developer skilled in MERN
                   stack, NodeJS,Redux,MongoDb molded and shaped by Masai
@@ -61,9 +61,9 @@ export default function About({ colorMode }) {
                   living team of a good start-up to adapt me in any situation
                   and the environment with ease and perform the best.
                 </p>
-              </Box>
+              </div>
 
-              <Box
+              <div
                 id={style.resumeDiv}
                 backgroundColor={colorMode === "light" ? "#4C3575" : "#BFACE0"}
               >
@@ -92,10 +92,10 @@ export default function About({ colorMode }) {
                   </div>
                   <HiDownload /> 
                 </a>
-              </Box>
-            </Box>
-          </Box>
+              </div>
+            </div>
+          </div>
         </div>
-      </Box>
+      </div>
     );
 }

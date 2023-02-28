@@ -22,7 +22,7 @@
 }
 
 #major_projectDiv {
-    border: px solid red;
+    border: 0px solid red;
     color: #4C3575;
     width: 95%;
    font-family: 'Bree Serif', serif;
@@ -90,9 +90,7 @@ border: 0px solid yellow;
  box-shadow: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
   transform: scale(0.98);
 }
-/* #style.design{
-    border: 3px solid blue;
-} */
+
 #major_project_detailsDiv_Heading {
     margin-bottom: 10px;
        font-family: 'Bree Serif', serif;

@@ -1,187 +1,205 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-*{
- font-family: 'Bree Serif', serif;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  font-family: "Bree Serif", serif;
 }
 #about_head {
-    font-size: xl;
-    text-align: center;
-    border: 0px solid green;
-      
+  font-size: xl;
+  text-align: center;
+  border: 0px solid green;
 }
 
 #aboutDiv {
-   
-    width: 90%;
-      
-    margin: auto;
-    border:0px solid #4C3575;
-    display: flex;
-    
-    margin-top: 20px;
-  
+  width: 90%;
 
-    border-radius: 20px;
-   
+  margin: auto;
+  border: 0px solid #4c3575;
+  display: flex;
+
+  margin-top: 20px;
+
+  border-radius: 20px;
 }
 
 .aboutDetails {
-   
-    margin-left: 40px;
-    width: 65%;
-   
-     border: 0px solid red;
-     margin-top: 50px;
-     margin-bottom: 100px;
-     padding: 30px;
+  margin-left: 40px;
+  width: 65%;
+  padding: 20px;
+  border: 0px solid red;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  /* padding: 30px; */
 }
 
 #first {
-   
-    width:30%;
-    /* height: 70%; */
-    border: 0px solid green;
-   border-radius: 25% 25% 25% 25%;
-   padding: 10px;
-    
+  margin-top: 40px;
+
+  width: 30%;
+  /* height: 70%; */
+  border: 0px solid green;
+  border-radius: 25% 25% 25% 25%;
+  padding: 20px;
+}
+#first > img {
+  width: 70%;
+  margin: auto;
 }
 .name {
-    font-size: 25px;
-    font-family: 'Bree Serif', serif;
-    font-weight: bold;
+  font-size: 25px;
+  font-family: "Bree Serif", serif;
+  font-weight: bold;
 }
 
-
 .namep {
-
-    font-size: 20px;
-    padding-top: 20px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 #resumeDiv {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    color: #FEF5ED;
-    width: fit-content;
-    padding: 3px 10px 3px 10px;
-    border-radius: 7px;
-    margin-top: 20px;
-    border: 0px solid blue;
-    cursor: pointer;
-       font-family: serif;
-    margin-right: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #fef5ed;
+  width: fit-content;
+  padding: 3px 10px 3px 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  border: 1px solid blue;
+  cursor: pointer;
+  font-family: serif;
+  margin-right: 100px;
+  background-color: #4c3575;
 }
-#resumeDiv:hover{
-    background: rgb(121,114,232);
-background: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgba(26,150,236,1) 99%);
+#resumeDiv:hover {
+  background: rgb(121, 114, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
 }
 
 .resumeButton {
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-       font-family: serif;
-    cursor: pointer;
-    border: 0px solid red;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  cursor: pointer;
+  border: 0px solid red;
 }
 
 .resumeDownloadLogo {
-    font-size: 22px;
+  font-size: 22px;
 }
 
-@media screen and (max-width:1180px) and (min-width:760px) {
-    #about_head {
-        font-size: 3xl;
-        text-align: center;
-    }
-    .aboutDiv {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        width: 95%;
-        /* height: 430px; */
-        margin-top: 30px;
-        border-radius: 30px;
-        align-items: center;
-    }
-    #myImg {
-       
-        width:48%;
-        height: 100%;
-    }
-    .aboutDetails {
-        margin-top: 10px;
-        margin-left: 20px;
-    }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  #about_head {
+    font-size: 3xl;
+    text-align: center;
+  }
+  #aboutDiv {
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    width: 90%;
+    /* height: 430px; */
+    margin-top: 30px;
+    border-radius: 30px;
+    align-items: center;
+  }
+  #first {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 80px;
+  }
+  #myImg {
+    width: 48%;
+    height: 100%;
+  }
+  .aboutDetails {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 
-    .name {
-        font-size: 20px;
+  .name {
+    font-size: 20px;
+  }
 
-    }
+  .namep {
+    /* margin-top: 20px; */
 
-    .namep {
-        margin-top: 20px;
-        font-size: 20px;
-    }
+    font-size: 20px;
+  }
 
-    #resumeButton {
-        font-size: 18px;
-    }
+  #resumeButton {
+    font-size: 18px;
+  }
 
-    .resumeDownloadLogo {
-        font-size: 18px;
-    }
+  .resumeDownloadLogo {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width:759px) and (min-width:200px) {
-    #about_head {
-        font-size: 3xl;
-        text-align: center;
-    }
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  #about_head {
+    font-size: 3xl;
+    text-align: center;
+  }
 
-    #aboutDiv {
-        flex-direction: column;
-        width: 80%;
-        /* height: 700px; */
-    }
+  #aboutDiv {
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+    /* height: 700px; */
+  }
 
-    #myImg {
-        width: 100%;
-        height: 50%;
-          border-radius:  50%;
-      
-    }
+  #myImg {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+  }
 
-    .aboutDetails {
-        margin-top: 20px;
-        margin-left: 5px;
-        width: 100%;
-    }
+  .aboutDetails {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 80%;
+    margin: auto;
+  }
 
-    .name {
-        font-size: 18px;
-       
-        font-weight: bold;
-    }
+  .name {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #first {
+    width: 90%;
+    margin: auto;
+  }
 
-    .name:nth-child(1) {
-        font-size: 20px;
-    }
+  #first img {
+    width: 40%;
+    margin: auto;
+  }
+  .name:nth-child(1) {
+    font-size: 20px;
+  }
 
-    .namep {
-        /* color: #243D25; */
-        font-size: 16px;
-    }
+  .namep {
+    /* color: #243D25; */
+    font-size: 16px;
+    text-align: justify;
+  }
 
-    #resumeDiv {
-        margin-bottom: 20px;
-    }
+  #resumeDiv {
+    margin-bottom: 20px;
+  }
 
-    #resumeButton {
-        font-size: 16px;
-    }
+  #resumeButton {
+    font-size: 16px;
+  }
 
-    .resumeDownloadLogo {
-        font-size: 16px;
-    }
+  .resumeDownloadLogo {
+    font-size: 16px;
+  }
 }

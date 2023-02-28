@@ -9,13 +9,13 @@
   width: 90%;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
   font-family: serif;
-  padding: 20px;
+  /* justify-content: space-between; */
   border: 0px solid green;
+   place-items: center
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-
 }
 
 .skill_in_div {
@@ -23,10 +23,10 @@
 
   align-items: center;
 
-  width: 190px;
+  width: 80%;
   padding: 10px;
-
-margin-bottom: 40px;
+/* height: auto; */
+  margin-bottom: 40px;
   text-align: center;
   border-radius: 10px;
 
@@ -43,12 +43,13 @@ margin-bottom: 40px;
 
 .logo {
   width: 100%;
-  padding: 5px;
+  /* padding: 5px; */
   display: block;
   /* height: 200px; */
   /* display: block; */
-  border-radius: 5px;
-  border: 0px solid blue;
+  margin: auto;
+  /* border-radius: 5px; */
+  border: 0px solid rgb(255, 0, 0);
 }
 
 #skillH3 {
@@ -56,35 +57,38 @@ margin-bottom: 40px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
-
- font-family:  'Bree Serif', serif;
+  width: 100%;
+  margin: auto;
+  font-family: "Bree Serif", serif;
   border: 0px solid yellow;
   color: #4c3575;
- 
 }
 
 #skillH3:hover {
   color: #fef5ed;
 }
 
-@media screen and (max-width: 1180px) and (min-width: 760px) {
+@media screen and (max-width: 1180px) and (min-width: 768px) {
   #skillDiv {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px 10px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
   }
-
+#SkillH3{
+  width: 100%;
+  margin: auto;
+}
   .logo {
-    width: 65%;
+    /* width: 65%; */
   }
 }
-@media screen and (max-width: 759px) and (min-width: 200px) {
+@media screen and (max-width: 767px) and (min-width: 300px) {
   #skillDiv {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px 35px;
+    gap: 20px;
   }
 
   .logo {
-    width: 75%;
-    height: 125px;
+    /* width: 75%; */
+    /* height: 125px; */
   }
 }

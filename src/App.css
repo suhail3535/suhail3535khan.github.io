@@ -1,19 +1,24 @@
 .App {
- 
- 
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
   top: 0;
 }
 
 body {
-  font-family: 'Exo', sans-serif;
-
+  font-family: "Exo", sans-serif;
 }
 
 #themeButton {
   position: fixed;
-  top: 150px;
-  right: 30px;
+  top: 100px;
+  right: 10px;
   z-index: 1;
+}
+@media screen and (max-width: 767px) and (min-width: 320) {
+  #themeButton {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    z-index: 1;
+  }
 }

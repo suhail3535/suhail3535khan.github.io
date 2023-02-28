@@ -9,21 +9,20 @@ export default function Home({ colorMode }) {
 
     return (
       <div id="home">
-        <VStack
+        <div
           id={style.home}
           style={{ color: colorMode === "light" ? "#4C3575" : "#EBC7E8" }}
         >
-          <Flex
-            alignItems={isMediumScreen ? "end" : "start"}
-            flexDirection={isSmallScreen ? "row" : "column"}
+          <div className={style.img_txt_wrapper}
+            
           >
-            <Image
+            <img
               id={style.myImg}
               src="https://i.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.webp"
               alt="logo"
             />
-            <Box id={style.myDetailsDiv}>
-              <Heading id={style.myName}>
+            <div id={style.myDetailsDiv}>
+              <h1 id={style.myName}>
                 <span>
                   Hey,
                   <img
@@ -33,17 +32,17 @@ export default function Home({ colorMode }) {
                   />
                 </span>
                 <br /> I am Suhail Khan
-              </Heading>
-              <Heading id={style.title}>Full Stack Web Developer</Heading>
-            </Box>
-          </Flex>
-          <Box style={{ marginTop: "20px",fontFamily: 'Bree Serif, serif' }}>
+              </h1>
+              <h3 id={style.title}>Full Stack Web Developer</h3>
+            </div>
+          </div>
+          <div className={style.quote} style={{ marginTop: "20px",fontFamily: 'Bree Serif, serif' }}>
             <img  
               src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light"
               alt=""
             />
-          </Box>
-        </VStack>
+          </div>
+        </div>
       </div>
     );
 }
