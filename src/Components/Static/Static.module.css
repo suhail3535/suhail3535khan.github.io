@@ -13,7 +13,7 @@
     margin-bottom: 50px;
     border: 0px solid blue;
     overflow: hidden;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       padding: 20px;
 }
 

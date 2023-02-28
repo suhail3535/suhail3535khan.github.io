@@ -13,7 +13,8 @@ const GitHub = ({ colorMode }) => {
     width:"80%",
     padding: "20px",
     borderRadius: "10px",
-    border:"2px solid #371B58",
+    // border:"1px solid #371B58",
+    border:"1px solid #6f5a93",
   
   };
 

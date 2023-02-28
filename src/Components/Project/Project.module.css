@@ -6,7 +6,8 @@
 
 #projects {
     text-align: center;
-    width: 100%;
+    width: 90%;
+    margin: auto;
      font-family: 'Bree Serif', serif;
 }
 
@@ -21,14 +22,16 @@
 }
 
 #major_projectDiv {
-    border: 0px solid red;
+    border: px solid red;
     color: #4C3575;
     width: 95%;
    font-family: 'Bree Serif', serif;
     margin: auto;
     margin-top: 30px;
-    height: 380px;
+    /* height: 380px; */
+    height: auto;
     display: flex;
+
     justify-content: space-between;
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     border-radius: 15px;
@@ -55,14 +58,26 @@ border: 0px solid yellow;
     border-radius: 15px;
     border: 0px solid #753536;
     padding: 5px;
+        transition: all 0.2s ease-in-out;
+  box-shadow: #bfbdc27e 10px 10px 0px 0px;
+
 }
+.major_project_imgDiv :hover{
+ box-shadow: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
+  transform: scale(0.98);
+}
+
+
+
 
 .major_project_detailsDiv {
    
     margin: 20px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     border: 0px solid black;
     width: 50%;
+        transition: all 0.2s ease-in-out;
+  box-shadow: #bfbdc27e 10px 10px 0px 0px;
   font-family: 'Bree Serif', serif;
     border-radius: 15px;
     padding-left: 2.5%;
@@ -71,6 +86,13 @@ border: 0px solid yellow;
 
 }
 
+.major_project_detailsDiv  :hover{
+ box-shadow: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
+  transform: scale(0.98);
+}
+/* #style.design{
+    border: 3px solid blue;
+} */
 #major_project_detailsDiv_Heading {
     margin-bottom: 10px;
        font-family: 'Bree Serif', serif;

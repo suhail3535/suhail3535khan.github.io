@@ -81,9 +81,9 @@ background: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%
 .wrapperRight a:hover {
  transition: all 0.3s ease-in-out;
  cursor: pointer;
- color: rgb(121,114,232);
-color: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgba(26,150,236,1) 99%);
-
+ /* color: rgb(121,114,232);
+color: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgba(26,150,236,1) 99%); */
+color: black;
  font-weight: bold;
 }
 
