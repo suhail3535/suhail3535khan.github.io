@@ -9,7 +9,21 @@
   color: white;
   border-bottom: 1px solid white;
 }
+#logo{
+  border:0px solid red;
+  width:18%;
+  border-radius:5px;
 
+}
+/* #logo:hover{
+   background: rgb(121, 114, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
+} */
 .navbarScrolled {
   display: flex;
   justify-content: space-between;
@@ -139,7 +153,7 @@ color: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgb
   .wrapper {
     /* height: 80px; */
     width: 100%;
-    border: 1px solid red;
+    border: 0px solid red;
   }
 
   .responce {

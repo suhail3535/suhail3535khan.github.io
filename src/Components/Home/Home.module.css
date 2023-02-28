@@ -119,7 +119,7 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 300px) {
   #home {
     width: 90%;
     margin-top: 150px;
@@ -131,7 +131,7 @@
     flex-direction: column;
   }
   #myDetailsDiv {
-    width: 77%;
+    width: 100%;
     margin: auto;
   }
   .quote {

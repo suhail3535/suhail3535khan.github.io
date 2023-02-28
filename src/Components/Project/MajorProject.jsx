@@ -27,82 +27,82 @@ export default function MajorProject({ colorMode }) {
           data-aos-duration="3000"
           id={style.major_projectDiv}
         >
-          <Box className={style.major_project_imgDiv}>
+          <div className={style.major_project_imgDiv}>
             <Image
               className="project-skills-card-img"
               src="./rctproject.png"
               alt="aerowear"
             />
-          </Box>
+          </div>
 
-         
-            <Box
-              className={style.major_project_detailsDiv}
-              color={colorMode === "light" ? "#4C3575" : "#371B58"}
+          <div
+            className={style.major_project_detailsDiv}
+            color={colorMode === "light" ? "#4C3575" : "#371B58"}
+          >
+            <Heading
+              className="project-title"
+              id={style.major_project_detailsDiv_Heading}
+              size={["md", "md", "md", "lg"]}
             >
-              <Heading
-                className="project-title"
-                id={style.major_project_detailsDiv_Heading}
-                size={["md", "md", "md", "lg"]}
-              >
-                AeroWear.com
-              </Heading>
-              <Heading
-                className="project-description"
-                id={style.major_project_detailsDiv_detail}
-                fontWeight="500"
-                size={["xs", "sm", "sm", "md"]}
-              >
-                Aerowear is known for its trendy and affordable clothing, with a
-                focus on casual wear such as t-shirts, hoodies, and jeans. The
-                brand also offers a range of accessories such as bags..
-              </Heading>
-              <Heading
-                className="project-tech-stack"
-                id={style.major_project_detailsDiv_tehcs}
-                size={["sm", "sm", "sm", "sm"]}
-              >
-                Tech Stack: React| Redux | BootStrap | JavaScript | Chakra-UI |
-                Material Icon-uI
-              </Heading>
-              <Box
+              AeroWear.com
+            </Heading>
+            <Heading
+              className="project-description"
+              id={style.major_project_detailsDiv_detail}
+              fontWeight="500"
+              size={["xs", "sm", "sm", "md"]}
+            >
+              Aerowear is known for its trendy and affordable clothing, with a
+              focus on casual wear such as t-shirts, hoodies, and jeans. The
+              brand also offers a range of accessories such as bags..
+            </Heading>
+            <Heading
+              className="project-tech-stack"
+              id={style.major_project_detailsDiv_tehcs}
+              size={["sm", "sm", "sm", "sm"]}
+            >
+              Tech Stack: React| Redux | BootStrap | JavaScript | Chakra-UI |
+              Material Icon-uI
+            </Heading>
+            <div
+              className="project-card-btn"
+              id={style.major_project_detailsDi_btnDiv}
+            >
+              <Button
+                // id={style.btn_Prj}
                 className="project-card-btn"
-                id={style.major_project_detailsDi_btnDiv}
+                size={["xs", "sm", "sm", "sm"]}
               >
-                <Button
-                  className="project-card-btn"
-                  size={["xs", "sm", "sm", "sm"]}
+                <a
+                  className="project-github-link"
+                  id={style.links}
+                  rel="noreferrer"
+                  href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
+                  target="_blank"
                 >
-                  <a
-                    className="project-github-link"
-                    id={style.links}
-                    rel="noreferrer"
-                    href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
-                    target="_blank"
-                  >
-                    Source Code
-                  </a>
-                  &nbsp;
-                  <FaGithub />
-                </Button>
-                <Button
-                  className="project-deployed-link"
-                  size={["xs", "sm", "sm", "sm"]}
+                  Source Code
+                </a>
+                &nbsp;
+                <FaGithub id={style.links} />
+              </Button>
+              <Button
+                className="project-deployed-link"
+                size={["xs", "sm", "sm", "sm"]}
+                // id={style.btn_Prj}
+              >
+                <a
+                  id={style.links}
+                  rel="noreferrer"
+                  href="https://aerowear.netlify.app/"
+                  target="_blank"
                 >
-                  <a
-                    className={style.links}
-                    rel="noreferrer"
-                    href="https://aerowear.netlify.app/"
-                    target="_blank"
-                  >
-                    Live
-                  </a>
-                  &nbsp;
-                  <FaArrowRight />
-                </Button>
-              </Box>
-            </Box>
-         
+                  Live
+                </a>
+                &nbsp;
+                <FaArrowRight id={style.links} />
+              </Button>
+            </div>
+          </div>
         </div>
 
         <div
