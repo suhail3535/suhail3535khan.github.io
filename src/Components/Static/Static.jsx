@@ -24,7 +24,7 @@ function Static({ colorMode }) {
             <div
               data-aos-mirror="true"
               data-aos="flip-right"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -38,7 +38,7 @@ function Static({ colorMode }) {
             <div
               data-aos-mirror="true"
               data-aos="flip-right"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -51,8 +51,8 @@ function Static({ colorMode }) {
             </div>
             <div
               data-aos-mirror="true"
-              data-aos="flip-right"
-              data-aos-duration="2000"
+              data-aos="flip-left"
+              data-aos-duration="3000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -66,7 +66,7 @@ function Static({ colorMode }) {
             <div
               data-aos-mirror="true"
               data-aos="flip-left"
-              data-aos-duration="2000"
+              data-aos-duration="3000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
