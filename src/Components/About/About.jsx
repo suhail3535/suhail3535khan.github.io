@@ -7,6 +7,9 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { HiDownload } from 'react-icons/hi';
 // ..
+
+
+
 AOS.init();
 export default function About({ colorMode }) {
   const openLink = (url) => {
@@ -15,14 +18,23 @@ export default function About({ colorMode }) {
 
 
     return (
-      <div id="about" className="about section">
+      <div
+        id="about"
+        className="about section"
+        data-aos-mirror="true"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        
+
+      >
         <div
           id="About"
-          style={{ height: "50px", border: "0px solid blue", padding: "10px" }}
+          style={{ height: "100px", border: "0px solid blue", padding: "10px" }}
         ></div>
         <Heading
           size={["xl", "xl", "xl", "xl"]}
           textAlign="center"
+         
           fontFamily="Bree Serif, serif"
           color={colorMode === "light" ? "#4C3575" : "#BFACE0"}
         >
@@ -67,7 +79,6 @@ export default function About({ colorMode }) {
                 id={style.resumeDiv}
                 backgroundColor={colorMode === "light" ? "#4C3575" : "#BFACE0"}
               >
-                
                 <a
                   id="resume-link-2"
                   className={style.resumeButton}
@@ -90,7 +101,7 @@ export default function About({ colorMode }) {
                   >
                     Resume
                   </div>
-                  <HiDownload /> 
+                  <HiDownload />
                 </a>
               </div>
             </div>

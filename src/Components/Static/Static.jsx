@@ -1,6 +1,10 @@
 import React from "react";
 import style from './Static.module.css'
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 function Static({ colorMode }) {
 
   return (
@@ -18,6 +22,9 @@ function Static({ colorMode }) {
           </div>
           <div className={style.portfolios}>
             <div
+              data-aos-mirror="true"
+              data-aos="flip-right"
+              data-aos-duration="2000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -29,6 +36,9 @@ function Static({ colorMode }) {
               <h6>Mini Projects</h6>
             </div>
             <div
+              data-aos-mirror="true"
+              data-aos="flip-right"
+              data-aos-duration="2000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -40,6 +50,9 @@ function Static({ colorMode }) {
               <h6>Major Projects</h6>
             </div>
             <div
+              data-aos-mirror="true"
+              data-aos="flip-right"
+              data-aos-duration="2000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",
@@ -51,6 +64,9 @@ function Static({ colorMode }) {
               <h6>DSA Problem</h6>
             </div>
             <div
+              data-aos-mirror="true"
+              data-aos="flip-left"
+              data-aos-duration="2000"
               className={style.portfolio}
               style={{
                 backgroundColor: colorMode === "light" ? "#7858A6" : "#BFACE0",

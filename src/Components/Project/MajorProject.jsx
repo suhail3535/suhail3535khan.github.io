@@ -383,74 +383,11 @@ export default function MajorProject({ colorMode }) {
             </Box>
           </Box>
         </div>
+
+
+
+        
       </div>
     );
 }
   
-//  <div className="project-card" data-aos="" id={style.major_projectDiv}>
-//    <Box className={style.major_project_imgDiv}>
-//      <Image className="project-skills-card-img" src="./4.png" alt="triphub" />
-//    </Box>
-
-//    <Box
-//      className={style.major_project_detailsDiv}
-//      color={colorMode === "light" ? "#4C3575" : "#371B58"}
-//    >
-//      <Heading
-//        className="project-title"
-//        id={style.major_project_detailsDiv_Heading}
-//        size={["md", "md", "md", "lg"]}
-//      >
-//        Masai School Student Dashboard
-//      </Heading>
-//      <Heading
-//        className="project-description"
-//        id={style.major_project_detailsDiv_detail}
-//        fontWeight="500"
-//        size={["xs", "sm", "sm", "md"]}
-//      >
-//        Masai school student dashboard it is plateform here we can store the
-//        whole data and we can seprate it in different section.
-//      </Heading>
-//      <Heading
-//        className="project-tech-stack"
-//        id={style.major_project_detailsDiv_tehcs}
-//        size={["sm", "sm", "sm", "sm"]}
-//      >
-//        Tech Stack: React | Chakra Ui | Material Icon UI| BootStrap|JavaScript|
-//      </Heading>
-//      <Box
-//        className="project-card-btn"
-//        id={style.major_project_detailsDi_btnDiv}
-//      >
-//        <Button className="project-card-btn" size={["xs", "sm", "sm", "sm"]}>
-//          <a
-//            className="project-github-link"
-//            id={style.links}
-//            rel="noreferrer"
-//            href="https://github.com/masai-course/suhail_khan_fw21_0245/tree/master/unit-2/sprint-3/day-4/you/u2c4"
-//            target="_blank"
-//          >
-//            Source Code
-//          </a>
-//          &nbsp;
-//          <FaGithub />
-//        </Button>
-//        <Button
-//          className="project-deployed-link"
-//          size={["xs", "sm", "sm", "sm"]}
-//        >
-//          <a
-//            className={style.links}
-//            rel="noreferrer"
-//            href="https://masaidashbord.netlify.app/"
-//            target="_blank"
-//          >
-//            Live
-//          </a>
-//          &nbsp;
-//          <FaArrowRight />
-//        </Button>
-//      </Box>
-//    </Box>
-//  </div>;

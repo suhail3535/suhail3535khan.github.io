@@ -72,7 +72,7 @@ const GitHub = ({ colorMode }) => {
         >
           <Image
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=suhail3535&show_icons=true&title_color=03A9F4&text_color=03A9F4&icon_color=4974a5&bg_color=red&border_radius=10&border_color=005685"
+            src="https://github-readme-stats.vercel.app/api?username=suhail3535&show_icons=true&title_color=#4c3575&text_color=#4c3575&icon_color=#4c3575&bg_color=red&border_radius=10&border_color=#4c3575"
             alt="suhail-status"
           />
         </div>
@@ -86,7 +86,7 @@ const GitHub = ({ colorMode }) => {
         >
           <Image
             id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=suhail3535&title_color=4C3575&icon_color=4C3575&text_color=4C3575&bg_color=00000000&show_icons=true"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=suhail3535&title_color=4C3575&icon_color=#4c3575&text_color=#4c3575&bg_color=#a084ca&show_icons=true"
           />
         </div>
       </div>

@@ -11,7 +11,7 @@
     background-color: transparent;
     margin-top: 80px;
     margin-bottom: 50px;
-    border: 0px solid blue;
+    border: 5px solid blue;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       padding: 20px;
@@ -30,10 +30,18 @@
     z-index: -1;
 }
 
-.experiences,
+.experiences{
+
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+     font-family: 'Bree Serif', serif;
+}
 .portfolios {
     display: flex;
     flex-wrap: wrap;
+    color: white;
     justify-content: space-between;
     align-items: center;
      font-family: 'Bree Serif', serif;
