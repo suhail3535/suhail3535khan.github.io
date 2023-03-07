@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import style from "./Contact.module.css";
 import emailjs from "emailjs-com";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
+
 AOS.init();
 
 export default function Contact({colorMode}) {
@@ -116,7 +116,7 @@ export default function Contact({colorMode}) {
                   border: "0px solid green",
 
                   fontSize: "20px",
-                  color: "#DAE2B6",
+                  color: "white",
                   width: "100%",
                   fontWeight: "bold",
                 }}
@@ -132,10 +132,10 @@ export default function Contact({colorMode}) {
                 fontFamily="Bree Serif, serif"
                 style={{
                   border: "0px solid green",
-                 
+
                   fontWeight: "bold",
                   fontSize: "20px",
-                  color: "#DAE2B6",
+                  color: "white",
                   width: "100%",
                 }}
               >
@@ -149,7 +149,7 @@ export default function Contact({colorMode}) {
                 style={{
                   border: "0px solid green",
                   textAlign: "left",
-                  color: "#DAE2B6",
+                  color: "white",
                   width: "30%",
                   display: "flex",
                   fontSize: "20px",
@@ -160,7 +160,7 @@ export default function Contact({colorMode}) {
               >
                 <Box id="contact-linkedin">
                   <Link
-                    style={{ color: "#DAE2B6", textDecoration: "none" }}
+                    style={{   color: "white", textDecoration: "none" }}
                     href="https://www.linkedin.com/in/suhail-khan-6339a6127/"
                     isExternal
                   >
@@ -170,7 +170,7 @@ export default function Contact({colorMode}) {
                 |
                 <Box id="contact-github">
                   <Link
-                    style={{ color: "#DAE2B6", textDecoration: "none" }}
+                    style={{  color: "white", textDecoration: "none" }}
                     href="https://github.com/suhail3535"
                     isExternal
                   >
