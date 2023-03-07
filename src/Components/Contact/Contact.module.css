@@ -26,13 +26,14 @@
 
 #contact_head {
     font-size: 18px;
-    color: #4C3575;
+    /* color: #4C3575; */
     margin-bottom: 5px;
 }
 
 #contact_head1 {
     font-size: 18px;
-    color: #4C3575;
+    color: #283225;
+    /* color: #4C3575; */
     margin-bottom: 5px;
 }
 
@@ -40,6 +41,7 @@
     width: 80%;
     border-radius: 0px;
     background-color: #FEF5ED;
+    color: #283225;
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 10px;
@@ -51,6 +53,7 @@
     padding-bottom: 150px;
     border-radius: 0px;
     background-color: #FEF5ED;
+    color: #283225;
     border-radius: 20px;
     padding-left: 10px;
 }
