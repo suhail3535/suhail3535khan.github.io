@@ -52,8 +52,8 @@
     padding-top: 20px;
     padding-bottom: 150px;
     border-radius: 0px;
-    background-color: #FEF5ED;
-    color: #283225;
+    /* background-color: #FEF5ED; */
+    color: black;
     border-radius: 20px;
     padding-left: 10px;
 }
