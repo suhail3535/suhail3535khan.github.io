@@ -17,6 +17,8 @@ export default function About({ colorMode }) {
   };
 
 
+  
+
     return (
       <div
         id="about"
