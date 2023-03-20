@@ -212,7 +212,7 @@ export default function MajorProject({ colorMode }) {
           >
             <Image
               className="project-skills-card-img"
-              src="./1.png"
+              src="./main.png"
               alt="shopper"
             />
           </Box>
