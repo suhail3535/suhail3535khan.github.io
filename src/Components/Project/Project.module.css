@@ -163,7 +163,7 @@
   transform: none;
   box-shadow: none;
 }
-@media screen and (max-width: 1200px) and (min-width: 768px) {
+@media screen and (max-width: 1500px) and (min-width: 768px) {
   #majorMain {
     width: 100%;
     margin: auto;
