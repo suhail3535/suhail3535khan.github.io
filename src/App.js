@@ -39,6 +39,7 @@ function App() {
       <GitHub colorMode={colorMode} />
      <Contact colorMode={colorMode} />
       <Footer colorMode={colorMode} />
+  
     </div>
   );
 }

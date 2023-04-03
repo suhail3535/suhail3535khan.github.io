@@ -16,17 +16,19 @@ export default function Contact({colorMode}) {
 
     const SendMail = (e) => {
         e.preventDefault()
-        emailjs.sendForm(
-            'service_ecppgw3',
-            'template_mo11pxa',
+        emailjs
+          .sendForm(
+            "service_x9ycsef",
+            "template_z8igh3g",
             e.target,
-            'wjPfQ26fgtlE20kou')
-            .then((res) => {
-                console.log(res)
-            })
-            .catch((err) => {
-                console.log(err)
-            });
+            "E2IYLHqQiR80FBqk5"
+          )
+          .then((res) => {
+            console.log(res);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
         setName("")
         setEmail("")
         setSubject("")
@@ -74,7 +76,7 @@ export default function Contact({colorMode}) {
                 <input
                   className={style.input}
                   placeholder="Enter your Email"
-                  name="user_email"
+                  name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -160,7 +162,7 @@ export default function Contact({colorMode}) {
               >
                 <Box id="contact-linkedin">
                   <Link
-                    style={{   color: "white", textDecoration: "none" }}
+                    style={{ color: "white", textDecoration: "none" }}
                     href="https://www.linkedin.com/in/suhail-khan-6339a6127/"
                     isExternal
                   >
@@ -170,7 +172,7 @@ export default function Contact({colorMode}) {
                 |
                 <Box id="contact-github">
                   <Link
-                    style={{  color: "white", textDecoration: "none" }}
+                    style={{ color: "white", textDecoration: "none" }}
                     href="https://github.com/suhail3535"
                     isExternal
                   >
