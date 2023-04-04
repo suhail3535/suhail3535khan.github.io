@@ -12,16 +12,8 @@ export default function MajorProject({ colorMode }) {
  
 
     return (
-      <div
-        id="projects"
-        className={style.majorMain}
-     
-      >
-        <div
-          className="project-card"
-      
-          id={style.major_projectDiv}
-        >
+      <div id="projects" className={style.majorMain}>
+        <div className="project-card" id={style.major_projectDiv}>
           <div
             className={style.major_project_imgDiv}
             data-aos="flip-left"
@@ -96,7 +88,7 @@ export default function MajorProject({ colorMode }) {
                 <a
                   id={style.links}
                   rel="noreferrer"
-                  href="https://aerowear.netlify.app/"
+                  href="https://thinkable-slope.vercel.app/"
                   target="_blank"
                 >
                   Live
@@ -199,11 +191,7 @@ export default function MajorProject({ colorMode }) {
           </Box>
         </div>
 
-        <div
-          className="project-card"
-      
-          id={style.major_projectDiv}
-        >
+        <div className="project-card" id={style.major_projectDiv}>
           <Box
             className={style.major_project_imgDiv}
             data-aos="fade-right"
@@ -286,11 +274,7 @@ export default function MajorProject({ colorMode }) {
           </Box>
         </div>
 
-        <div
-          className="project-card"
-    
-          id={style.major_projectDiv}
-        >
+        <div className="project-card" id={style.major_projectDiv}>
           <Box
             className={style.major_project_imgDiv}
             data-aos-mirror="true"
@@ -372,10 +356,6 @@ export default function MajorProject({ colorMode }) {
             </Box>
           </Box>
         </div>
-
-
-
-        
       </div>
     );
 }
