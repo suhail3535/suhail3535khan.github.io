@@ -50,7 +50,8 @@ export default function About({ colorMode }) {
             <div id={style.first}>
               <Image
                 className="home-img"
-                src="mycropimg.png"
+                src="profile new-modified.png"
+                // src="profile-modified.png"
                 alt="Suhail Khan"
               />
             </div>
