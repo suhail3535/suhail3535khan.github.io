@@ -1,4 +1,4 @@
-import { Box, Heading, Link } from "@chakra-ui/react";
+import { Box, Heading, Link, Toast, useToast } from "@chakra-ui/react";
 import React, { useState } from "react";
 import style from "./Contact.module.css";
 import emailjs from "emailjs-com";
@@ -8,14 +8,14 @@ import "aos/dist/aos.css";
 AOS.init();
 
 export default function Contact({colorMode}) {
-
+  const toast = useToast();
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
 
-    const SendMail = (e) => {
-        e.preventDefault()
+  const SendMail = (e) => {
+    e.preventDefault()
         emailjs
           .sendForm(
             "service_x9ycsef",
@@ -25,6 +25,16 @@ export default function Contact({colorMode}) {
           )
           .then((res) => {
             console.log(res);
+             toast({
+               title: "Email has been send.",
+               description: "",
+               status: "success",
+               position: "top",
+               color:"black",
+               duration: 500,
+               
+               isClosable: true,
+             });
           })
           .catch((err) => {
             console.log(err);
