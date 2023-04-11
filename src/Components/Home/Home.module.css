@@ -79,7 +79,16 @@
   font-size: 18px;
   border: 0px solid pink;
 }
+/* <-------Back to top buttun------> */
+.bttBtn{
+    background-color: rgb(6, 103, 187);
+    color: red;
+}
 
+.bttBtn:hover{
+    background-color: red;
+}
+/* <-------Back to top buttun------> */
 @media screen and (max-width: 1124px) and (min-width: 768px) {
   #home {
     width: 90%;
@@ -159,41 +168,3 @@
     font-size: 18px;
   }
 }
-/* 
-@media screen and (max-width:480px) and (min-width:320px) {
-  #home {
-    width: 95%;
-    margin-top: 130px;
-  }
-
-  #myDetailsDiv {
-    width: 100%;
-    margin-left: 0px;
-    text-align: start;
-  }
-
-  #myName {
-    margin-bottom: 12px;
-    margin-top: 50px;
-    animation: none;
-    font-size: 32px;
-  }
-
-  #myImg {
-    margin: auto;
-    width: 90%;
-    height: 380px;
-  }
-
-  #title {
-    margin-bottom: 30px;
-    font-size: 24px;
-    animation: none;
-  }
-
-  #detail {
-    line-height: 24px;
-    font-size: 18px;
-  }
-
-} */
