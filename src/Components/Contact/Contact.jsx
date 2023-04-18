@@ -32,7 +32,7 @@ export default function Contact({colorMode}) {
                position: "top",
                color:"black",
                duration: 500,
-               
+
                isClosable: true,
              });
           })
@@ -173,7 +173,7 @@ export default function Contact({colorMode}) {
                 <Box id="contact-linkedin">
                   <Link
                     style={{ color: "white", textDecoration: "none" }}
-                    href="https://www.linkedin.com/in/suhail-khan-6339a6127/"
+                    href="https://www.linkedin.com/feed/"
                     isExternal
                   >
                     LinkedIn
