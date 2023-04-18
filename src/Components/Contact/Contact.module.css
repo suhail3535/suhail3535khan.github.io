@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-*{
- font-family: 'Bree Serif', serif;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    font-family: "Bree Serif", serif;
 }
 
 #contact_mainDiv {
@@ -17,6 +17,26 @@
     width: 40%;
 }
 
+.linkedin {
+    text-align: left;
+    width: 30%;
+    display: flex;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    justify-content: space-between;
+    border: 0px solid green;
+}
+.contact {
+    border: 0px solid green;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+
+
 #contact_rightDiv {
     width: 50%;
     margin-left: 50px;
@@ -32,7 +52,7 @@
 
 #contact_head1 {
     font-size: 18px;
-    color:  black;
+    color: black;
     /* color: #4C3575; */
     margin-bottom: 5px;
 }
@@ -41,7 +61,7 @@
     width: 80%;
     border-radius: 0px;
     /* background-color: #FEF5ED; */
-    
+
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 10px;
@@ -61,34 +81,34 @@
 .line {
     height: 2px;
     width: 60%;
-    border: 2px solid #FEF5ED;
+    border: 2px solid #fef5ed;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 #btn {
     padding: 10px 40px 10px 40px;
-    background-color: #FEF5ED;
+    background-color: #fef5ed;
     margin-top: 20px;
     margin-left: 50px;
     border-radius: 10px;
-    font-family: 'Bree Serif', serif;
+    font-family: "Bree Serif", serif;
     color: #283225;
     font-weight: bold;
     cursor: pointer;
 }
 
 #btn:hover {
-        background: rgb(121, 114, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
+    background: rgb(121, 114, 232);
+    background: linear-gradient(
+        90deg,
+        rgba(121, 114, 232, 1) 0%,
+        rgba(91, 91, 236, 1) 44%,
+        rgba(26, 150, 236, 1) 99%
+    );
 }
 
-@media screen and (max-width:1180px) and (min-width:760px) {
+@media screen and (max-width: 1180px) and (min-width: 760px) {
     .input {
         width: 90%;
     }
@@ -111,19 +131,14 @@
     }
 }
 
-@media screen and (max-width:400px) and (min-width:300px) {
-    
+@media screen and (max-width: 400px) and (min-width: 300px) {
     #contact_head1 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px 35px;
     }
-
-  
 }
 
-
-
-@media screen and (max-width:759px) and (min-width:320px) {
+@media screen and (max-width: 759px) and (min-width: 320px) {
     #contact_mainDiv {
         width: 90%;
         display: block;
@@ -179,7 +194,7 @@
     .line {
         height: 2px;
         width: 85%;
-        border: 2px solid #FEF5ED;
+        border: 2px solid #fef5ed;
         margin-top: 20px;
         margin-bottom: 20px;
     }
