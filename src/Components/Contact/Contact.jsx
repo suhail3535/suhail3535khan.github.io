@@ -118,7 +118,7 @@ export default function Contact({ colorMode }) {
                                 placeholder="Enter you Message"
                                 name="message"
                                 value={message}
-                                required
+                                required 
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                             <br />
