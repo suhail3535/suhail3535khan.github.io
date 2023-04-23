@@ -7,43 +7,43 @@ import "aos/dist/aos.css";
 
 AOS.init();
 
-export default function Contact({colorMode}) {
-  const toast = useToast();
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [subject, setSubject] = useState("")
-    const [message, setMessage] = useState("")
+export default function Contact({ colorMode }) {
+    const toast = useToast();
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
 
-  const SendMail = (e) => {
-    e.preventDefault()
+    const SendMail = (e) => {
+        e.preventDefault();
         emailjs
-          .sendForm(
-            "service_x9ycsef",
-            "template_z8igh3g",
-            e.target,
-            "E2IYLHqQiR80FBqk5"
-          )
-          .then((res) => {
-            console.log(res);
-             toast({
-               title: "Email has been send.",
-               description: "",
-               status: "success",
-               position: "top",
-               color:"black",
-               duration: 500,
+            .sendForm(
+                "service_x9ycsef",
+                "template_z8igh3g",
+                e.target,
+                "E2IYLHqQiR80FBqk5"
+            )
+            .then((res) => {
+                console.log(res);
+                toast({
+                    title: "Email has been send.",
+                    description: "",
+                    status: "success",
+                    position: "top",
+                    color: "black",
+                    duration: 500,
 
-               isClosable: true,
-             });
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-        setName("")
-        setEmail("")
-        setSubject("")
-        setMessage("")
-    }
+                    isClosable: true,
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+    };
 
     return (
         <Box
@@ -76,6 +76,7 @@ export default function Contact({colorMode}) {
                                 placeholder="Enter your Name"
                                 name="name"
                                 value={name}
+                                required
                                 onChange={(e) => setName(e.target.value)}
                             />
 
@@ -89,6 +90,7 @@ export default function Contact({colorMode}) {
                                 placeholder="Enter your Email"
                                 name="email"
                                 value={email}
+                                required
                                 onChange={(e) => setEmail(e.target.value)}
                             />
 
@@ -102,6 +104,7 @@ export default function Contact({colorMode}) {
                                 placeholder="Enter your Subject"
                                 name="subject"
                                 value={subject}
+                                required
                                 onChange={(e) => setSubject(e.target.value)}
                             />
 
@@ -115,6 +118,7 @@ export default function Contact({colorMode}) {
                                 placeholder="Enter you Message"
                                 name="message"
                                 value={message}
+                                required
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                             <br />
@@ -129,9 +133,7 @@ export default function Contact({colorMode}) {
                             id={style.contact_head1}>
                             E-Mail
                         </Heading>
-                        <div
-                            id="contact-email"
-                            className={style.contact}>
+                        <div id="contact-email" className={style.contact}>
                             khansohail015@gmail.com
                         </div>
                         <div className={style.line}></div>
@@ -184,7 +186,3 @@ export default function Contact({colorMode}) {
         </Box>
     );
 }
-
-
-
-
