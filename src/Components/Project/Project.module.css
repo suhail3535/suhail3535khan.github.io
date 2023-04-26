@@ -20,14 +20,14 @@
   font-family: "Bree Serif", serif;
 }
 #btn_Prj {
- 
+
   border: 2px solid red;
   color: white;
   background-color: #4c3575;
 }
 #btn_Prj:hover {
   background-color: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
-  
+
 }
 
 #major_projectDiv {
@@ -163,7 +163,7 @@
   transform: none;
   box-shadow: none;
 }
-@media screen and (max-width: 1500px) and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1500px)  {
   #majorMain {
     width: 100%;
     margin: auto;
@@ -205,7 +205,7 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 300px) {
+@media all and (min-width: 300px) and (max-width: 767px) {
   #majorMain {
     width: 95%;
   }

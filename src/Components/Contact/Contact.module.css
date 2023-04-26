@@ -89,7 +89,10 @@
     padding: 10px 40px 10px 40px;
     background-color: #fef5ed;
     margin-top: 20px;
-    margin-left: 50px;
+    width: 50%;
+    margin: 50px auto;
+    border: 0px solid green;
+    margin-left: 70px;
     border-radius: 10px;
     font-family: "Bree Serif", serif;
     color: #283225;
@@ -107,52 +110,121 @@
     );
 }
 
-@media screen and (max-width: 1180px) and (min-width: 760px) {
-    .input {
-        width: 90%;
-    }
-
-    .input1 {
-        width: 90%;
-        padding-bottom: 130px;
-    }
-
-    #contact_leftDiv {
-        width: 50%;
-    }
-
-    #contact_rightDiv {
-        width: 40%;
-    }
-
-    .line {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 400px) and (min-width: 300px) {
+@media all and (min-width: 325px) and (max-width: 767px) {
     #contact_head1 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px 35px;
+        border: 0px solid blue;
     }
-}
-
-@media screen and (max-width: 759px) and (min-width: 320px) {
     #contact_mainDiv {
         width: 90%;
-        display: block;
+
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #btn {
+        width: 100%;
+        margin: auto;
+        padding: 10px 40px 10px 40px;
+        background-color: #fef5ed;
+        margin-top: 20px;
+        /* margin-left: 50px; */
+        border-radius: 10px;
+        font-family: "Bree Serif", serif;
+        color: #283225;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #btn:hover {
+        background: rgb(121, 114, 232);
+        background: linear-gradient(
+            90deg,
+            rgba(121, 114, 232, 1) 0%,
+            rgba(91, 91, 236, 1) 44%,
+            rgba(26, 150, 236, 1) 99%
+        );
+    }
+    .linkedin {
+        text-align: left;
+        width: 80%;
+        /* margin:auto; */
+        display: flex;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+        justify-content: space-between;
+        border: 0px solid green;
+    }
+    .contact {
+        border: 0px solid green;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        width: 100%;
+    }
+    #contact_leftDiv {
+        width: 100%;
+    }
+
+    #contact_rightDiv {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
+        /* background-color: #FEF5ED; */
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .input1 {
+        width: 100%;
+        margin: auto;
+
+        padding-top: 20px;
+        padding-bottom: 150px;
+        border-radius: 0px;
+        /* background-color: #FEF5ED; */
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+    #contact_rightDiv {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        border: 0px solid yellow;
+        padding: 10px;
+    }
+    .line {
+    height: 2px;
+    width: 85%;
+
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1280px) {
+    #contact_mainDiv {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+
         padding-bottom: 20px;
         padding-top: 20px;
     }
 
     #contact_leftDiv {
-        width: 100%;
+        width: 48%;
     }
 
     #contact_rightDiv {
         margin-top: 30px;
         margin-left: 0px;
-        width: 100%;
+        width: 48%;
     }
 
     #contact_head {
@@ -172,7 +244,8 @@
     }
 
     .input {
-        width: 80%;
+        width: 100%;
+        margin: auto;
         border-radius: 0px;
         /* background-color: #FEF5ED; */
         border-radius: 5px;
@@ -181,7 +254,9 @@
     }
 
     .input1 {
-        width: 80%;
+        width: 100%;
+        margin: auto;
+
         padding-top: 20px;
         padding-bottom: 150px;
         border-radius: 0px;
@@ -192,9 +267,31 @@
 
     .line {
         height: 2px;
-        width: 85%;
+        /* width: 80%; */
         border: 2px solid #fef5ed;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+  @media screen and (min-width: 1281px) and (max-width: 1400px) {
+    .input {
+        width: 100%;
+    }
+
+    .input1 {
+        width: 100%;
+        padding-bottom: 130px;
+    }
+
+    #contact_leftDiv {
+        width: 50%;
+    }
+
+    #contact_rightDiv {
+        width: 40%;
+    }
+
+    .line {
+        width: 60%;
     }
 }

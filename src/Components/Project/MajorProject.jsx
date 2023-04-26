@@ -33,7 +33,7 @@ export default function MajorProject({ colorMode }) {
                         className="project-title"
                         id={style.major_project_detailsDiv_Heading}
                         size={["md", "md", "md", "lg"]}>
-                        AeroWear.com
+                        AeroWear
                     </Heading>
                     <Heading
                         className="project-description"
@@ -92,6 +92,82 @@ export default function MajorProject({ colorMode }) {
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
+                    data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./fashion.png"
+                        alt="fashionFrenzy"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["md", "md", "md", "lg"]}>
+                        Fashion Frenzy
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Fashion Frenzy is ECommerce Website & is a clone of
+                        Anthropologie. With a vast collection of products of
+                        fashion and clothing, we offer a seamless shopping
+                        experience.!
+                    </Heading>
+                    <Heading
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}
+                        size={["sm", "sm", "sm", "sm"]}>
+                        Tech Stack: React| Redux | BootStrap | JavaScript |
+                        Chakra-UI | MongoDB
+                    </Heading>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/alive-run-138"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://frontend-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
+
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
                     data-aos-mirror="true"
                     data-aos="fade-left"
                     data-aos-duration="3000">
@@ -112,7 +188,7 @@ export default function MajorProject({ colorMode }) {
                         className="project-title"
                         id={style.major_project_detailsDiv_Heading}
                         size={["sm", "sm", "sm", "lg"]}>
-                        TripHub.com
+                        TripHub
                     </Heading>
                     <Heading
                         className="project-description"
@@ -166,80 +242,6 @@ export default function MajorProject({ colorMode }) {
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
-                    data-aos="fade-right"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
-                    <Image
-                        className="project-skills-card-img"
-                        src="./main.png"
-                        alt="shopper"
-                    />
-                </Box>
-
-                <Box
-                    className={style.major_project_detailsDiv}
-                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
-                    data-aos="fade-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
-                    <Heading
-                        className="project-title"
-                        id={style.major_project_detailsDiv_Heading}
-                        size={["md", "md", "md", "lg"]}>
-                        Shopper Korner.com
-                    </Heading>
-                    <Heading
-                        className="project-description"
-                        id={style.major_project_detailsDiv_detail}
-                        fontWeight="500"
-                        size={["xs", "sm", "sm", "md"]}>
-                        Shopper Korner is the clone of Gearbest.com it is a
-                        E-Commerce website.All the daily use products are
-                        available here.
-                    </Heading>
-                    <Heading
-                        className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}
-                        size={["sm", "sm", "sm", "sm"]}>
-                        Tech Stack: HTML| CSS | BootStrap |JavaScript
-                    </Heading>
-                    <Box
-                        className="project-card-btn"
-                        id={style.major_project_detailsDi_btnDiv}>
-                        <Button
-                            className="project-card-btn"
-                            size={["xs", "sm", "sm", "sm"]}>
-                            <a
-                                className="project-github-link"
-                                id={style.links}
-                                rel="noreferrer"
-                                href="https://github.com/suhail3535/Indigo-railway-8753"
-                                target="_blank">
-                                Source Code
-                            </a>
-                            &nbsp;
-                            <FaGithub />
-                        </Button>
-                        <Button
-                            className="project-deployed-link"
-                            size={["xs", "sm", "sm", "sm"]}>
-                            <a
-                                className={style.links}
-                                rel="noreferrer"
-                                href="https://vermillion-cendol-8a7209.netlify.app/"
-                                target="_blank">
-                                Live
-                            </a>
-                            &nbsp;
-                            <FaArrowRight />
-                        </Button>
-                    </Box>
-                </Box>
-            </div>
-
-            <div className="project-card" id={style.major_projectDiv}>
-                <Box
-                    className={style.major_project_imgDiv}
                     data-aos-mirror="true"
                     data-aos="flip-left"
                     data-aos-duration="3000">
@@ -260,7 +262,7 @@ export default function MajorProject({ colorMode }) {
                         className="project-title"
                         id={style.major_project_detailsDiv_Heading}
                         size={["md", "md", "md", "lg"]}>
-                        TopTrip.com
+                        TopTrip
                     </Heading>
                     <Heading
                         className="project-description"
