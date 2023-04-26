@@ -81,7 +81,7 @@ export default function Skills({ colorMode }) {
       {
           id: "2",
           name: "Github",
-          logo: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+          logo: "https://cdn-icons-png.flaticon.com/512/733/733553.png",
       },
 
       {

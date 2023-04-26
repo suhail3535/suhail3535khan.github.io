@@ -110,7 +110,7 @@
     );
 }
 
-@media all and (min-width: 325px) and (max-width: 767px) {
+@media all and (min-width: 300px) and (max-width: 767px) {
     #contact_head1 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px 35px;

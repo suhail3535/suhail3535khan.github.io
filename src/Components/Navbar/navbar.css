@@ -96,12 +96,13 @@
 }
 
  .responce {
-  border: 2px solid blue;
+  border: 0px solid blue;
+  display: none;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+ @media all and (min-width: 768px) and (max-width: 1024px) {
   .wrapperRight {
-     /* display: none; */
+      display: none;
   }
 
   .responce {
@@ -123,10 +124,10 @@
     color: #6a6a6a;
   }
 
-  /* .navbar-resume {
+   .navbar-resume {
     background-color: #1a1a1a;
     color: white;
-  } */
+  }
 
   .navbar-resume:hover {
     background: rgb(121, 114, 232);
@@ -137,14 +138,14 @@
     rgba(26, 150, 236, 1) 99%
   );
   }
-}
-@media all and (min-width: 280px) and (max-width: 767px) {
+} 
+ @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
-    /* display: none; */
+     display: none;
   }
 
   .wrapper {
-    /* height: 80px; */
+
     width: 100%;
     border: 0px solid red;
   }
@@ -180,3 +181,70 @@
     );
   }
 }
+
+
+/* @media all and (min-width: 768px) and (max-width: 1024px) {
+    .wrapperRight {
+        display: none;
+    }
+
+    .responce {
+        margin-right: 40px;
+        display: block;
+        font-size: 30px;
+    }
+
+    .drawerbody {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .drawerbody a:hover {
+        cursor: pointer;
+        color: #6a6a6a;
+    }
+
+    .navbar-resume {
+        background-color: rgb(225, 83, 76);
+        color: white;
+    }
+
+    .navbar-resume:hover {
+        background: rgba(255, 255, 255, 0.125);
+    }
+}
+@media all and (min-width: 280px) and (max-width: 767px) {
+    .wrapperRight {
+        display: none;
+    }
+
+    .responce {
+        margin-right: 40px;
+        display: block;
+        font-size: 30px;
+    }
+
+    .drawerbody {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .drawerbody a:hover {
+        cursor: pointer;
+        color: #6a6a6a;
+    }
+
+    .navbar-resume {
+        background-color: #1a1a1a;
+        color: white;
+    }
+    .navbar-resume:hover {
+        background: rgba(255, 255, 255, 0.125);
+    }
+} */

@@ -50,7 +50,7 @@ export default function MajorProject({ colorMode }) {
                         id={style.major_project_detailsDiv_tehcs}
                         size={["sm", "sm", "sm", "sm"]}>
                         Tech Stack: React| Redux | BootStrap | JavaScript |
-                        Chakra-UI | Material Icon-uI
+                        Chakra-UI 
                     </Heading>
                     <div
                         className="project-card-btn"
