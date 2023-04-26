@@ -98,8 +98,12 @@ export default function Skills({ colorMode }) {
           id: "5",
           name: "Vercel",
           logo: "https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png",
-      }
-
+      },
+      {
+          id: "6",
+          name: "Cyclic",
+          logo: "https://www.cyclic.sh/og/summary_large_image.png",
+      },
   ];
   return (
       <div id="skills">

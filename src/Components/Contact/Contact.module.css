@@ -124,11 +124,12 @@
         padding-top: 20px;
     }
     #btn {
+        border: 0px solid red;
         width: 100%;
-        margin: auto;
+        margin: 20px auto;
         padding: 10px 40px 10px 40px;
         background-color: #fef5ed;
-        margin-top: 20px;
+
         /* margin-left: 50px; */
         border-radius: 10px;
         font-family: "Bree Serif", serif;

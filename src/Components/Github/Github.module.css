@@ -4,7 +4,7 @@
 }
 
 #stat {
-    border: 1px solid green;
+    border: 0px solid green;
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
     justify-content: space-around;
