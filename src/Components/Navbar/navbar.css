@@ -102,7 +102,7 @@
 
  @media all and (min-width: 768px) and (max-width: 1024px) {
   .wrapperRight {
-      /* display: none; */
+      display: none;
   }
 
   .responce {
@@ -141,7 +141,7 @@
 }
  @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
-     /* display: none; */
+     display: none;
   }
 
   .wrapper {
