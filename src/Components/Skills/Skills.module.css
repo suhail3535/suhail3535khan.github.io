@@ -2,18 +2,18 @@
   width: 90%;
   margin: auto;
   font-family: serif;
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 #skillDiv {
   width: 90%;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   font-family: serif;
   /* justify-content: space-between; */
-  border: 0px solid green;
+  border: 5px solid green;
    place-items: center
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
@@ -33,6 +33,7 @@
   transition: all 0.2s ease-in-out;
   box-shadow: #d3c7e8af 10px 10px 0px 0px;
 }
+
 .skill_in_div:nth-child(9){
   border: 0px solid green;
   height: 81%;
@@ -45,6 +46,10 @@
   border: 0px solid green;
   height: 81%;
 }
+.skill_in_div:nth-child(12){
+  border: 0px solid green;
+  height: 81%;
+}
 .skill_in_div:hover {
   /* border: 2px solid rgba(255, 255, 255, 0.125); */
   /* color: white; */
@@ -54,13 +59,12 @@
 
 .logo {
   width: 100%;
-  /* padding: 5px; */
+
   display: block;
-  /* height: 200px; */
-  /* display: block; */
+
   padding: 5px;
   margin: auto;
-  /* border-radius: 5px; */
+
   border: 0px solid rgb(255, 0, 0);
 }
 
@@ -80,7 +84,7 @@
   color: #fef5ed;
 }
 
-@media screen and (max-width: 1180px) and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1280px) {
   #skillDiv {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -93,10 +97,11 @@
     /* width: 65%; */
   }
 }
-@media screen and (max-width: 767px) and (min-width: 300px) {
+@media all and (min-width: 300px) and (max-width: 767px) {
   #skillDiv {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding-right: 10px;
   }
 
   .logo {
