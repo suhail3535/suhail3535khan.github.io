@@ -110,7 +110,7 @@ color: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgb
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .wrapperRight {
-    display: none;
+    /* display: none; */
   }
 
   .responce {
@@ -149,7 +149,7 @@ color: linear-gradient(90deg, rgba(121,114,232,1) 0%, rgba(91,91,236,1) 44%, rgb
 }
 @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
-    display: none;
+    /* display: none; */
   }
 
   .wrapper {
