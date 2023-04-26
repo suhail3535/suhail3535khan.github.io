@@ -58,10 +58,12 @@
 
 #resumeDiv {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-size: 15px;
   color: #fef5ed;
-  width: fit-content;
+  width: 25%;
+  /* width: fit-content; */
   padding: 3px 10px 3px 10px;
   border-radius: 7px;
   margin-top: 20px;
@@ -84,9 +86,11 @@
 .resumeButton {
   font-size: 22px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   justify-content: center;
   font-family: serif;
+  width: 100%;
   cursor: pointer;
   border: 0px solid red;
 }
@@ -101,11 +105,9 @@
     text-align: center;
   }
   #aboutDiv {
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
     width: 90%;
-    /* height: 430px; */
+
     margin-top: 30px;
     border-radius: 30px;
     align-items: center;
@@ -143,7 +145,7 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 300px) {
+@media all and (min-width: 300px) and (max-width: 767px) {
   #about_head {
     font-size: 3xl;
     text-align: center;
@@ -193,20 +195,51 @@
     text-align: justify;
   }
 
-  #resumeDiv {
+
+#resumeDiv {
+  display: flex;
+  width: 100%;
+  margin: auto;
     margin-bottom: 20px;
-  }
+  align-items: center;
+  font-size: 15px;
+  color: #fef5ed;
 
-  #resumeButton {
-    font-size: 16px;
-  }
+  padding: 3px 10px 3px 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  border: 0px solid rgb(255, 0, 230);
+  cursor: pointer;
+  font-family: serif;
 
+  background-color: #4c3575;
+}
+#resumeDiv:hover {
+  background: rgb(121, 114, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
+}
+
+.resumeButton {
+  font-size: 22px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  cursor: pointer;
+  border: 0px solid rgb(153, 255, 0);
+}
   .resumeDownloadLogo {
     font-size: 16px;
   }
 }
 #about section{
-  border: 1px solid red;
-  
+  border: 0px solid red;
+
 
 }

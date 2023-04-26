@@ -149,6 +149,7 @@ export default function Skills({ colorMode }) {
                   ))}
               </div>
           </div>
+          <div id="Skills" style={{ height: "20px" }}></div>
           <div className="skills-card-name" id={style.skill}>
               <Heading
                   size={["xl", "xl", "xl", "xl"]}

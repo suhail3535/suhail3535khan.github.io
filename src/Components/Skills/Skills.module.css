@@ -2,18 +2,19 @@
   width: 90%;
   margin: auto;
   font-family: serif;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 #skillDiv {
   width: 90%;
   margin: 20px auto;
   display: grid;
+  margin-top: 50px;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   font-family: serif;
   /* justify-content: space-between; */
-  border: 5px solid green;
+  border: 0px solid green;
    place-items: center
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
@@ -51,8 +52,7 @@
   height: 81%;
 }
 .skill_in_div:hover {
-  /* border: 2px solid rgba(255, 255, 255, 0.125); */
-  /* color: white; */
+
   box-shadow: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
   transform: scale(0.98);
 }
@@ -93,9 +93,7 @@
   width: 100%;
   margin: auto;
 }
-  .logo {
-    /* width: 65%; */
-  }
+
 }
 @media all and (min-width: 300px) and (max-width: 767px) {
   #skillDiv {
@@ -104,8 +102,5 @@
     padding-right: 10px;
   }
 
-  .logo {
-    /* width: 75%; */
-    /* height: 125px; */
-  }
+
 }
