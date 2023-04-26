@@ -8,6 +8,7 @@
   width: 90%;
   margin: auto;
   font-family: "Bree Serif", serif;
+  border:0px solid greenyellow;
 }
 
 #majorMain {
@@ -21,7 +22,7 @@
 }
 #btn_Prj {
 
-  border: 2px solid red;
+  border: 0px solid red;
   color: white;
   background-color: #4c3575;
 }
@@ -208,11 +209,13 @@
 @media all and (min-width: 300px) and (max-width: 767px) {
   #majorMain {
     width: 95%;
+    border: 1px solid green;
   }
 
   #major_projectDiv {
     width: 90%;
     height: auto;
+      border: 0px solid green;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
@@ -244,6 +247,7 @@
 
   #major_project_detailsDiv_detail {
     margin-bottom: 20px;
+    text-align: center;
   }
 
   #major_project_detailsDiv_tehcs {
@@ -251,14 +255,20 @@
   }
 
   #major_project_detailsDi_btnDiv {
-    width: 95%;
+    width: 100%;
+      border: 0px solid rgb(11, 0, 128);
+      justify-content: space-between;
     margin-top: 10px;
   }
 
   #major_project_detailsDi_btnDiv > button {
     margin-top: 10px;
-    /* padding: 15px 15px; */
+      padding: 10px 10px;
+    border: 0px solid green;
+
+    margin: 5px;
   }
+
 
   .links {
     font-size: 14px;

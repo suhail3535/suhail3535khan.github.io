@@ -43,14 +43,14 @@ export default function MajorProject({ colorMode }) {
                         Aerowear is known for its trendy and affordable
                         clothing, with a focus on casual wear such as t-shirts,
                         hoodies, and jeans. The brand also offers a range of
-                        accessories such as bags..
+                        accessories such as bags.
                     </Heading>
                     <Heading
                         className="project-tech-stack"
                         id={style.major_project_detailsDiv_tehcs}
                         size={["sm", "sm", "sm", "sm"]}>
                         Tech Stack: React| Redux | BootStrap | JavaScript |
-                        Chakra-UI 
+                        Chakra-UI
                     </Heading>
                     <div
                         className="project-card-btn"
@@ -83,7 +83,7 @@ export default function MajorProject({ colorMode }) {
                                 Live
                             </a>
                             &nbsp;
-                            <FaArrowRight id={style.links} />
+                            <FaArrowRight />
                         </Button>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ export default function MajorProject({ colorMode }) {
                         id={style.major_project_detailsDiv_tehcs}
                         size={["sm", "sm", "sm", "sm"]}>
                         Tech Stack: React | Chakra Ui | Material Icon UI|
-                        BootStrap|JavaScript|
+                        BootStrap|JavaScript
                     </Heading>
                     <Box
                         className="project-card-btn"
