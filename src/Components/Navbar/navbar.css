@@ -102,7 +102,7 @@
 
  @media all and (min-width: 768px) and (max-width: 1024px) {
   .wrapperRight {
-      display: none;
+      /* display: none; */
   }
 
   .responce {
@@ -138,10 +138,10 @@
     rgba(26, 150, 236, 1) 99%
   );
   }
-} 
+}
  @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
-     display: none;
+     /* display: none; */
   }
 
   .wrapper {
@@ -183,68 +183,3 @@
 }
 
 
-/* @media all and (min-width: 768px) and (max-width: 1024px) {
-    .wrapperRight {
-        display: none;
-    }
-
-    .responce {
-        margin-right: 40px;
-        display: block;
-        font-size: 30px;
-    }
-
-    .drawerbody {
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .drawerbody a:hover {
-        cursor: pointer;
-        color: #6a6a6a;
-    }
-
-    .navbar-resume {
-        background-color: rgb(225, 83, 76);
-        color: white;
-    }
-
-    .navbar-resume:hover {
-        background: rgba(255, 255, 255, 0.125);
-    }
-}
-@media all and (min-width: 280px) and (max-width: 767px) {
-    .wrapperRight {
-        display: none;
-    }
-
-    .responce {
-        margin-right: 40px;
-        display: block;
-        font-size: 30px;
-    }
-
-    .drawerbody {
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .drawerbody a:hover {
-        cursor: pointer;
-        color: #6a6a6a;
-    }
-
-    .navbar-resume {
-        background-color: #1a1a1a;
-        color: white;
-    }
-    .navbar-resume:hover {
-        background: rgba(255, 255, 255, 0.125);
-    }
-} */
