@@ -3,6 +3,7 @@
   margin: auto;
   font-family: serif;
   border: 0px solid red;
+      cursor: pointer;
 }
 
 #skillDiv {

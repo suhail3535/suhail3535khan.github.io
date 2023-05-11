@@ -29,7 +29,7 @@ const GitHub = ({ colorMode }) => {
               <GitHubCalendar
                   class="react-activity-calendar"
                   fontFamily="Bree Serif, serif"
-                  style={{ margin: "auto", color: "#4C3575" }}
+                  style={{ margin: "auto", color: "#4C3575",cursor: "pointer"}}
                   username="suhail3535"
                   blockSize={20}
                   year={new Date().getFullYear()}>

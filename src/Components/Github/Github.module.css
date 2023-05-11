@@ -6,16 +6,17 @@
 #stat {
     border: 0px solid green;
     display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
+
     justify-content: space-around;
     width: 90%;
     margin: auto;
-    /* gap: 30px; */
+
+    cursor: pointer;
     margin-top: 40px;
     align-items: center;
     padding: 30px;
 }
-#stat>div img{
+#stat > div img {
     margin: auto;
     width: 100%;
     border: 0px solid red;
@@ -64,32 +65,30 @@
         border: 0px solid green;
     }
     #github {
-    margin: auto;
-    width: 92%;
-    padding: 5px;
-    font-size: 10px;
-    border-radius: 10px;
-    border: 1px solid #6f5a93;
-}
-.one {
-    width: 100%;
-    border: 0px solid blue;
+        margin: auto;
+        width: 92%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px solid #6f5a93;
+    }
+    .one {
+        width: 100%;
+        border: 0px solid blue;
 
-
-    border-radius: 5px;
+        border-radius: 5px;
+    }
+    .two {
+        width: 100%;
+        border: 0px solid blue;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .three {
+        width: 100%;
+        border: 0px solid blue;
+        background-color: #fffefe;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
 }
-.two {
-    width: 100%;
-    border: 0px solid blue;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-.three {
-    width: 100%;
-    border: 0px solid blue;
-    background-color: #fffefe;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-}
-

@@ -1,9 +1,10 @@
 .App {
   width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
   margin: auto;
   position: absolute;
   top: 0;
+
   border: 0px solid red;
 }
 
