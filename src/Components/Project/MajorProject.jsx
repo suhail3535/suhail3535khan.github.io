@@ -312,6 +312,228 @@ export default function MajorProject({ colorMode }) {
                     </Box>
                 </Box>
             </div>
+            {/* ***************minor project********* */}
+            <div id={style.seceond_section}>
+                <div id={style.card1}>
+                    <img src="./todonew.png" alt="" />
+                    <div id={style.dropdown}>
+                        <Heading
+                            id={style.title}
+                            size={["md", "md", "md", "lg"]}>
+                            Todo Application
+                        </Heading>
+                        <Heading
+                            id={style.discription}
+                            fontWeight="500"
+                            size={["xs", "sm", "sm", "md"]}>
+                            A JavaScript Todo app with essential features:
+                            adding todos, retrieving todos, and deleting todos.
+                            Streamline your task management effortlessly and
+                            efficiently. Simplify your workflow with this
+                            user-friendly application..!
+                        </Heading>
+                        <Heading
+                            id={style.tech_stack}
+                            size={["md", "md", "md", "lg"]}>
+                            Tech Stack: HTML| CSS |JavaScript.
+                        </Heading>
+                        <div className="project-card-btn" id={style.source_btn}>
+                            <Button
+                                className="project-card-btn"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    className="project-github-link"
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://github.com/suhail3535/JavaScript_Todo-APP/tree/main/Todo-List-App-with-Javascript-main"
+                                    target="_blank">
+                                    Source Code
+                                </a>
+                                &nbsp;
+                                <FaGithub id={style.links} />
+                            </Button>
+                            <Button
+                                className="project-deployed-link"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://stellar-tanuki-bd576d.netlify.app/"
+                                    target="_blank">
+                                    Live
+                                </a>
+                                &nbsp;
+                                <FaArrowRight />
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id={style.card2}>
+                    <img src="./shopper.png" alt="" />
+                    <div id={style.dropdown}>
+                        <Heading
+                            id={style.title}
+                            size={["md", "md", "md", "lg"]}>Shopper Korner</Heading>
+                        <Heading
+                            id={style.discription}
+                            fontWeight="500"
+                            size={["xs", "sm", "sm", "md"]}>
+                            Shopper Korner is the clone of Gearbest.com it is a
+                            E-Commerce website.All the daily use products are
+                            available here.!
+                        </Heading>
+                        <Heading
+                            id={style.tech_stack}
+                            size={["xs", "md", "md", "md"]}>
+                            Tech Stack: HTML | CSS | JavaScript | Bootstrap.
+                        </Heading>
+                        <div className="project-card-btn" id={style.source_btn}>
+                            <Button
+                                className="project-card-btn"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    className="project-github-link"
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://github.com/suhail3535/Indigo-railway-8753"
+                                    target="_blank">
+                                    Source Code
+                                </a>
+                                &nbsp;
+                                <FaGithub id={style.links} />
+                            </Button>
+                            <Button
+                                className="project-deployed-link"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://vermillion-cendol-8a7209.netlify.app/"
+                                    target="_blank">
+                                    Live
+                                </a>
+                                &nbsp;
+                                <FaArrowRight />
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div id={style.seceond_section}>
+                <div id={style.card1}>
+                    <img src="./dogfair.png" alt="" />
+                    <div id={style.dropdown}>
+                        <Heading
+                            id={style.title}
+                            size={["md", "md", "md", "lg"]}>
+                            Dog fair registration dashbord
+                        </Heading>
+                        <Heading
+                            id={style.discription}
+                            fontWeight="500"
+                            size={["xs", "sm", "sm", "md"]}>
+                            The Dog Fair Registration Dashboard offers a
+                            user-friendly interface for managing registrations
+                            at a dog fair. With advanced sorting and filtering
+                            functionality, participants can sort and filter the
+                            dog by age,name and gender.!
+                        </Heading>
+                        <Heading
+                            id={style.tech_stack}
+                            size={["xs", "sm", "sm", "ms"]}>
+                            Tech Stack: HTML| CSS |JavaScript.
+                        </Heading>
+
+                        <div className="project-card-btn" id={style.source_btn}>
+                            <Button
+                                className="project-card-btn"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    className="project-github-link"
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
+                                    target="_blank">
+                                    Source Code
+                                </a>
+                                &nbsp;
+                                <FaGithub id={style.links} />
+                            </Button>
+                            <Button
+                                className="project-deployed-link"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://thinkable-slope-suhail3535.vercel.app/"
+                                    target="_blank">
+                                    Live
+                                </a>
+                                &nbsp;
+                                <FaArrowRight />
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id={style.card2}>
+                    <img src="./basicpro.png" alt="" />
+                    <div id={style.dropdown}>
+                        <Heading
+                            id={style.title}
+                            size={["md", "md", "md", "lg"]}>
+                            School layout
+                        </Heading>
+                        <Heading
+                            id={style.discription}
+                            fontWeight="500"
+                            size={["xs", "sm", "sm", "md"]}>
+                            Kindergarten is a preschool educational approach
+                            based on playing, singing, practical activities such
+                            as drawing, and social interaction as part of the
+                            transition from home to school.!
+                        </Heading>
+                        <Heading
+                            id={style.tech_stack}
+                            size={["xs", "md", "md", "md"]}>
+                            Tech Stack: HTML | CSS | JavaScript.
+                        </Heading>
+
+                        <div className="project-card-btn" id={style.source_btn}>
+                            <Button
+                                // id={style.btn_Prj}
+                                className="project-card-btn"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    className="project-github-link"
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
+                                    target="_blank">
+                                    Source Code
+                                </a>
+                                &nbsp;
+                                <FaGithub id={style.links} />
+                            </Button>
+                            <Button
+                                className="project-deployed-link"
+                                size={["xs", "sm", "sm", "sm"]}>
+                                <a
+                                    id={style.links}
+                                    rel="noreferrer"
+                                    href="https://thinkable-slope-suhail3535.vercel.app/"
+                                    target="_blank">
+                                    Live
+                                </a>
+                                &nbsp;
+                                <FaArrowRight />
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
         </div>
     );
 }
