@@ -31,27 +31,29 @@
 
 #major_projectDiv {
     border: 0px solid red;
+
     color: #4c3575;
     width: 95%;
     cursor: pointer;
     font-family: "Bree Serif", serif;
     margin: auto;
     margin-top: 30px;
-    /* height: 380px; */
     height: auto;
+    transition: all 1s ease-in-out;
     display: flex;
-
     justify-content: space-between;
-    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     border-radius: 15px;
+}
+
+#major_projectDiv:hover {
+    transform: scale(1.1);
+    border: 1px dotted blue;
 }
 
 #links {
     border: 0px solid yellow;
 }
-/* #links:hover {
-  background-color: aqua
-} */
+
 .major_project_imgDiv {
     border-radius: 15px;
     width: 45%;
@@ -175,7 +177,6 @@
         margin: auto;
         margin-top: 50px;
     }
-
 
     #major_projectDiv {
         height: auto;
@@ -313,17 +314,16 @@
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px){
-        #seceond_section{
-    display: none;
-}
-#card1{
-    display: none;
-}
-#card2{
-    display: none;
-}
-
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #seceond_section {
+        display: none;
+    }
+    #card1 {
+        display: none;
+    }
+    #card2 {
+        display: none;
+    }
 }
 
 @media all and (min-width: 300px) and (max-width: 767px) {
@@ -331,15 +331,15 @@
         width: 95%;
         border: 0px solid green;
     }
-    #seceond_section{
-    display: none;
-}
-#card1{
-    display: none;
-}
-#card2{
-    display: none;
-}
+    #seceond_section {
+        display: none;
+    }
+    #card1 {
+        display: none;
+    }
+    #card2 {
+        display: none;
+    }
     #major_projectDiv {
         width: 90%;
         height: auto;
@@ -402,12 +402,14 @@
     .links {
         font-size: 14px;
     }
-
-
-
 }
 
 /* ********************* */
+
+
+
+
+
 
 #seceond_section {
     border: 0px solid rgb(251, 0, 255);
@@ -417,6 +419,7 @@
     font-family: "Bree Serif", serif;
     margin: auto;
     margin-top: 30px;
+    transition: all 1s ease-in-out;
 
     height: auto;
     display: flex;
@@ -424,6 +427,10 @@
     justify-content: space-between;
 
     border-radius: 15px;
+}
+#seceond_section:hover {
+    transform: scale(1.1);
+    border: 1px dotted blue;
 }
 #card1 {
     border-radius: 10px;

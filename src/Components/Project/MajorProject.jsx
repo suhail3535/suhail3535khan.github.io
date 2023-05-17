@@ -1,5 +1,6 @@
 import { Box, Button, Heading, Image } from "@chakra-ui/react";
 import React, { useEffect } from "react";
+
 import style from "./Project.module.css";
 import { FaArrowRight, FaGithub } from "react-icons/fa";
 import AOS from "aos";
@@ -11,6 +12,7 @@ export default function MajorProject({ colorMode }) {
     return (
         <div id="projects" className={style.majorMain}>
             <div className="project-card" id={style.major_projectDiv}>
+
                 <div
                     className={style.major_project_imgDiv}
                     data-aos="flip-left"
@@ -22,7 +24,6 @@ export default function MajorProject({ colorMode }) {
                         alt="aerowear"
                     />
                 </div>
-
                 <div
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
@@ -374,7 +375,9 @@ export default function MajorProject({ colorMode }) {
                     <div id={style.dropdown}>
                         <Heading
                             id={style.title}
-                            size={["md", "md", "md", "lg"]}>Shopper Korner</Heading>
+                            size={["md", "md", "md", "lg"]}>
+                            Shopper Korner
+                        </Heading>
                         <Heading
                             id={style.discription}
                             fontWeight="500"
