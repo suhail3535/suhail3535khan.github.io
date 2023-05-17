@@ -21,7 +21,7 @@
     font-family: "Bree Serif", serif;
 }
 #btn_Prj {
-    border: 0px solid red;
+    /* border: 0px solid red; */
     color: white;
     background-color: #4c3575;
 }
@@ -30,7 +30,7 @@
 }
 
 #major_projectDiv {
-    border: 0px solid red;
+    /* border: 0px solid red; */
 
     color: #4c3575;
     width: 95%;
@@ -113,7 +113,7 @@
 }
 #major_project_detailsDiv_detail {
     margin-bottom: 10px;
-    border: 0px solid green;
+    /* border: 0px solid green; */
     color: black;
     font-family: "Bree Serif", serif;
     padding: 10px;
@@ -140,14 +140,14 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
-    border: 0px solid green;
+    /* border: 0px solid green; */
     font-family: "Bree Serif", serif;
 }
 #source_btn {
     width: 50%;
     display: flex;
     justify-content: space-between;
-    border: 0px solid green;
+    /* border: 0px solid green; */
     font-family: "Bree Serif", serif;
 }
 
@@ -181,7 +181,7 @@
     #major_projectDiv {
         height: auto;
         padding: 5px;
-        border: 0px solid red;
+        /* border: 0px solid red; */
     }
 
     .major_project_detailsDiv {
@@ -215,7 +215,7 @@
     }
 
     #list {
-        border: 2px solid rgb(251, 0, 255);
+        /* border: 2px solid rgb(251, 0, 255); */
         color: #4c3575;
         width: 95%;
         cursor: pointer;
@@ -331,7 +331,7 @@
 @media all and (min-width: 300px) and (max-width: 767px) {
     #majorMain {
         width: 95%;
-        border: 0px solid green;
+        /* border: 0px solid green; */
     }
     #seceond_section {
         display: none;
@@ -345,7 +345,7 @@
     #major_projectDiv {
         width: 90%;
         height: auto;
-        border: 0px solid green;
+        /* border: 0px solid green; */
         padding: 20px;
         flex-direction: column;
         align-items: center;
@@ -397,7 +397,7 @@
     #major_project_detailsDi_btnDiv > button {
         margin-top: 10px;
         padding: 10px 10px;
-        border: 0px solid green;
+        /* border: 0px solid green; */
 
         margin: 5px;
     }
@@ -415,7 +415,7 @@
 
 
 #seceond_section {
-    border: 0px solid rgb(251, 0, 255);
+    /* border: 0px solid rgb(251, 0, 255); */
     color: #4c3575;
     width: 95%;
     cursor: pointer;
@@ -423,7 +423,7 @@
     margin: auto;
     margin-top: 30px;
     transition: all 1s ease-in-out;
-
+padding: 10px;
     height: auto;
     display: flex;
 
