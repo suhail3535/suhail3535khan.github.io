@@ -180,6 +180,8 @@
 
     #major_projectDiv {
         height: auto;
+        padding: 5px;
+        border: 0px solid red;
     }
 
     .major_project_detailsDiv {
@@ -344,6 +346,7 @@
         width: 90%;
         height: auto;
         border: 0px solid green;
+        padding: 20px;
         flex-direction: column;
         align-items: center;
         padding-bottom: 20px;
