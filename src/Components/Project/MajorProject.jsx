@@ -24,6 +24,7 @@ export default function MajorProject({ colorMode }) {
                         alt="aerowear"
                     />
                 </div>
+                
                 <div
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
