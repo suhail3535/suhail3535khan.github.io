@@ -12,7 +12,6 @@ export default function MajorProject({ colorMode }) {
     return (
         <div id="projects" className={style.majorMain}>
             <div className="project-card" id={style.major_projectDiv}>
-
                 <div
                     className={style.major_project_imgDiv}
                     data-aos="flip-left"
@@ -24,10 +23,12 @@ export default function MajorProject({ colorMode }) {
                         alt="aerowear"
                     />
                 </div>
-                
+
                 <div
                     className={style.major_project_detailsDiv}
-                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    color={
+                        colorMode === "light" ? "rgb(121,114,232) " : "#371B58"
+                    }
                     data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="3000">
@@ -47,13 +48,16 @@ export default function MajorProject({ colorMode }) {
                         hoodies, and jeans. The brand also offers a range of
                         accessories such as bags.
                     </Heading>
-                    <Heading
+                    <div
                         className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}
-                        size={["sm", "sm", "sm", "sm"]}>
-                        Tech Stack: React| Redux | BootStrap | JavaScript |
-                        Chakra-UI
-                    </Heading>
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>React</div>
+                        <div>Redux</div>
+                        <div>BootStrap</div>
+                        <div>JavaScript</div>
+                        <div>Chakra-UI</div>
+                    </div>
                     <div
                         className="project-card-btn"
                         id={style.major_project_detailsDi_btnDiv}>
@@ -126,13 +130,19 @@ export default function MajorProject({ colorMode }) {
                         fashion and clothing, we offer a seamless shopping
                         experience.!
                     </Heading>
-                    <Heading
+
+                    <div
                         className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}
-                        size={["sm", "sm", "sm", "sm"]}>
-                        Tech Stack: React| Redux | BootStrap | JavaScript |
-                        Chakra-UI | MongoDB
-                    </Heading>
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>React</div>
+                        <div>Redux</div>
+                        <div>BootStrap</div>
+                        <div>JavaScript</div>
+                        <div>MongoDB</div>
+                        <div>Chakra-UI</div>
+                    </div>
+
                     <Box
                         className="project-card-btn"
                         id={style.major_project_detailsDi_btnDiv}>
@@ -200,13 +210,15 @@ export default function MajorProject({ colorMode }) {
                         TripHub is the clone of Makemytrip.com MakeMyTrip is a
                         travel company that provides online travel services.
                     </Heading>
-                    <Heading
+                    <div
                         className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}
-                        size={["sm", "sm", "sm", "sm"]}>
-                        Tech Stack: React | Chakra Ui | Material Icon UI|
-                        BootStrap|JavaScript
-                    </Heading>
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>React</div>
+                        <div>BootStrap</div>
+                        <div>JavaScript</div>
+                        <div>Chakra-UI</div>
+                    </div>
                     <Box
                         className="project-card-btn"
                         id={style.major_project_detailsDi_btnDiv}>
@@ -275,12 +287,16 @@ export default function MajorProject({ colorMode }) {
                         company that provides online travel services and hotel
                         booking .
                     </Heading>
-                    <Heading
+
+                    <div
                         className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}
-                        size={["sm", "sm", "sm", "sm"]}>
-                        Tech Stack: HTML| CSS | BootStrap |JavaScript
-                    </Heading>
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>BootStrap</div>
+                        <div>JavaScript</div>
+                    </div>
                     <Box
                         className="project-card-btn"
                         id={style.major_project_detailsDi_btnDiv}>
@@ -334,11 +350,15 @@ export default function MajorProject({ colorMode }) {
                             efficiently. Simplify your workflow with this
                             user-friendly application..!
                         </Heading>
-                        <Heading
-                            id={style.tech_stack}
-                            size={["md", "md", "md", "lg"]}>
-                            Tech Stack: HTML| CSS |JavaScript.
-                        </Heading>
+                        <div
+                            className="project-tech-stack"
+                            id={style.major_project_detailsDiv_tehcs_part2}>
+                            Tech Stack:
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>BootStrap</div>
+                            <div>JavaScript</div>
+                        </div>
                         <div className="project-card-btn" id={style.source_btn}>
                             <Button
                                 className="project-card-btn"
@@ -387,11 +407,15 @@ export default function MajorProject({ colorMode }) {
                             E-Commerce website.All the daily use products are
                             available here.!
                         </Heading>
-                        <Heading
-                            id={style.tech_stack}
-                            size={["xs", "md", "md", "md"]}>
-                            Tech Stack: HTML | CSS | JavaScript | Bootstrap.
-                        </Heading>
+                        <div
+                            className="project-tech-stack"
+                            id={style.major_project_detailsDiv_tehcs_part2}>
+                            Tech Stack:
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>BootStrap</div>
+                            <div>JavaScript</div>
+                        </div>
                         <div className="project-card-btn" id={style.source_btn}>
                             <Button
                                 className="project-card-btn"

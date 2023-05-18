@@ -92,7 +92,9 @@
     border-radius: 15px;
     padding-left: 2.5%;
     padding-top: 50px;
-    background-color: #c4b0e7;
+
+    background: linear-gradient(rgba(122, 144, 232, 0.756), #4c3575af);
+    backdrop-filter: blur(12px) grayscale(1);
 }
 
 .major_project_detailsDiv:hover {
@@ -129,12 +131,23 @@
     border: 0px solid blue;
     font-family: "Bree Serif", serif;
     text-align: left;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #major_project_detailsDiv_tehcs:hover {
     transform: none;
     box-shadow: none;
 }
+
+#major_project_detailsDiv_tehcs div{
+border: 1px dotted blue;
+padding: 5px;
+}
+
+
+
+
 /* no need button duv */
 #major_project_detailsDi_btnDiv {
     width: 50%;
@@ -144,10 +157,11 @@
     font-family: "Bree Serif", serif;
 }
 #source_btn {
-    width: 50%;
+    width: 45%;
     display: flex;
+    margin-right: 300px;
     justify-content: space-between;
-    /* border: 0px solid green; */
+     border: 0px solid green;
     font-family: "Bree Serif", serif;
 }
 
@@ -197,10 +211,16 @@
         margin-bottom: 20px;
     }
 
-    #major_project_detailsDiv_tehcs {
-        margin-bottom: 0px;
-    }
 
+#major_project_detailsDiv_tehcs {
+        margin-bottom: 0px;
+        font-size: 12px;
+        display: grid;
+        padding: 5px;
+        gap: 5px;
+        grid-template-columns: repeat(4,1fr);
+        text-align: center;
+    }
     #major_project_detailsDi_btnDiv {
         width: 70%;
         padding-bottom: 20px;
@@ -213,107 +233,6 @@
     .links {
         font-size: 16px;
     }
-
-    #list {
-        /* border: 2px solid rgb(251, 0, 255); */
-        color: #4c3575;
-        width: 95%;
-        cursor: pointer;
-        font-family: "Bree Serif", serif;
-        margin: auto;
-        margin-top: 30px;
-
-        height: auto;
-        display: block;
-
-        border-radius: 15px;
-    }
-    #work {
-        border-radius: 10px;
-        overflow: hidden;
-        width: 100%;
-        margin-right: 100px;
-        border: 0px solid red;
-        margin: auto;
-        height: 300px;
-        position: relative;
-    }
-
-    #work2 {
-        border-radius: 10px;
-        overflow: hidden;
-        width: 100%;
-
-        border: 0px solid rgb(0, 0, 255);
-        margin: auto;
-        margin-left: 20px;
-        height: 300px;
-
-        position: relative;
-    }
-    #work img {
-        width: 100%;
-
-        border-radius: 10px;
-        display: block;
-        transition: transform 0.5s;
-    }
-
-    #layer {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(212, 219, 219, 0.6), #ff004f);
-        border-radius: 10px;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 0px 40px;
-        transition: top 0.5s;
-        font-family: "Bree Serif", serif;
-    }
-
-    #black1 {
-        font-weight: 500;
-        margin-bottom: 20px;
-        color: #4c3575;
-        font-weight: bold;
-        font-family: "Bree Serif", serif;
-    }
-    #white {
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: black;
-        font-weight: bold;
-        font-family: "Bree Serif", serif;
-    }
-    #black {
-        font-weight: 500;
-        margin-bottom: 20px;
-        font-family: "Bree Serif", serif;
-        color: #4c3575;
-        font-weight: bold;
-    }
-
-    #work:hover img {
-        transform: scale(1);
-    }
-
-    #work:hover #layer {
-        top: 0;
-    }
-    #work2:hover img {
-        transform: scale(1);
-    }
-
-    #work2:hover #layer {
-        top: 0;
-    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -325,6 +244,15 @@
     }
     #card2 {
         display: none;
+    }
+        #major_project_detailsDiv_tehcs {
+        margin-bottom: 0px;
+        font-size: 12px;
+        display: grid;
+        padding: 5px;
+        gap: 5px;
+        grid-template-columns: repeat(4,1fr);
+        text-align: center;
     }
 }
 
@@ -367,6 +295,7 @@
         margin: auto;
     }
 
+
     #major_projectDivId {
         display: flex;
         flex-direction: column-reverse;
@@ -384,6 +313,9 @@
     #major_project_detailsDiv_tehcs {
         margin-bottom: 0px;
         font-size: 12px;
+        display: grid;
+    gap:5px;
+        grid-template-columns: repeat(3,1fr);
         text-align: center;
     }
 
@@ -409,11 +341,6 @@
 
 /* ********************* */
 
-
-
-
-
-
 #seceond_section {
     /* border: 0px solid rgb(251, 0, 255); */
     color: #4c3575;
@@ -423,7 +350,7 @@
     margin: auto;
     margin-top: 30px;
     transition: all 1s ease-in-out;
-padding: 10px;
+    padding: 10px;
     height: auto;
     display: flex;
 
@@ -527,4 +454,24 @@ padding: 10px;
 
 #card2:hover #dropdown {
     top: 0;
+}
+
+#major_project_detailsDiv_tehcs_part2 {
+    margin-bottom: 20px;
+    border: px solid blue;
+    font-family: "Bree Serif", serif;
+    text-align: left;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+#major_project_detailsDiv_tehcs_part2:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+#major_project_detailsDiv_tehcs_part2 div{
+border: 1px dotted blue;
+padding: 5px;
 }
