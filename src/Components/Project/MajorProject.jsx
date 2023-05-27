@@ -359,7 +359,7 @@ export default function MajorProject({ colorMode }) {
                             <div>BootStrap</div>
                             <div>JavaScript</div>
                         </div>
-                        <div className="project-card-btn" id={style.source_btn}>
+            <div className="project-card-btn" id={style.source_btn}>
                             <Button
                                 className="project-card-btn"
                                 size={["xs", "sm", "sm", "sm"]}>
