@@ -46,7 +46,7 @@ function Static({ colorMode }) {
                 borderRadius: "5px",
               }}
             >
-              <h4>03+</h4>
+              <h4>05+</h4>
               <h6>Major Projects</h6>
             </div>
             <div
