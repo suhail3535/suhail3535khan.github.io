@@ -3,18 +3,14 @@ import React from 'react'
 import style from "./Home.module.css"
 
 export default function Home({ colorMode }) {
-
-    const [isSmallScreen] = useMediaQuery('(min-width: 680px)')
-    const [isMediumScreen] = useMediaQuery('(min-width: 1180px)')
-
-    return (
+return (
       <div id="home">
         <div
           id={style.home}
           style={{ color: colorMode === "light" ? "#4C3575" : "#EBC7E8" }}
         >
           <div className={style.img_txt_wrapper}
-            
+
           >
             <img
               id={style.myImg}
@@ -36,8 +32,8 @@ export default function Home({ colorMode }) {
               <h3 id={style.title}>Full Stack Web Developer</h3>
             </div>
           </div>
-          <div className={style.quote} style={{ marginTop: "20px",fontFamily: 'Bree Serif, serif' }}>
-            <img  
+          <div className={style.quote}>
+            <img
               src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light"
               alt=""
             />

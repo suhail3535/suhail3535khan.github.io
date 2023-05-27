@@ -4,7 +4,10 @@
 }
 .quote {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
+  border: 0px solid blue;
+
+  font-family: 'Bree Serif, serif'
 }
 .quote > img {
   margin: auto;
