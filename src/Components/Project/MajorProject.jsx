@@ -94,7 +94,6 @@ export default function MajorProject({ colorMode }) {
                     </div>
                 </div>
             </div>
-
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
@@ -185,6 +184,84 @@ export default function MajorProject({ colorMode }) {
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
+                        src="./final.png"
+                        alt="masai"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos-mirror="true"
+                    data-aos="fade-right"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["sm", "sm", "sm", "lg"]}>
+                        Masai Students Login System
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Masai School's student login management system allows
+                        students to access upcoming lectures, assignments, and
+                        the daily schedule. 
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>React</div>
+                        <div>Redux</div>
+                        <div>BootStrap</div>
+                        <div>JavaScript</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/MasaiLms"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://masaiapp-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
+
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos-mirror="true"
+                    data-aos="fade-left"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
                         src="./2.png"
                         alt="triphub"
                     />
@@ -252,7 +329,6 @@ export default function MajorProject({ colorMode }) {
                     </Box>
                 </Box>
             </div>
-
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
@@ -359,7 +435,7 @@ export default function MajorProject({ colorMode }) {
                             <div>BootStrap</div>
                             <div>JavaScript</div>
                         </div>
-            <div className="project-card-btn" id={style.source_btn}>
+                        <div className="project-card-btn" id={style.source_btn}>
                             <Button
                                 className="project-card-btn"
                                 size={["xs", "sm", "sm", "sm"]}>
@@ -448,120 +524,6 @@ export default function MajorProject({ colorMode }) {
                     </div>
                 </div>
             </div>
-
-            {/* <div id={style.seceond_section}>
-                <div id={style.card1}>
-                    <img src="./dogfair.png" alt="" />
-                    <div id={style.dropdown}>
-                        <Heading
-                            id={style.title}
-                            size={["md", "md", "md", "lg"]}>
-                            Dog fair registration dashbord
-                        </Heading>
-                        <Heading
-                            id={style.discription}
-                            fontWeight="500"
-                            size={["xs", "sm", "sm", "md"]}>
-                            The Dog Fair Registration Dashboard offers a
-                            user-friendly interface for managing registrations
-                            at a dog fair. With advanced sorting and filtering
-                            functionality, participants can sort and filter the
-                            dog by age,name and gender.!
-                        </Heading>
-                        <Heading
-                            id={style.tech_stack}
-                            size={["xs", "sm", "sm", "ms"]}>
-                            Tech Stack: HTML| CSS |JavaScript.
-                        </Heading>
-
-                        <div className="project-card-btn" id={style.source_btn}>
-                            <Button
-                                className="project-card-btn"
-                                size={["xs", "sm", "sm", "sm"]}>
-                                <a
-                                    className="project-github-link"
-                                    id={style.links}
-                                    rel="noreferrer"
-                                    href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
-                                    target="_blank">
-                                    Source Code
-                                </a>
-                                &nbsp;
-                                <FaGithub id={style.links} />
-                            </Button>
-                            <Button
-                                className="project-deployed-link"
-                                size={["xs", "sm", "sm", "sm"]}>
-                                <a
-                                    id={style.links}
-                                    rel="noreferrer"
-                                    href="https://thinkable-slope-suhail3535.vercel.app/"
-                                    target="_blank">
-                                    Live
-                                </a>
-                                &nbsp;
-                                <FaArrowRight />
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-
-                <div id={style.card2}>
-                    <img src="./basicpro.png" alt="" />
-                    <div id={style.dropdown}>
-                        <Heading
-                            id={style.title}
-                            size={["md", "md", "md", "lg"]}>
-                            School layout
-                        </Heading>
-                        <Heading
-                            id={style.discription}
-                            fontWeight="500"
-                            size={["xs", "sm", "sm", "md"]}>
-                            Kindergarten is a preschool educational approach
-                            based on playing, singing, practical activities such
-                            as drawing, and social interaction as part of the
-                            transition from home to school.!
-                        </Heading>
-                        <Heading
-                            id={style.tech_stack}
-                            size={["xs", "md", "md", "md"]}>
-                            Tech Stack: HTML | CSS | JavaScript.
-                        </Heading>
-
-                        <div className="project-card-btn" id={style.source_btn}>
-                            <Button
-                                // id={style.btn_Prj}
-                                className="project-card-btn"
-                                size={["xs", "sm", "sm", "sm"]}>
-                                <a
-                                    className="project-github-link"
-                                    id={style.links}
-                                    rel="noreferrer"
-                                    href="https://github.com/suhail3535/thinkable-slope-4107/tree/main/thinkable-slope"
-                                    target="_blank">
-                                    Source Code
-                                </a>
-                                &nbsp;
-                                <FaGithub id={style.links} />
-                            </Button>
-                            <Button
-                                className="project-deployed-link"
-                                size={["xs", "sm", "sm", "sm"]}>
-                                <a
-                                    id={style.links}
-                                    rel="noreferrer"
-                                    href="https://thinkable-slope-suhail3535.vercel.app/"
-                                    target="_blank">
-                                    Live
-                                </a>
-                                &nbsp;
-                                <FaArrowRight />
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 }

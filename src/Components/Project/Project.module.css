@@ -30,7 +30,7 @@
 }
 
 #major_projectDiv {
-    /* border: 0px solid red; */
+
 
     color: #4c3575;
     width: 95%;
@@ -61,6 +61,7 @@
     margin: 20px;
     padding: 10px;
     border: 0px solid yellow;
+    height: 300px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
         rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
