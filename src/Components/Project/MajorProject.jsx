@@ -199,7 +199,7 @@ export default function MajorProject({ colorMode }) {
                         className="project-title"
                         id={style.major_project_detailsDiv_Heading}
                         size={["sm", "sm", "sm", "lg"]}>
-                        Masai Students Login System
+                    Login Management System
                     </Heading>
                     <Heading
                         className="project-description"
@@ -208,7 +208,7 @@ export default function MajorProject({ colorMode }) {
                         size={["xs", "sm", "sm", "md"]}>
                         Masai School's student login management system allows
                         students to access upcoming lectures, assignments, and
-                        the daily schedule. 
+                        the daily schedule.
                     </Heading>
                     <div
                         className="project-tech-stack"
