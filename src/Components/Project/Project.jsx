@@ -11,9 +11,7 @@ export default function Project({ colorMode }) {
     return (
       <div
         id="projects"
-        // data-aos-mirror="true"
-        // data-aos="fade-up"
-        // data-aos-duration="3000"
+  
       >
         <div id="Projects" style={{ height: "100px" }}></div>
         <div className="projects-projects" id={style.projects}>

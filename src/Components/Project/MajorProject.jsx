@@ -8,9 +8,91 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 
-export default function MajorProject({ colorMode }) {
+export default function MajorProject ({ colorMode }) {
     return (
         <div id="projects" className={style.majorMain}>
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./fashion.png"
+                        alt="fashionFrenzy"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["md", "md", "md", "lg"]}>
+                        Fashion Frenzy
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Fashion Frenzy is ECommerce Website & is a clone of
+                        Anthropologie. With a vast collection of products of
+                        fashion and clothing, we offer a seamless shopping
+                        experience.!
+                    </Heading>
+
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>React</div>
+                        <div>Redux</div>
+                        <div>JavaScript</div>
+                        <div>Node Js</div>
+                        <div>Express Js</div>
+                        <div>MongoDB</div>
+                        <div>Chakra-UI</div>
+                    </div>
+
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/alive-run-138"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://frontend-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
             <div className="project-card" id={style.major_projectDiv}>
                 <div
                     className={style.major_project_imgDiv}
@@ -54,7 +136,9 @@ export default function MajorProject({ colorMode }) {
                         Tech Stack:
                         <div>React</div>
                         <div>Redux</div>
-                        <div>BootStrap</div>
+                        <div>Json Server</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
                         <div>JavaScript</div>
                         <div>Chakra-UI</div>
                     </div>
@@ -79,7 +163,7 @@ export default function MajorProject({ colorMode }) {
                         <Button
                             className="project-deployed-link"
                             size={["xs", "sm", "sm", "sm"]}
-                            // id={style.btn_Prj}
+                        // id={style.btn_Prj}
                         >
                             <a
                                 id={style.links}
@@ -94,87 +178,7 @@ export default function MajorProject({ colorMode }) {
                     </div>
                 </div>
             </div>
-            <div className="project-card" id={style.major_projectDiv}>
-                <Box
-                    className={style.major_project_imgDiv}
-                    data-aos="fade-right"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
-                    <Image
-                        className="project-skills-card-img"
-                        src="./fashion.png"
-                        alt="fashionFrenzy"
-                    />
-                </Box>
 
-                <Box
-                    className={style.major_project_detailsDiv}
-                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
-                    data-aos="fade-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
-                    <Heading
-                        className="project-title"
-                        id={style.major_project_detailsDiv_Heading}
-                        size={["md", "md", "md", "lg"]}>
-                        Fashion Frenzy
-                    </Heading>
-                    <Heading
-                        className="project-description"
-                        id={style.major_project_detailsDiv_detail}
-                        fontWeight="500"
-                        size={["xs", "sm", "sm", "md"]}>
-                        Fashion Frenzy is ECommerce Website & is a clone of
-                        Anthropologie. With a vast collection of products of
-                        fashion and clothing, we offer a seamless shopping
-                        experience.!
-                    </Heading>
-
-                    <div
-                        className="project-tech-stack"
-                        id={style.major_project_detailsDiv_tehcs}>
-                        Tech Stack:
-                        <div>React</div>
-                        <div>Redux</div>
-                        <div>BootStrap</div>
-                        <div>JavaScript</div>
-                        <div>MongoDB</div>
-                        <div>Chakra-UI</div>
-                    </div>
-
-                    <Box
-                        className="project-card-btn"
-                        id={style.major_project_detailsDi_btnDiv}>
-                        <Button
-                            className="project-card-btn"
-                            size={["xs", "sm", "sm", "sm"]}>
-                            <a
-                                className="project-github-link"
-                                id={style.links}
-                                rel="noreferrer"
-                                href="https://github.com/suhail3535/alive-run-138"
-                                target="_blank">
-                                Source Code
-                            </a>
-                            &nbsp;
-                            <FaGithub />
-                        </Button>
-                        <Button
-                            className="project-deployed-link"
-                            size={["xs", "sm", "sm", "sm"]}>
-                            <a
-                                className={style.links}
-                                rel="noreferrer"
-                                href="https://frontend-suhail3535.vercel.app/"
-                                target="_blank">
-                                Live
-                            </a>
-                            &nbsp;
-                            <FaArrowRight />
-                        </Button>
-                    </Box>
-                </Box>
-            </div>
 
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
@@ -199,7 +203,7 @@ export default function MajorProject({ colorMode }) {
                         className="project-title"
                         id={style.major_project_detailsDiv_Heading}
                         size={["sm", "sm", "sm", "lg"]}>
-                    Login Management System
+                        Login Management System
                     </Heading>
                     <Heading
                         className="project-description"
@@ -216,9 +220,12 @@ export default function MajorProject({ colorMode }) {
                         Tech Stack:
                         <div>React</div>
                         <div>Redux</div>
-                        <div>BootStrap</div>
+                        <div>Json Server</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
                         <div>JavaScript</div>
                         <div>Chakra-UI</div>
+                        <div>Material-UI</div>
                     </div>
                     <Box
                         className="project-card-btn"
@@ -291,9 +298,12 @@ export default function MajorProject({ colorMode }) {
                         className="project-tech-stack"
                         id={style.major_project_detailsDiv_tehcs}>
                         Tech Stack:
-                        <div>React</div>
-                        <div>BootStrap</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
                         <div>JavaScript</div>
+                        <div>React</div>
+
+                        <div>Material-UI</div>
                         <div>Chakra-UI</div>
                     </div>
                     <Box

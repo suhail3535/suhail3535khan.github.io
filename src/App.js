@@ -33,7 +33,7 @@ function App() {
           <Home colorMode={colorMode} />
           <Animation dir="down" />
           <About colorMode={colorMode} />
-          <Animation dir="up" />
+         
 
           <Skills colorMode={colorMode} />
           <Animation dir="up" />
@@ -43,7 +43,7 @@ function App() {
           <GitHub colorMode={colorMode} />
           <Animation dir="up" />
           <Contact colorMode={colorMode} />
-        
+
           <BackToTop />
           <Footer colorMode={colorMode} />
       </div>
