@@ -52,7 +52,7 @@ export default function Contact({ colorMode }) {
             data-aos="fade-up"
             data-aos-duration="3000">
             <div style={{ height: "100px" }}></div>
-            <Heading
+            <Heading 
                 size={["2xl", "2xl", "2xl", "3xl"]}
                 textAlign="center"
                 fontFamily="Bree Serif, serif"
@@ -118,7 +118,7 @@ export default function Contact({ colorMode }) {
                                 placeholder="Enter you Message"
                                 name="message"
                                 value={message}
-                                required 
+                                required
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                             <br />

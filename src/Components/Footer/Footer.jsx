@@ -59,6 +59,7 @@ export default function Footer({ colorMode }) {
                         target="_blank"
                         rel="noreferrer">
                         <FaInstagram />
+                        
                     </a>
                     <a
                         href="https://www.facebook.com/"

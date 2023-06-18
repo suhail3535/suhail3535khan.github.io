@@ -13,6 +13,7 @@ import GitHub from "./Components/Github/Github";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import BackToTop from "./Components/Home/BacktoTop";
+import Animation from "./Components/Animation/Animation";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -30,12 +31,19 @@ function App() {
           </Button> }
           <Navbar colorMode={colorMode} />
           <Home colorMode={colorMode} />
+          <Animation dir="down" />
           <About colorMode={colorMode} />
+          <Animation dir="up" />
+
           <Skills colorMode={colorMode} />
+          <Animation dir="up" />
           <Project colorMode={colorMode} />
+          <Animation dir="up" />
           <Static colorMode={colorMode} />
           <GitHub colorMode={colorMode} />
+          <Animation dir="up" />
           <Contact colorMode={colorMode} />
+        
           <BackToTop />
           <Footer colorMode={colorMode} />
       </div>

@@ -3,6 +3,8 @@
     font-family: "Bree Serif", serif;
 }
 
+
+
 #contact_mainDiv {
     width: 90%;
     margin: auto;
@@ -16,6 +18,7 @@
 #contact_leftDiv {
     width: 40%;
 }
+
 
 .linkedin {
     text-align: left;
