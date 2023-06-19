@@ -8,7 +8,7 @@ const Animation = ({ dir }) => {
             <Wave
                 className="wave"
 
-                fill="#7858a6"
+                fill="#8474a0"
                 style={{
                     transform: dir === "up" ? "rotate(0deg)" : "rotate(180deg)",
                     marginTop: dir === "down" ? "-6px" : "0px",
@@ -19,7 +19,7 @@ const Animation = ({ dir }) => {
                     amplitude: 25,
 
                     speed: 0.21,
-                    points: 6,
+                    points: 5,
                 }}
             />
         </div>
