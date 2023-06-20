@@ -178,7 +178,88 @@ export default function MajorProject ({ colorMode }) {
                     </div>
                 </div>
             </div>
+            <div className="project-card" id={style.major_projectDiv}>
+                <div
+                    className={style.major_project_imgDiv}
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./pic.png"
+                        alt="typescript"
+                    />
+                </div>
 
+                <div
+                    className={style.major_project_detailsDiv}
+                    color={
+                        colorMode === "light" ? "rgb(121,114,232) " : "#371B58"
+                    }
+                    data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["md", "md", "md", "lg"]}>
+                        TypeScript Crud Application
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        A TypeScript CRUD application with essential features: adding new student data, retrieving student data, updating student records, and deleting student data.!
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>TypeScript</div>
+                         <div>React</div>
+                        <div>JavaScript</div>
+                        <div>Node Js</div>
+                        <div>Express Js</div>
+                        <div>MongoDB</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <div
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            // id={style.btn_Prj}
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/TypeScriptCrudapp"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub id={style.links} />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}
+                        // id={style.btn_Prj}
+                        >
+                            <a
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://frontend-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </div>
+                </div>
+            </div>
 
             <div className="project-card" id={style.major_projectDiv}>
                 <Box
