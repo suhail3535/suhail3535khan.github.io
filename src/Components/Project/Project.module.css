@@ -145,7 +145,8 @@
 
      border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    color: white;
+color: white;
+font-weight: 500;
     padding: 5px 5px;
     font-size: 13px;
     background-color: rgba(122, 144, 232, 0.756);
