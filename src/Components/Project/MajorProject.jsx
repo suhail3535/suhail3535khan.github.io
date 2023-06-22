@@ -186,7 +186,7 @@ export default function MajorProject ({ colorMode }) {
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
-                        src="./1.jpg"
+                        src="./new111.jpg"
                         alt="typescript"
                     />
                 </div>
