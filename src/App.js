@@ -14,6 +14,7 @@ import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import BackToTop from "./Components/Home/BacktoTop";
 import Animation from "./Components/Animation/Animation";
+import Anima from "./Components/Animation/Anima";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -31,17 +32,19 @@ function App() {
           </Button> }
           <Navbar colorMode={colorMode} />
           <Home colorMode={colorMode} />
-          <Animation dir="down" />
+          <Anima dir="up" />
           <About colorMode={colorMode} />
-         
+
 
           <Skills colorMode={colorMode} />
-          <Animation dir="up" />
+          <Anima dir="up" />
           <Project colorMode={colorMode} />
-          <Animation dir="up" />
+
+          <Anima dir="down" />
           <Static colorMode={colorMode} />
+          <Anima dir="up" />
           <GitHub colorMode={colorMode} />
-          <Animation dir="up" />
+          <Anima dir="down" />
           <Contact colorMode={colorMode} />
 
           <BackToTop />

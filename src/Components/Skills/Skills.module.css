@@ -14,10 +14,10 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   font-family: serif;
-  /* justify-content: space-between; */
+margin-bottom: 50px;
   border: 0px solid green;
    place-items: center
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
 }
 
 .skill_in_div {
