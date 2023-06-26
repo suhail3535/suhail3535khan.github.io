@@ -250,7 +250,7 @@ export default function MajorProject ({ colorMode }) {
                             <a
                                 id={style.links}
                                 rel="noreferrer"
-                                href="https://frontend-suhail3535.vercel.app/"
+                                href="https://64997f01078a8007b3927934--chimerical-capybara-079636.netlify.app/"
                                 target="_blank">
                                 Live
                             </a>
