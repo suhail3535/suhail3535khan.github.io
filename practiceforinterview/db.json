@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "name": "suhail",
+      "age": "25",
+      "course": "React",
+      "id": 2
+    },
+    {
+      "name": "RAJ",
+      "age": "25",
+      "course": "Java",
+      "id": 4
+    },
+    {
+      "name": "AMAN",
+      "age": "25",
+      "course": "JAVA",
+      "id": 5
+    },
+    {
+      "name": "preetu",
+      "age": "24",
+      "course": "MERN",
+      "id": 6
+    }
+  ]
+}
