@@ -22,7 +22,7 @@ return (
                 <span>
                   Hey,
                   <img
-                    style={{ width: "15%", display: "inline" }}
+                    style={{ width: "10%", display: "inline" }}
                     src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
                     alt=""
                   />
