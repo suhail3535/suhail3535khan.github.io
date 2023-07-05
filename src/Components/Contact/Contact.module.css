@@ -3,8 +3,6 @@
     font-family: "Bree Serif", serif;
 }
 
-
-
 #contact_mainDiv {
     width: 90%;
     margin: auto;
@@ -18,7 +16,6 @@
 #contact_leftDiv {
     width: 40%;
 }
-
 
 .linkedin {
     text-align: left;
@@ -90,7 +87,7 @@
 
 #btn {
     padding: 10px 40px 10px 40px;
-    background-color: #fef5ed;
+    /* background-color: #fef5ed; */
     margin-top: 20px;
     width: 50%;
     margin: 50px auto;
@@ -131,7 +128,6 @@
         width: 100%;
         margin: 20px auto;
         padding: 10px 40px 10px 40px;
-        background-color: #fef5ed;
 
         /* margin-left: 50px; */
         border-radius: 10px;
@@ -205,10 +201,9 @@
         padding: 10px;
     }
     .line {
-    height: 2px;
-    width: 85%;
-
-}
+        height: 2px;
+        width: 85%;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1280px) {
@@ -277,7 +272,7 @@
         margin-bottom: 20px;
     }
 }
-  @media screen and (min-width: 1281px) and (max-width: 1400px) {
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
     .input {
         width: 100%;
     }
