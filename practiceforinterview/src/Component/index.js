@@ -10,11 +10,11 @@
 //     end--
 // }
 // console.log(arr.join)
-function table (N) {
-    for (let i = 1; i <=10; i++){
-        console.log(i*N)
-    }
+// function table (N) {
+//     for (let i = 1; i <=10; i++){
+//         console.log(i*N)
+//     }
 
-}
+// }
 
-table(3)
+// table(3)

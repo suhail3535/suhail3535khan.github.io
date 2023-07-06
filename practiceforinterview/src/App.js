@@ -1,10 +1,11 @@
-import Test from "./Component/Test";
+import FormComponent from "./Component/Formvalidate";
+
 
 
 function App() {
   return (
       <div className="App">
-  <Test />
+      <FormComponent />
       </div>
   );
 }
