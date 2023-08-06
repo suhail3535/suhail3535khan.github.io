@@ -75,7 +75,10 @@
   }
 } */
 
+#icon:hover{
+  background-color:rgb(132,116,160);
 
+}
 @keyframes type {
   0% {
     width: 0ch;
