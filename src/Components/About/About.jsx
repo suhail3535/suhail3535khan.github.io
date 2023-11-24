@@ -84,7 +84,7 @@ export default function About({ colorMode }) {
                             <a
                                 id="resume-link-2"
                                 className={style.resumeButton}
-                                href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
+                                // href="https://drive.google.com/uc?id=1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH&export=download"
                                 // download="Suahil_Khan_Resume"
                             >
                                 <div
@@ -95,7 +95,7 @@ export default function About({ colorMode }) {
                                     }}
                                     onClick={() =>
                                         openLink(
-                                            "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
+                                            // "https://drive.google.com/file/d/1kgIaKRXSAAvH_9y1JGGGAC6IyOOwqWAH/view?usp=share_link"
                                         )
                                     }
                                     // className="home-resume"
