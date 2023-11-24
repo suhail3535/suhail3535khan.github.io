@@ -76,7 +76,7 @@ export default function About({ colorMode }) {
                             </p>
                         </div>
 
-                        <div
+                        {/* <div
                             id={style.resumeDiv}
                             backgroundColor={
                                 colorMode === "light" ? "#4C3575" : "#BFACE0"
@@ -104,7 +104,7 @@ export default function About({ colorMode }) {
                                 </div>
                                 <HiDownload />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
