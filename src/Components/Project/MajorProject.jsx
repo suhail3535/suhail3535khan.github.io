@@ -410,7 +410,7 @@ export default function MajorProject ({ colorMode }) {
                             <a
                                 className={style.links}
                                 rel="noreferrer"
-                                href="https://zim-application.vercel.app/"
+                                href="https://fitness-worldweb-5yl8v8hkd-suhail3535.vercel.app/"
                                 target="_blank">
                                 Live
                             </a>
