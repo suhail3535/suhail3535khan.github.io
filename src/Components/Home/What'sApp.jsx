@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { AiOutlineArrowUp } from "react-icons/ai";
-import { AiOutlineArrowDown } from "react-icons/ai";
+
 import { FaWhatsappSquare } from "react-icons/fa";
 import { Box, Button, Text } from "@chakra-ui/react";
 
@@ -53,7 +52,7 @@ export default function WhatsApp () {
                 h={"50px"}
                 _hover={{ backgroundColor: "transparent" }}
                 style={{ borderRadius: "50%", }}>
-                <Text fontSize={"50px"} color={"#25D366"}>
+                <Text fontSize={"55px"} color={"#25D366"}>
                     <a
                         href="https://wa.me/919598125005"
                         target="_blank"
