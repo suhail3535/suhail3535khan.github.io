@@ -29,8 +29,9 @@ function Navbar() {
             duration={500}
 
           >
-            <img id="logo"
-              src="https://cdn.dribbble.com/users/72227/screenshots/2595118/media/f082e58bc3e3e99f76f044f9ac4cab43.gif"
+            <img  id="logo"
+            // src="https://cdn.dribbble.com/users/72227/screenshots/2595118/media/f082e58bc3e3e99f76f044f9ac4cab43.gif"
+              src="./l.png"
               alt="icon"
             />
           </Link>

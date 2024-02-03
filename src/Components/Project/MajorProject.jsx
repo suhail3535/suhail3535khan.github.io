@@ -264,9 +264,7 @@ export default function MajorProject ({ colorMode }) {
                 </div>
             </div>
 
-            <div data-aos="zoom-in-up"
-                data-aos-duration="3000"
-                className="project-card" id={style.major_projectDiv}>
+    <div data-aos="zoom-in-up"data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
@@ -337,6 +335,82 @@ export default function MajorProject ({ colorMode }) {
                                 className={style.links}
                                 rel="noreferrer"
                                 href="https://masaiapp-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./zim.png"
+                        alt="dictonary"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["sm", "sm", "sm", "lg"]}>
+                        Fitness World
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Fitness World: Your ultimate destination for wellness. Explore tailored workout plans, nutrition tips, and community support. Achieve your fitness goals today!
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+                        <div>Material-UI</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/FitnessWorldwebApp"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://zim-application.vercel.app/"
                                 target="_blank">
                                 Live
                             </a>
