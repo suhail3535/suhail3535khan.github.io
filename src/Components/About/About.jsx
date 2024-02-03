@@ -68,6 +68,7 @@ export default function About({ colorMode }) {
                             <p className={style.namep}>
                                 A passionate aspiring Full Stack Developer
                                 skilled in MERN stack, NodeJS,Redux,MongoDb
+
                                 molded and shaped by Masai School's numerous
                                 training. Actively ready to join the great
                                 living team of a good start-up to adapt me in

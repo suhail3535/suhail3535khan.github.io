@@ -15,6 +15,7 @@ import Contact from "./Components/Contact/Contact";
 import BackToTop from "./Components/Home/BacktoTop";
 import Animation from "./Components/Animation/Animation";
 import Anima from "./Components/Animation/Anima";
+import WhatsApp from "./Components/Home/What'sApp";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -48,6 +49,7 @@ function App() {
           <Contact colorMode={colorMode} />
 
           <BackToTop />
+          <WhatsApp />
           <Footer colorMode={colorMode} />
       </div>
   );
