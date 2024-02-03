@@ -11,7 +11,8 @@ AOS.init();
 export default function MajorProject ({ colorMode }) {
     return (
         <div id="projects" className={style.majorMain}>
-            <div className="project-card" id={style.major_projectDiv}>
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos="fade-right"
@@ -93,7 +94,8 @@ export default function MajorProject ({ colorMode }) {
                     </Box>
                 </Box>
             </div>
-            <div className="project-card" id={style.major_projectDiv}>
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <div
                     className={style.major_project_imgDiv}
                     data-aos="flip-left"
@@ -178,7 +180,8 @@ export default function MajorProject ({ colorMode }) {
                     </div>
                 </div>
             </div>
-            <div className="project-card" id={style.major_projectDiv}>
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <div
                     className={style.major_project_imgDiv}
                     data-aos="flip-left"
@@ -217,7 +220,7 @@ export default function MajorProject ({ colorMode }) {
                         id={style.major_project_detailsDiv_tehcs}>
                         Tech Stack:
                         <div>TypeScript</div>
-                         <div>React</div>
+                        <div>React</div>
                         <div>JavaScript</div>
                         <div>Node Js</div>
                         <div>Express Js</div>
@@ -261,7 +264,9 @@ export default function MajorProject ({ colorMode }) {
                 </div>
             </div>
 
-            <div className="project-card" id={style.major_projectDiv}>
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000"
+                className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
@@ -341,8 +346,164 @@ export default function MajorProject ({ colorMode }) {
                     </Box>
                 </Box>
             </div>
-
             <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./dictonary.png"
+                        alt="dictonary"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["sm", "sm", "sm", "lg"]}>
+                        Your Dictionary
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Your Dictionary Search words here for instant access to definitions, synonyms, and antonyms. User-friendly interface with offline access.
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+
+                        <div>Material-UI</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/Dictionary_application/tree/master"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://word-search-app.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./caradd.png"
+                        alt="dictonary"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["sm", "sm", "sm", "lg"]}>
+                        AutoHub
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Discover your next ride at AutoHub, your ultimate destination for car ads. Browse compare prices, and find the perfect match for your needs and budget today!
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+                        <div>Json Server</div>
+
+                        <div>Material-UI</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/CarAdvertisementWebApp"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://car-adds-application.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
+
+
+            <div data-aos="zoom-in-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
@@ -420,7 +581,9 @@ export default function MajorProject ({ colorMode }) {
                     </Box>
                 </Box>
             </div>
-            <div className="project-card" id={style.major_projectDiv}>
+
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
@@ -497,8 +660,87 @@ export default function MajorProject ({ colorMode }) {
                     </Box>
                 </Box>
             </div>
+            <div className="project-card" id={style.major_projectDiv}>
+                <Box
+                    className={style.major_project_imgDiv}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Image
+                        className="project-skills-card-img"
+                        src="./oneplus.png"
+                        alt="dictonary"
+                    />
+                </Box>
+
+                <Box
+                    className={style.major_project_detailsDiv}
+                    color={colorMode === "light" ? "#4C3575" : "#371B58"}
+                    data-aos-mirror="true"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="3000">
+                    <Heading
+                        className="project-title"
+                        id={style.major_project_detailsDiv_Heading}
+                        size={["sm", "sm", "sm", "lg"]}>
+                        OnePlusLanding page Clone
+                    </Heading>
+                    <Heading
+                        className="project-description"
+                        id={style.major_project_detailsDiv_detail}
+                        fontWeight="500"
+                        size={["xs", "sm", "sm", "md"]}>
+                        Experience innovation at your fingertips with the OnePlus website. Explore cutting-edge technology, sleek design, and community-driven features.
+                    </Heading>
+                    <div
+                        className="project-tech-stack"
+                        id={style.major_project_detailsDiv_tehcs}>
+                        Tech Stack:
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+
+                        <div>Material-UI</div>
+                        <div>Chakra-UI</div>
+                    </div>
+                    <Box
+                        className="project-card-btn"
+                        id={style.major_project_detailsDi_btnDiv}>
+                        <Button
+                            className="project-card-btn"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className="project-github-link"
+                                id={style.links}
+                                rel="noreferrer"
+                                href="https://github.com/suhail3535/onePluslandingPage"
+                                target="_blank">
+                                Source Code
+                            </a>
+                            &nbsp;
+                            <FaGithub />
+                        </Button>
+                        <Button
+                            className="project-deployed-link"
+                            size={["xs", "sm", "sm", "sm"]}>
+                            <a
+                                className={style.links}
+                                rel="noreferrer"
+                                href="https://onepuls-landingpage-suhail3535.vercel.app/"
+                                target="_blank">
+                                Live
+                            </a>
+                            &nbsp;
+                            <FaArrowRight />
+                        </Button>
+                    </Box>
+                </Box>
+            </div>
             {/* ***************minor project********* */}
-            <div id={style.seceond_section}>
+
+            <div data-aos="zoom-in-up"
+                data-aos-duration="3000" id={style.seceond_section}>
                 <div id={style.card1}>
                     <img src="./todonew.png" alt="" />
                     <div id={style.dropdown}>
