@@ -1,4 +1,4 @@
-import { Flex, VStack, Image, Box, Heading, useMediaQuery } from '@chakra-ui/react'
+
 import React from 'react'
 import style from "./Home.module.css"
 

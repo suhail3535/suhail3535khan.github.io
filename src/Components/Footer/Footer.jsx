@@ -6,9 +6,10 @@ import {
     FaInstagram,
     FaLinkedin,
     FaPhone,
-    FaTwitter,
+    FaWhatsappSquare,
     FaGofore,
 } from "react-icons/fa";
+
 import style from "./Footer.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -59,7 +60,7 @@ export default function Footer({ colorMode }) {
                         target="_blank"
                         rel="noreferrer">
                         <FaInstagram />
-                        
+
                     </a>
                     <a
                         href="https://www.facebook.com/"
@@ -72,6 +73,12 @@ export default function Footer({ colorMode }) {
                         target="_blank"
                         rel="noreferrer">
                         <FaLinkedin />
+                    </a>
+                    <a
+                        href="https://wa.me/919598125005"
+                        target="_blank"
+                        rel="noreferrer">
+                        <FaWhatsappSquare />
                     </a>
                     <a
                         href="https://github.com/suhail3535"
