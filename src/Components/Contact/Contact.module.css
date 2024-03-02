@@ -91,16 +91,19 @@
     margin-top: 20px;
     width: 50%;
     margin: 50px auto;
-    border: 0px solid green;
+    /* border: 2px solid green; */
     margin-left: 70px;
     border-radius: 10px;
     font-family: "Bree Serif", serif;
     color: #283225;
     font-weight: bold;
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
 
 #btn:hover {
+    transition: all 0.5s ease-in-out;
+
     background: rgb(121, 114, 232);
     background: linear-gradient(
         90deg,

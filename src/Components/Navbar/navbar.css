@@ -88,7 +88,7 @@
   font-weight: bold;
 }
 .wrapperRight a:hover {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
 
   color: black;
@@ -149,7 +149,7 @@
   );
   }
 }
- @media all and (min-width: 280px) and (max-width: 767px) {
+ @media all and (min-width: 200px) and (max-width: 767px) {
   .wrapperRight {
      display: none;
   }

@@ -47,7 +47,7 @@
 }
 
 #major_projectDiv:hover {
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
     border: 1px dotted blue;
     cursor: pointer;
 }
@@ -284,7 +284,7 @@ color: white;
     }
 }
 
-@media all and (min-width: 300px) and (max-width: 767px) {
+@media all and (min-width: 200px) and (max-width: 767px) {
     #majorMain {
         width: 95%;
         /* border: 0px solid green; */
