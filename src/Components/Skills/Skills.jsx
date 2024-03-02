@@ -24,15 +24,31 @@ export default function Skills ({ colorMode }) {
             logo: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         },
         {
-            id: "4",
-            name: "React",
-            logo: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+            id: "13",
+            name: "Typescript",
+            logo: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
         },
+
 
         {
             id: "5",
-            name: "Next jS",
-            logo: "https://miro.medium.com/v2/resize:fit:1400/1*z1U7SJeqK_JJXUYei5uD8w.png",
+            name: "Tailwind Css",
+            logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk03fpMxbjzvgaDz2z3gu5G-9UeqgnNfUdd7gzSo9-er843XxKIG3g46lO1GRUF-L9UWs&usqp=CAU",
+        },
+        {
+            id: "10",
+            name: "BootStrap",
+            logo: "https://cdn.dribbble.com/users/595/screenshots/14417863/bootstrap-new-logo_4x.png",
+        },
+        {
+            id: "10",
+            name: "SASS",
+            logo: "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
+        },
+        {
+            id: "4",
+            name: "React",
+            logo: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
         },
         {
             id: "5",
@@ -65,22 +81,9 @@ export default function Skills ({ colorMode }) {
             name: "Ant Design",
             logo: "https://www.specbee.com/sites/default/files/inline-images/Ant.png",
         },
-        {
-            id: "10",
-            name: "BootStrap",
-            logo: "https://cdn.dribbble.com/users/595/screenshots/14417863/bootstrap-new-logo_4x.png",
-        },
-        {
-            id: "10",
-            name: "SASS",
-            logo: "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
-        },
 
-        {
-            id: "13",
-            name: "Typescript",
-            logo: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
-        },
+
+
         {
             id: "14",
             name: "Material UI",
@@ -93,9 +96,9 @@ export default function Skills ({ colorMode }) {
             logo: "https://img.freepik.com/premium-vector/sql-structured-query-language-icon-label-internet-security-networking-vector-stock-illustration_100456-10733.jpg",
         },
         {
-            id: "14",
-            name: "MySQL",
-            logo: "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+            id: "5",
+            name: "Next jS",
+            logo: "https://miro.medium.com/v2/resize:fit:1400/1*z1U7SJeqK_JJXUYei5uD8w.png",
         },
 
 
@@ -153,7 +156,7 @@ export default function Skills ({ colorMode }) {
         {
             id: "6",
             name: "Canva",
-            
+
             logo: "https://logolook.net/wp-content/uploads/2021/07/Canva-Logo.png",
         },
         {

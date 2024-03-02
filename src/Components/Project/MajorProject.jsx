@@ -11,12 +11,12 @@ AOS.init();
 export default function MajorProject ({ colorMode }) {
     return (
         <div id="projects" className={style.majorMain}>
-            <div data-aos="zoom-in-up"
+            <div data-aos="fade-up"
                 data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
-                    data-aos="fade-right"
-                    data-aos-easing="ease-out-cubic"
+                    data-aos-mirror="true"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -28,8 +28,8 @@ export default function MajorProject ({ colorMode }) {
                 <Box
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
-                    data-aos="fade-left"
-                    data-aos-easing="ease-out-cubic"
+                    data-aos-mirror="true"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -94,12 +94,12 @@ export default function MajorProject ({ colorMode }) {
                     </Box>
                 </Box>
             </div>
-            <div data-aos="zoom-in-up"
-                data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
+            <div data-aos="fade-up"
+                data-aos-duration="5000" className="project-card" id={style.major_projectDiv}>
                 <div
                     className={style.major_project_imgDiv}
-                    data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
+                    data-aos-mirror="true"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -113,8 +113,8 @@ export default function MajorProject ({ colorMode }) {
                     color={
                         colorMode === "light" ? "rgb(121,114,232) " : "#371B58"
                     }
-                    data-aos="flip-right"
-                    data-aos-easing="ease-out-cubic"
+                    data-aos-mirror="true"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -180,12 +180,12 @@ export default function MajorProject ({ colorMode }) {
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-in-up"
+            <div data-aos="fade-up"
                 data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <div
                     className={style.major_project_imgDiv}
-                    data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
+                    data-aos-mirror="true"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -199,7 +199,7 @@ export default function MajorProject ({ colorMode }) {
                     color={
                         colorMode === "light" ? "rgb(121,114,232) " : "#371B58"
                     }
-                    data-aos="flip-right"
+                    data-aos="fade-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="3000">
                     <Heading
@@ -264,11 +264,11 @@ export default function MajorProject ({ colorMode }) {
                 </div>
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
+            <div data-aos="fade-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -281,7 +281,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -348,7 +348,7 @@ export default function MajorProject ({ colorMode }) {
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -361,7 +361,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -424,7 +424,7 @@ export default function MajorProject ({ colorMode }) {
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -437,7 +437,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -501,7 +501,7 @@ export default function MajorProject ({ colorMode }) {
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -514,7 +514,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -577,11 +577,11 @@ export default function MajorProject ({ colorMode }) {
             </div>
 
 
-            <div data-aos="zoom-in-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
+            <div data-aos="fade-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -594,7 +594,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -656,12 +656,12 @@ export default function MajorProject ({ colorMode }) {
                 </Box>
             </div>
 
-            <div data-aos="zoom-in-up"
+            <div data-aos="fade-up"
                 data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="flip-left"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -674,7 +674,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="flip-right"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -738,7 +738,7 @@ export default function MajorProject ({ colorMode }) {
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Image
                         className="project-skills-card-img"
@@ -751,7 +751,7 @@ export default function MajorProject ({ colorMode }) {
                     className={style.major_project_detailsDiv}
                     color={colorMode === "light" ? "#4C3575" : "#371B58"}
                     data-aos-mirror="true"
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     data-aos-duration="3000">
                     <Heading
                         className="project-title"
@@ -813,7 +813,7 @@ export default function MajorProject ({ colorMode }) {
             </div>
             {/* ***************minor project********* */}
 
-            <div data-aos="zoom-in-up"
+            <div data-aos="fade-up"
                 data-aos-duration="3000" id={style.seceond_section}>
                 <div id={style.card1}>
                     <img src="./todonew.png" alt="" />

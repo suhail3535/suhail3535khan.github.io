@@ -47,8 +47,9 @@
 }
 
 #major_projectDiv:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     border: 1px dotted blue;
+    cursor: pointer;
 }
 
 #links {
