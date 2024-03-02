@@ -153,6 +153,7 @@ export default function Skills ({ colorMode }) {
         {
             id: "6",
             name: "Canva",
+            
             logo: "https://logolook.net/wp-content/uploads/2021/07/Canva-Logo.png",
         },
         {

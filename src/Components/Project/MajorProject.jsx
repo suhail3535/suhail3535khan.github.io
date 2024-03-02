@@ -264,7 +264,7 @@ export default function MajorProject ({ colorMode }) {
                 </div>
             </div>
 
-    <div data-aos="zoom-in-up"data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
+            <div data-aos="zoom-in-up" data-aos-duration="3000" className="project-card" id={style.major_projectDiv}>
                 <Box
                     className={style.major_project_imgDiv}
                     data-aos-mirror="true"
@@ -410,7 +410,7 @@ export default function MajorProject ({ colorMode }) {
                             <a
                                 className={style.links}
                                 rel="noreferrer"
-                                href="https://fitness-worldweb-5yl8v8hkd-suhail3535.vercel.app/"
+                                href="https://fitness-worldweb-app.vercel.app/"
                                 target="_blank">
                                 Live
                             </a>
@@ -801,7 +801,7 @@ export default function MajorProject ({ colorMode }) {
                             <a
                                 className={style.links}
                                 rel="noreferrer"
-                                href="https://onepuls-landingpage-suhail3535.vercel.app/"
+                                href="https://one-pluslanding-page.vercel.app/"
                                 target="_blank">
                                 Live
                             </a>
