@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+    font-family: "Bree Serif", serif;
+}
+.exp_container {
+    width: 100%;
+    /* border: 2px solid green; */
+    margin: 50px auto;
+}
+
+.main_container_div {
+    font-family: "Bree Serif", serif;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.heading_cont_first {
+    width: 96%;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    height: 70px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+
+
+.heading_cont_first h2 {
+    color: #4c3575;
+}
+
+.roles_div {
+    width: 95%;
+    margin: auto;
+    margin-top: 0px;
+    /* border: 2px solid greenyellow; */
+}
+
+.roles_div ul li {
+    font-size: 18px;
+    /* line-height: 1.5; */
+}
+
+.card_exp {
+    position: relative;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    margin: 30px 0px;
+    /* border: 2px solid red; */
+    padding: 10px 0px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card_exp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10px;
+
+    border-left: 8px solid transparent;
+    transition: all 0.6s ease-in-out;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+.card_exp:hover::before {
+    opacity: 1;
+    border-left-color: rgb(132, 116, 160);
+}
+
+.card_exp:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 420px) {
+    .exp_container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .main_container_div {
+        font-family: "Bree Serif", serif;
+        width: 95%;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .heading_cont_first {
+        width: 100%;
+        display: block;
+        height: 160px;
+        padding: 0px 10px;
+    }
+
+    .heading_cont_first div {
+        line-height: 0.7;
+        width: 100%;
+    }
+
+    .title_pos1 {
+        color: #4c3575;
+        line-height: 0.7;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .title_pos {
+        color: #4c3575;
+        line-height: 1.4;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .roles_div {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .roles_div ul li {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .card_exp {
+        position: relative;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        margin: 30px 0px;
+        /* border: 5px solid green; */
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+            rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    .exp_container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .main_container_div {
+        font-family: "Bree Serif", serif;
+        width: 95%;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .heading_cont_first {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        padding: 0px 10px;
+    }
+
+    .heading_cont_first div {
+        line-height: 0.7;
+    }
+
+    .title_pos1 {
+        color: #4c3575;
+        line-height: 0.7;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .title_pos {
+        color: #4c3575;
+        line-height: 1.4;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .roles_div {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .roles_div ul li {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+}

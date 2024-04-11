@@ -16,6 +16,7 @@ import BackToTop from "./Components/Home/BacktoTop";
 
 import Anima from "./Components/Animation/Anima";
 import WhatsApp from "./Components/Home/What'sApp";
+import Experience from "./Components/experience/Exp";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -36,7 +37,7 @@ function App() {
           <Anima dir="up" />
           <About colorMode={colorMode} />
 
-
+          <Experience colorMode={colorMode} />
           <Skills colorMode={colorMode} />
           <Anima dir="up" />
           <Project colorMode={colorMode} />

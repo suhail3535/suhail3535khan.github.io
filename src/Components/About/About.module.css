@@ -1,247 +1,261 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 * {
-  font-family: "Bree Serif", serif;
+    font-family: "Bree Serif", serif;
 }
 #about_head {
-  font-size: xl;
-  text-align: center;
-  border: 0px solid green;
+    font-size: xl;
+    text-align: center;
+    border: 0px solid green;
 }
 
 #aboutDiv {
-  width: 90%;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #beb6cc;
+    display: flex;
 
-  margin: auto;
-  border: 0px solid #4c3575;
-  display: flex;
+    margin-top: 20px;
 
-  margin-top: 20px;
-
-  border-radius: 20px;
+    border-radius: 20px;
 }
 
 .aboutDetails {
-  margin-left: 40px;
-  width: 65%;
-  padding: 20px;
-  border: 0px solid red;
-  margin-top: 40px;
-  margin-bottom: 80px;
-  /* padding: 30px; */
+    margin-left: 40px;
+    width: 70%;
+    padding: 20px;
+    border: 0px solid red;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    /* padding: 30px; */
 }
-
 #first {
-  margin-top: 40px;
+    margin-top: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    border-radius: 50%;
+}
 
-  width: 30%;
-  /* height: 70%; */
-  border: 0px solid green;
-  border-radius: 25% 25% 25% 25%;
-  padding: 20px;
-}
 #first > img {
-  width: 70%;
-  margin: auto;
-  border-radius: 60%;
+    width: 80%; /* Make sure the image fills the container */
+    /* display: block; */
+    /* margin: auto; */
+    padding: 10px;
+    /* border: 1px solid red; */
+    /* border-radius: 50%; Use 50% for a perfect circle */
+    border-radius: 45% 45%;
 }
+
 .name {
-  font-size: 25px;
-  font-family: "Bree Serif", serif;
-  font-weight: bold;
-  color:#4c3575;
+    font-size: 25px;
+    font-family: "Bree Serif", serif;
+    font-weight: bold;
+    color: #4c3575;
 }
 
 .namep {
-  font-size: 20px;
-  padding-top: 20px;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 #resumeDiv {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 15px;
-  color: #fef5ed;
-  width: 25%;
-  /* width: fit-content; */
-  padding: 3px 10px 3px 10px;
-  border-radius: 7px;
-  margin-top: 20px;
-  border: 0px solid blue;
-  cursor: pointer;
-  font-family: serif;
-  margin-right: 100px;
-  background-color: #4c3575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #fef5ed;
+    width: 25%;
+    /* width: fit-content; */
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 0px solid blue;
+    cursor: pointer;
+    font-family: serif;
+    margin-right: 100px;
+    background-color: #4c3575;
 }
 #resumeDiv:hover {
-  background: rgb(121, 114, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
+    background: rgb(121, 114, 232);
+    background: linear-gradient(
+        90deg,
+        rgba(121, 114, 232, 1) 0%,
+        rgba(91, 91, 236, 1) 44%,
+        rgba(26, 150, 236, 1) 99%
+    );
 }
 
 .resumeButton {
-  font-size: 22px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-  font-family: serif;
-  width: 100%;
-  cursor: pointer;
-  border: 0px solid red;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    width: 100%;
+    cursor: pointer;
+    border: 0px solid red;
 }
 
 .resumeDownloadLogo {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-  #about_head {
-    font-size: 3xl;
-    text-align: center;
-  }
-  #aboutDiv {
-
-    width: 90%;
-
-    margin-top: 30px;
-    border-radius: 30px;
+    #about_head {
+        font-size: 3xl;
+        text-align: center;
+    }
+    #aboutDiv {
+        width: 95%;
+margin: auto;
+        margin-top: 30px;
+        border-radius: 30px;
+        align-items: center;
+    }
+    #first {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 80px;
+    }
+#first {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-  }
-  #first {
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 80px;
-  }
-  #myImg {
-    width: 48%;
-    height: 100%;
-  }
-  .aboutDetails {
-    margin-top: 10px;
-    margin-left: 20px;
-  }
+    /* border: 2px solid green; */
+    border-radius: 50%;
+}
 
-  .name {
-    font-size: 20px;
-  }
+    #myImg {
+        width: 48%;
+        height: 100%;
+    }
+    .aboutDetails {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
 
-  .namep {
-    /* margin-top: 20px; */
+    .name {
+        font-size: 20px;
+    }
 
-    font-size: 20px;
-  }
+    .namep {
+        /* margin-top: 20px; */
 
-  #resumeButton {
-    font-size: 18px;
-  }
+        font-size: 20px;
+    }
 
-  .resumeDownloadLogo {
-    font-size: 18px;
-  }
+    #resumeButton {
+        font-size: 18px;
+    }
+
+    .resumeDownloadLogo {
+        font-size: 18px;
+    }
 }
 
 @media all and (min-width: 300px) and (max-width: 767px) {
-  #about_head {
-    font-size: 3xl;
-    text-align: center;
-  }
+    #about_head {
+        font-size: 3xl;
+        text-align: center;
+    }
 
-  #aboutDiv {
-    width: 90%;
-    flex-direction: column;
-    margin: auto;
-    /* height: 700px; */
-  }
+    #aboutDiv {
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        /* height: 700px; */
+    }
 
-  #myImg {
-    width: 100%;
-    height: 50%;
-    border: 0px solid green;
-    border-radius: 50%;
-  }
+    #myImg {
+        width: 100%;
+        height: 50%;
+        border: 0px solid green;
+        border-radius: 50%;
+    }
 
-  .aboutDetails {
-    margin-top: 20px;
-    margin-left: 5px;
-    width: 80%;
-    margin: auto;
-  }
+    .aboutDetails {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 80%;
+        margin: auto;
+    }
 
-  .name {
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-  }
-  #first {
-    width: 90%;
-    margin: auto;
-  }
+    .name {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #first {
+        width: 100%;
+        margin: auto;
+        /* border: 2px solid green; */
+        border-radius: 50%;
+    }
 
-  #first img {
-    width: 50%;
-      border: 0px solid green;
-    margin: auto;
-  }
-  .name:nth-child(1) {
-    font-size: 20px;
-  }
+    #first img {
+        width: 70%;
+        border: 0px solid green;
+        margin: auto;
+        /* border-radius: 50%; */
+        /* border-radius: 47% 47% */
+    }
+    .name:nth-child(1) {
+        font-size: 20px;
+    }
 
-  .namep {
-    /* color: #243D25; */
-    font-size: 16px;
-    text-align: justify;
-  }
+    .namep {
+        /* color: #243D25; */
+        font-size: 16px;
+        text-align: justify;
+    }
 
+    #resumeDiv {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        align-items: center;
+        font-size: 15px;
+        color: #fef5ed;
 
-#resumeDiv {
-  display: flex;
-  width: 95%;
-  margin: auto;
-    margin-bottom: 20px;
-  align-items: center;
-  font-size: 15px;
-  color: #fef5ed;
+        padding: 3px 10px 3px 10px;
+        border-radius: 7px;
+        margin-top: 20px;
+        border: 0px solid rgb(255, 0, 230);
+        cursor: pointer;
+        font-family: serif;
 
-  padding: 3px 10px 3px 10px;
-  border-radius: 7px;
-  margin-top: 20px;
-  border: 0px solid rgb(255, 0, 230);
-  cursor: pointer;
-  font-family: serif;
+        background-color: #4c3575;
+    }
+    #resumeDiv:hover {
+        background: rgb(121, 114, 232);
+        background: linear-gradient(
+            90deg,
+            rgba(121, 114, 232, 1) 0%,
+            rgba(91, 91, 236, 1) 44%,
+            rgba(26, 150, 236, 1) 99%
+        );
+    }
 
-  background-color: #4c3575;
+    .resumeButton {
+        font-size: 22px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-family: serif;
+        cursor: pointer;
+        border: 0px solid rgb(153, 255, 0);
+    }
+    .resumeDownloadLogo {
+        font-size: 16px;
+    }
 }
-#resumeDiv:hover {
-  background: rgb(121, 114, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
-}
-
-.resumeButton {
-  font-size: 22px;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  font-family: serif;
-  cursor: pointer;
-  border: 0px solid rgb(153, 255, 0);
-}
-  .resumeDownloadLogo {
-    font-size: 16px;
-  }
-}
-#about section{
-  border: 0px solid red;
-
-
+#about section {
+    border: 0px solid red;
 }
