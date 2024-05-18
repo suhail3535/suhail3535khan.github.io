@@ -84,7 +84,7 @@ export default function MajorProject ({ colorMode }) {
                             <a
                                 className={style.links}
                                 rel="noreferrer"
-                                href="https://frontend-suhail3535.vercel.app/"
+                                href="https://faishonfrenzyecom.vercel.app/"
                                 target="_blank">
                                 Live
                             </a>
